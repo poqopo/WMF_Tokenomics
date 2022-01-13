@@ -10,6 +10,9 @@ import "../Owned.sol";
 import "../module/ERC20/ERC20.sol";
 
 
+
+
+
 contract WUSDPool is Owned {
     using SafeMath for uint256;
 
@@ -57,20 +60,10 @@ contract WUSDPool is Owned {
 
     // Number of blocks to wait before being able to collectRedemption()
     uint256 public redemption_delay = 1;
-
-    // AccessControl Roles
-    bytes32 private constant MINT_PAUSER = keccak256("MINT_PAUSER");
-    bytes32 private constant REDEEM_PAUSER = keccak256("REDEEM_PAUSER");
-    bytes32 private constant BUYBACK_PAUSER = keccak256("BUYBACK_PAUSER");
-    bytes32 private constant RECOLLATERALIZE_PAUSER = keccak256("RECOLLATERALIZE_PAUSER");
-    bytes32 private constant COLLATERAL_PRICE_PAUSER = keccak256("COLLATERAL_PRICE_PAUSER");
     
     // AccessControl state variables
     bool public mintPaused = false;
     bool public redeemPaused = false;
-    bool public recollateralizePaused = false;
-    bool public buyBackPaused = false;
-    bool public collateralPricePaused = false;
 
     /* ========== MODIFIERS ========== */
 
@@ -114,15 +107,12 @@ contract WUSDPool is Owned {
 
     // Returns dollar value of collateral held in this WUSD pool
     function collatDollarBalance() public view returns (uint256) {
-        if(collateralPricePaused == true){
-            return (collateral_token.balanceOf(address(this)).sub(unclaimedPoolCollateral)).mul(10 ** missing_decimals).mul(pausedPrice).div(PRICE_PRECISION);
-        } else {
-            uint256 eth_usd_price = WUSD.eth_usd_price();
-            uint256 eth_collat_price = collatEthOracle.consult(weth_address, (PRICE_PRECISION * (10 ** missing_decimals)));
+        uint256 eth_usd_price = WUSD.eth_usd_price();
+        uint256 eth_collat_price = collatEthOracle.consult(weth_address, (PRICE_PRECISION * (10 ** missing_decimals)));
 
-            uint256 collat_usd_price = eth_usd_price.mul(PRICE_PRECISION).div(eth_collat_price);
-            return (collateral_token.balanceOf(address(this)).sub(unclaimedPoolCollateral)).mul(10 ** missing_decimals).mul(collat_usd_price).div(PRICE_PRECISION); //.mul(getCollateralPrice()).div(1e6);    
-        }
+        uint256 collat_usd_price = eth_usd_price.mul(PRICE_PRECISION).div(eth_collat_price);
+        return (collateral_token.balanceOf(address(this)).sub(unclaimedPoolCollateral)).mul(10 ** missing_decimals).mul(collat_usd_price).div(PRICE_PRECISION); //.mul(getCollateralPrice()).div(1e6);    
+        
     }
 
     // Returns the value of excess collateral held in this WUSD pool, compared to what is needed to maintain the global collateral ratio
@@ -141,12 +131,9 @@ contract WUSDPool is Owned {
     
     // Returns the price of the pool collateral in USD
     function getCollateralPrice() public view returns (uint256) {
-        if(collateralPricePaused == true){
-            return pausedPrice;
-        } else {
-            uint256 eth_usd_price = WUSD.eth_usd_price();
-            return eth_usd_price.mul(PRICE_PRECISION).div(collatEthOracle.consult(weth_address, PRICE_PRECISION * (10 ** missing_decimals)));
-        }
+        uint256 eth_usd_price = WUSD.eth_usd_price();
+        return eth_usd_price.mul(PRICE_PRECISION).div(collatEthOracle.consult(weth_address, PRICE_PRECISION * (10 ** missing_decimals)));
+        
     }
 
     function setCollatETHOracle(address _collateral_weth_oracle_address, address _weth_address) external onlyOwner {
@@ -344,7 +331,6 @@ contract WUSDPool is Owned {
     // This function simply rewards anyone that sends collateral to a pool with the same amount of WMF + the bonus rate
     // Anyone can call this function to recollateralize the protocol and take the extra WMF value from the bonus rate as an arb opportunity
     function recollateralizeWUSD(uint256 collateral_amount, uint256 WMF_out_min) external {
-        require(recollateralizePaused == false, "Recollateralize is paused");
         uint256 collateral_amount_d18 = collateral_amount * (10 ** missing_decimals);
         uint256 WMF_price = WUSD.WMF_price();
         uint256 WUSD_total_supply = WUSD.totalSupply();
@@ -372,7 +358,6 @@ contract WUSDPool is Owned {
     // Function can be called by an WMF holder to have the protocol buy back WMF with excess collateral value from a desired collateral pool
     // This can also happen if the collateral ratio > 1
     function buyBackWMF(uint256 WMF_amount, uint256 COLLATERAL_out_min) external {
-        require(buyBackPaused == false, "Buyback is paused");
         uint256 WMF_price = WUSD.WMF_price();
     
         WUSDPoolLibrary.BuybackWMF_Params memory input_params = WUSDPoolLibrary.BuybackWMF_Params(
@@ -406,34 +391,7 @@ contract WUSDPool is Owned {
 
         emit RedeemingToggled(redeemPaused);
     }
-
-    function toggleRecollateralize() external {
-        require(msg.sender == owner);
-        recollateralizePaused = !recollateralizePaused;
-
-        emit RecollateralizeToggled(recollateralizePaused);
-    }
     
-    function toggleBuyBack() external {
-        require(msg.sender == owner);
-        buyBackPaused = !buyBackPaused;
-
-        emit BuybackToggled(buyBackPaused);
-    }
-
-    function toggleCollateralPrice(uint256 _new_price) external {
-        require(msg.sender == owner);
-        // If pausing, set paused price; else if unpausing, clear pausedPrice
-        if(collateralPricePaused == false){
-            pausedPrice = _new_price;
-        } else {
-            pausedPrice = 0;
-        }
-        collateralPricePaused = !collateralPricePaused;
-
-        emit CollateralPriceToggled(collateralPricePaused);
-    }
-
     // Combined into one function due to 24KiB contract memory limit
     function setPoolParameters(uint256 new_ceiling, uint256 new_bonus_rate, uint256 new_redemption_delay, uint256 new_mint_fee, uint256 new_redeem_fee, uint256 new_buyback_fee, uint256 new_recollat_fee) external onlyOwner {
         pool_ceiling = new_ceiling;
@@ -452,8 +410,5 @@ contract WUSDPool is Owned {
     event PoolParametersSet(uint256 new_ceiling, uint256 new_bonus_rate, uint256 new_redemption_delay, uint256 new_mint_fee, uint256 new_redeem_fee, uint256 new_buyback_fee, uint256 new_recollat_fee);
     event MintingToggled(bool toggled);
     event RedeemingToggled(bool toggled);
-    event RecollateralizeToggled(bool toggled);
-    event BuybackToggled(bool toggled);
-    event CollateralPriceToggled(bool toggled);
 
 }
