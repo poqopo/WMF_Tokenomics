@@ -60,13 +60,8 @@
                 "name": "_values",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 9232,
                 "src": "1287:17:35",
-=======
-                "scope": 9231,
-                "src": "1247:17:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -103,13 +98,8 @@
                 "name": "_indexes",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 9232,
                 "src": "1442:37:35",
-=======
-                "scope": 9231,
-                "src": "1398:37:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -151,13 +141,8 @@
             ],
             "name": "Set",
             "nodeType": "StructDefinition",
-<<<<<<< HEAD
             "scope": 9616,
             "src": "1231:256:35",
-=======
-            "scope": 9615,
-            "src": "1193:249:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "visibility": "public"
           },
           {
@@ -187,13 +172,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9235,
                           "src": "1760:3:35",
-=======
-                          "referencedDeclaration": 9234,
-                          "src": "1706:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                             "typeString": "struct EnumerableSet.Set storage pointer"
@@ -205,13 +185,8 @@
                           "name": "value",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9237,
                           "src": "1765:5:35",
-=======
-                          "referencedDeclaration": 9236,
-                          "src": "1711:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -233,13 +208,8 @@
                         "name": "_contains",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9371,
                         "src": "1750:9:35",
-=======
-                        "referencedDeclaration": 9370,
-                        "src": "1696:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                           "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) view returns (bool)"
@@ -314,13 +284,8 @@
                               "name": "value",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9237,
                               "src": "1805:5:35",
-=======
-                              "referencedDeclaration": 9236,
-                              "src": "1750:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -342,13 +307,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9235,
                                 "src": "1788:3:35",
-=======
-                                "referencedDeclaration": 9234,
-                                "src": "1733:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -361,13 +321,8 @@
                               "lValueRequested": false,
                               "memberName": "_values",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9227,
                               "src": "1788:11:35",
-=======
-                              "referencedDeclaration": 9226,
-                              "src": "1733:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                                 "typeString": "bytes32[] storage ref"
@@ -424,13 +379,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9235,
                                 "src": "1949:3:35",
-=======
-                                "referencedDeclaration": 9234,
-                                "src": "1891:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -443,13 +393,8 @@
                               "lValueRequested": false,
                               "memberName": "_indexes",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9231,
                               "src": "1949:12:35",
-=======
-                              "referencedDeclaration": 9230,
-                              "src": "1891:12:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                                 "typeString": "mapping(bytes32 => uint256)"
@@ -462,13 +407,8 @@
                               "name": "value",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9237,
                               "src": "1962:5:35",
-=======
-                              "referencedDeclaration": 9236,
-                              "src": "1904:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -497,13 +437,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9235,
                                 "src": "1971:3:35",
-=======
-                                "referencedDeclaration": 9234,
-                                "src": "1913:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -516,13 +451,8 @@
                               "lValueRequested": false,
                               "memberName": "_values",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9227,
                               "src": "1971:11:35",
-=======
-                              "referencedDeclaration": 9226,
-                              "src": "1913:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                                 "typeString": "bytes32[] storage ref"
@@ -605,13 +535,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9273,
                   "src": "1679:15:35",
-=======
-                  "scope": 9272,
-                  "src": "1626:15:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -623,13 +548,8 @@
                     "id": 9234,
                     "name": "Set",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9232,
                     "src": "1679:3:35",
-=======
-                    "referencedDeclaration": 9231,
-                    "src": "1626:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                       "typeString": "struct EnumerableSet.Set"
@@ -645,13 +565,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9273,
                   "src": "1696:13:35",
-=======
-                  "scope": 9272,
-                  "src": "1643:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -685,13 +600,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9273,
                   "src": "1728:4:35",
-=======
-                  "scope": 9272,
-                  "src": "1675:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -714,13 +624,8 @@
               ],
               "src": "1674:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "1665:414:35",
-=======
-            "scope": 9615,
-            "src": "1612:404:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "private"
@@ -743,13 +648,8 @@
                       "name": "valueIndex",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9352,
                       "src": "2439:18:35",
-=======
-                      "scope": 9351,
-                      "src": "2366:18:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -781,13 +681,8 @@
                         "name": "set",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9276,
                         "src": "2460:3:35",
-=======
-                        "referencedDeclaration": 9275,
-                        "src": "2387:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                           "typeString": "struct EnumerableSet.Set storage pointer"
@@ -800,13 +695,8 @@
                       "lValueRequested": false,
                       "memberName": "_indexes",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9231,
                       "src": "2460:12:35",
-=======
-                      "referencedDeclaration": 9230,
-                      "src": "2387:12:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                         "typeString": "mapping(bytes32 => uint256)"
@@ -819,13 +709,8 @@
                       "name": "value",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9278,
                       "src": "2473:5:35",
-=======
-                      "referencedDeclaration": 9277,
-                      "src": "2400:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -863,13 +748,8 @@
                       "name": "valueIndex",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9284,
                       "src": "2496:10:35",
-=======
-                      "referencedDeclaration": 9283,
-                      "src": "2421:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -952,13 +832,8 @@
                             "name": "toDeleteIndex",
                             "nodeType": "VariableDeclaration",
                             "overrides": null,
-<<<<<<< HEAD
                             "scope": 9347,
                             "src": "2858:21:35",
-=======
-                            "scope": 9346,
-                            "src": "2778:21:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -997,13 +872,8 @@
                             "name": "valueIndex",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9284,
                             "src": "2882:10:35",
-=======
-                            "referencedDeclaration": 9283,
-                            "src": "2802:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1050,13 +920,8 @@
                             "name": "lastIndex",
                             "nodeType": "VariableDeclaration",
                             "overrides": null,
-<<<<<<< HEAD
                             "scope": 9347,
                             "src": "2911:17:35",
-=======
-                            "scope": 9346,
-                            "src": "2830:17:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -1099,13 +964,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9276,
                                 "src": "2931:3:35",
-=======
-                                "referencedDeclaration": 9275,
-                                "src": "2850:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1118,13 +978,8 @@
                               "lValueRequested": false,
                               "memberName": "_values",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9227,
                               "src": "2931:11:35",
-=======
-                              "referencedDeclaration": 9226,
-                              "src": "2850:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                                 "typeString": "bytes32[] storage ref"
@@ -1185,13 +1040,8 @@
                             "name": "lastvalue",
                             "nodeType": "VariableDeclaration",
                             "overrides": null,
-<<<<<<< HEAD
                             "scope": 9347,
                             "src": "3198:17:35",
-=======
-                            "scope": 9346,
-                            "src": "3112:17:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -1223,13 +1073,8 @@
                               "name": "set",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9276,
                               "src": "3218:3:35",
-=======
-                              "referencedDeclaration": 9275,
-                              "src": "3132:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                 "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1242,13 +1087,8 @@
                             "lValueRequested": false,
                             "memberName": "_values",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 9227,
                             "src": "3218:11:35",
-=======
-                            "referencedDeclaration": 9226,
-                            "src": "3132:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                               "typeString": "bytes32[] storage ref"
@@ -1261,13 +1101,8 @@
                             "name": "lastIndex",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9300,
                             "src": "3230:9:35",
-=======
-                            "referencedDeclaration": 9299,
-                            "src": "3144:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1305,13 +1140,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9276,
                                 "src": "3335:3:35",
-=======
-                                "referencedDeclaration": 9275,
-                                "src": "3246:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1324,13 +1154,8 @@
                               "lValueRequested": false,
                               "memberName": "_values",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9227,
                               "src": "3335:11:35",
-=======
-                              "referencedDeclaration": 9226,
-                              "src": "3246:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                                 "typeString": "bytes32[] storage ref"
@@ -1343,13 +1168,8 @@
                               "name": "toDeleteIndex",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9294,
                               "src": "3347:13:35",
-=======
-                              "referencedDeclaration": 9293,
-                              "src": "3258:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1374,13 +1194,8 @@
                             "name": "lastvalue",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9308,
                             "src": "3364:9:35",
-=======
-                            "referencedDeclaration": 9307,
-                            "src": "3275:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1414,13 +1229,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9276,
                                 "src": "3441:3:35",
-=======
-                                "referencedDeclaration": 9275,
-                                "src": "3350:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1433,13 +1243,8 @@
                               "lValueRequested": false,
                               "memberName": "_indexes",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9231,
                               "src": "3441:12:35",
-=======
-                              "referencedDeclaration": 9230,
-                              "src": "3350:12:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                                 "typeString": "mapping(bytes32 => uint256)"
@@ -1452,13 +1257,8 @@
                               "name": "lastvalue",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9308,
                               "src": "3454:9:35",
-=======
-                              "referencedDeclaration": 9307,
-                              "src": "3363:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -1494,13 +1294,8 @@
                               "name": "toDeleteIndex",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9294,
                               "src": "3467:13:35",
-=======
-                              "referencedDeclaration": 9293,
-                              "src": "3376:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1556,13 +1351,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9276,
                                 "src": "3593:3:35",
-=======
-                                "referencedDeclaration": 9275,
-                                "src": "3499:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1575,13 +1365,8 @@
                               "lValueRequested": false,
                               "memberName": "_values",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9227,
                               "src": "3593:11:35",
-=======
-                              "referencedDeclaration": 9226,
-                              "src": "3499:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                                 "typeString": "bytes32[] storage ref"
@@ -1642,13 +1427,8 @@
                                 "name": "set",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9276,
                                 "src": "3688:3:35",
-=======
-                                "referencedDeclaration": 9275,
-                                "src": "3591:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                   "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1661,13 +1441,8 @@
                               "lValueRequested": false,
                               "memberName": "_indexes",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9231,
                               "src": "3688:12:35",
-=======
-                              "referencedDeclaration": 9230,
-                              "src": "3591:12:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                                 "typeString": "mapping(bytes32 => uint256)"
@@ -1680,13 +1455,8 @@
                               "name": "value",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9278,
                               "src": "3701:5:35",
-=======
-                              "referencedDeclaration": 9277,
-                              "src": "3604:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
@@ -1765,13 +1535,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9353,
                   "src": "2272:15:35",
-=======
-                  "scope": 9352,
-                  "src": "2201:15:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -1783,13 +1548,8 @@
                     "id": 9275,
                     "name": "Set",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9232,
                     "src": "2272:3:35",
-=======
-                    "referencedDeclaration": 9231,
-                    "src": "2201:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                       "typeString": "struct EnumerableSet.Set"
@@ -1805,13 +1565,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9353,
                   "src": "2289:13:35",
-=======
-                  "scope": 9352,
-                  "src": "2218:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1845,13 +1600,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9353,
                   "src": "2321:4:35",
-=======
-                  "scope": 9352,
-                  "src": "2250:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1874,13 +1624,8 @@
               ],
               "src": "2249:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "2255:1544:35",
-=======
-            "scope": 9615,
-            "src": "2184:1512:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "private"
@@ -1913,13 +1658,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9356,
                           "src": "3982:3:35",
-=======
-                          "referencedDeclaration": 9355,
-                          "src": "3873:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                             "typeString": "struct EnumerableSet.Set storage pointer"
@@ -1932,13 +1672,8 @@
                         "lValueRequested": false,
                         "memberName": "_indexes",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9231,
                         "src": "3982:12:35",
-=======
-                        "referencedDeclaration": 9230,
-                        "src": "3873:12:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_uint256_$",
                           "typeString": "mapping(bytes32 => uint256)"
@@ -1951,13 +1686,8 @@
                         "name": "value",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9358,
                         "src": "3995:5:35",
-=======
-                        "referencedDeclaration": 9357,
-                        "src": "3886:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -2031,13 +1761,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9371,
                   "src": "3904:15:35",
-=======
-                  "scope": 9370,
-                  "src": "3796:15:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -2049,13 +1774,8 @@
                     "id": 9355,
                     "name": "Set",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9232,
                     "src": "3904:3:35",
-=======
-                    "referencedDeclaration": 9231,
-                    "src": "3796:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                       "typeString": "struct EnumerableSet.Set"
@@ -2071,13 +1791,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9371,
                   "src": "3921:13:35",
-=======
-                  "scope": 9370,
-                  "src": "3813:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2111,13 +1826,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9371,
                   "src": "3958:4:35",
-=======
-                  "scope": 9370,
-                  "src": "3850:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2140,13 +1850,8 @@
               ],
               "src": "3849:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "3885:129:35",
-=======
-            "scope": 9615,
-            "src": "3777:127:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
@@ -2168,13 +1873,8 @@
                         "name": "set",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9374,
                         "src": "4183:3:35",
-=======
-                        "referencedDeclaration": 9373,
-                        "src": "4067:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                           "typeString": "struct EnumerableSet.Set storage pointer"
@@ -2187,13 +1887,8 @@
                       "lValueRequested": false,
                       "memberName": "_values",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9227,
                       "src": "4183:11:35",
-=======
-                      "referencedDeclaration": 9226,
-                      "src": "4067:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                         "typeString": "bytes32[] storage ref"
@@ -2244,13 +1939,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9384,
                   "src": "4117:15:35",
-=======
-                  "scope": 9383,
-                  "src": "4002:15:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -2262,13 +1952,8 @@
                     "id": 9373,
                     "name": "Set",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9232,
                     "src": "4117:3:35",
-=======
-                    "referencedDeclaration": 9231,
-                    "src": "4002:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                       "typeString": "struct EnumerableSet.Set"
@@ -2291,13 +1976,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9384,
                   "src": "4156:7:35",
-=======
-                  "scope": 9383,
-                  "src": "4041:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2320,13 +2000,8 @@
               ],
               "src": "4040:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "4100:109:35",
-=======
-            "scope": 9615,
-            "src": "3985:107:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
@@ -2362,13 +2037,8 @@
                               "name": "set",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9387,
                               "src": "4648:3:35",
-=======
-                              "referencedDeclaration": 9386,
-                              "src": "4518:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                                 "typeString": "struct EnumerableSet.Set storage pointer"
@@ -2381,13 +2051,8 @@
                             "lValueRequested": false,
                             "memberName": "_values",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 9227,
                             "src": "4648:11:35",
-=======
-                            "referencedDeclaration": 9226,
-                            "src": "4518:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                               "typeString": "bytes32[] storage ref"
@@ -2415,13 +2080,8 @@
                           "name": "index",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9389,
                           "src": "4669:5:35",
-=======
-                          "referencedDeclaration": 9388,
-                          "src": "4539:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2507,13 +2167,8 @@
                         "name": "set",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9387,
                         "src": "4731:3:35",
-=======
-                        "referencedDeclaration": 9386,
-                        "src": "4600:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                           "typeString": "struct EnumerableSet.Set storage pointer"
@@ -2526,13 +2181,8 @@
                       "lValueRequested": false,
                       "memberName": "_values",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9227,
                       "src": "4731:11:35",
-=======
-                      "referencedDeclaration": 9226,
-                      "src": "4600:11:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
                         "typeString": "bytes32[] storage ref"
@@ -2545,13 +2195,8 @@
                       "name": "index",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9389,
                       "src": "4743:5:35",
-=======
-                      "referencedDeclaration": 9388,
-                      "src": "4612:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -2599,13 +2244,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9409,
                   "src": "4566:15:35",
-=======
-                  "scope": 9408,
-                  "src": "4437:15:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -2617,13 +2257,8 @@
                     "id": 9386,
                     "name": "Set",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9232,
                     "src": "4566:3:35",
-=======
-                    "referencedDeclaration": 9231,
-                    "src": "4437:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                       "typeString": "struct EnumerableSet.Set"
@@ -2639,13 +2274,8 @@
                   "name": "index",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9409,
                   "src": "4583:13:35",
-=======
-                  "scope": 9408,
-                  "src": "4454:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2679,13 +2309,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9409,
                   "src": "4620:7:35",
-=======
-                  "scope": 9408,
-                  "src": "4491:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2708,13 +2333,8 @@
               ],
               "src": "4490:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "4553:204:35",
-=======
-            "scope": 9615,
-            "src": "4424:201:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "private"
@@ -2730,13 +2350,8 @@
                 "name": "_inner",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 9412,
                 "src": "4815:10:35",
-=======
-                "scope": 9411,
-                "src": "4678:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2748,13 +2363,8 @@
                   "id": 9410,
                   "name": "Set",
                   "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                   "referencedDeclaration": 9232,
                   "src": "4815:3:35",
-=======
-                  "referencedDeclaration": 9231,
-                  "src": "4678:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                     "typeString": "struct EnumerableSet.Set"
@@ -2766,13 +2376,8 @@
             ],
             "name": "AddressSet",
             "nodeType": "StructDefinition",
-<<<<<<< HEAD
             "scope": 9616,
             "src": "4786:47:35",
-=======
-            "scope": 9615,
-            "src": "4650:45:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "visibility": "public"
           },
           {
@@ -2793,13 +2398,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9415,
                           "src": "5110:3:35",
-=======
-                          "referencedDeclaration": 9414,
-                          "src": "4963:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                             "typeString": "struct EnumerableSet.AddressSet storage pointer"
@@ -2812,13 +2412,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9411,
                         "src": "5110:10:35",
-=======
-                        "referencedDeclaration": 9410,
-                        "src": "4963:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -2836,13 +2431,8 @@
                                 "name": "value",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9417,
                                 "src": "5138:5:35",
-=======
-                                "referencedDeclaration": 9416,
-                                "src": "4991:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -2954,13 +2544,8 @@
                       "name": "_add",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9273,
                       "src": "5105:4:35",
-=======
-                      "referencedDeclaration": 9272,
-                      "src": "4958:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) returns (bool)"
@@ -3012,13 +2597,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9435,
                   "src": "5024:22:35",
-=======
-                  "scope": 9434,
-                  "src": "4878:22:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -3030,13 +2610,8 @@
                     "id": 9414,
                     "name": "AddressSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9412,
                     "src": "5024:10:35",
-=======
-                    "referencedDeclaration": 9411,
-                    "src": "4878:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                       "typeString": "struct EnumerableSet.AddressSet"
@@ -3052,13 +2627,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9435,
                   "src": "5048:13:35",
-=======
-                  "scope": 9434,
-                  "src": "4902:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3093,13 +2663,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9435,
                   "src": "5081:4:35",
-=======
-                  "scope": 9434,
-                  "src": "4935:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3122,13 +2687,8 @@
               ],
               "src": "4934:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "5011:143:35",
-=======
-            "scope": 9615,
-            "src": "4865:141:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -3151,13 +2711,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9438,
                           "src": "5435:3:35",
-=======
-                          "referencedDeclaration": 9437,
-                          "src": "5278:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                             "typeString": "struct EnumerableSet.AddressSet storage pointer"
@@ -3170,13 +2725,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9411,
                         "src": "5435:10:35",
-=======
-                        "referencedDeclaration": 9410,
-                        "src": "5278:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -3194,13 +2744,8 @@
                                 "name": "value",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9440,
                                 "src": "5463:5:35",
-=======
-                                "referencedDeclaration": 9439,
-                                "src": "5306:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3312,13 +2857,8 @@
                       "name": "_remove",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9353,
                       "src": "5427:7:35",
-=======
-                      "referencedDeclaration": 9352,
-                      "src": "5270:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) returns (bool)"
@@ -3370,13 +2910,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9458,
                   "src": "5346:22:35",
-=======
-                  "scope": 9457,
-                  "src": "5190:22:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -3388,13 +2923,8 @@
                     "id": 9437,
                     "name": "AddressSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9412,
                     "src": "5346:10:35",
-=======
-                    "referencedDeclaration": 9411,
-                    "src": "5190:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                       "typeString": "struct EnumerableSet.AddressSet"
@@ -3410,13 +2940,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9458,
                   "src": "5370:13:35",
-=======
-                  "scope": 9457,
-                  "src": "5214:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3451,13 +2976,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9458,
                   "src": "5403:4:35",
-=======
-                  "scope": 9457,
-                  "src": "5247:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3480,13 +3000,8 @@
               ],
               "src": "5246:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "5330:149:35",
-=======
-            "scope": 9615,
-            "src": "5174:147:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -3509,13 +3024,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9461,
                           "src": "5679:3:35",
-=======
-                          "referencedDeclaration": 9460,
-                          "src": "5515:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                             "typeString": "struct EnumerableSet.AddressSet storage pointer"
@@ -3528,13 +3038,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9411,
                         "src": "5679:10:35",
-=======
-                        "referencedDeclaration": 9410,
-                        "src": "5515:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -3552,13 +3057,8 @@
                                 "name": "value",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9463,
                                 "src": "5707:5:35",
-=======
-                                "referencedDeclaration": 9462,
-                                "src": "5543:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3670,13 +3170,8 @@
                       "name": "_contains",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9371,
                       "src": "5669:9:35",
-=======
-                      "referencedDeclaration": 9370,
-                      "src": "5505:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) view returns (bool)"
@@ -3728,13 +3223,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9481,
                   "src": "5583:22:35",
-=======
-                  "scope": 9480,
-                  "src": "5420:22:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -3746,13 +3236,8 @@
                     "id": 9460,
                     "name": "AddressSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9412,
                     "src": "5583:10:35",
-=======
-                    "referencedDeclaration": 9411,
-                    "src": "5420:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                       "typeString": "struct EnumerableSet.AddressSet"
@@ -3768,13 +3253,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9481,
                   "src": "5607:13:35",
-=======
-                  "scope": 9480,
-                  "src": "5444:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3809,13 +3289,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9481,
                   "src": "5645:4:35",
-=======
-                  "scope": 9480,
-                  "src": "5482:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3838,13 +3313,8 @@
               ],
               "src": "5481:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "5565:158:35",
-=======
-            "scope": 9615,
-            "src": "5402:156:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -3867,13 +3337,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9484,
                           "src": "5907:3:35",
-=======
-                          "referencedDeclaration": 9483,
-                          "src": "5736:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                             "typeString": "struct EnumerableSet.AddressSet storage pointer"
@@ -3886,13 +3351,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9411,
                         "src": "5907:10:35",
-=======
-                        "referencedDeclaration": 9410,
-                        "src": "5736:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -3910,13 +3370,8 @@
                       "name": "_length",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9384,
                       "src": "5899:7:35",
-=======
-                      "referencedDeclaration": 9383,
-                      "src": "5728:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$returns$_t_uint256_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer) view returns (uint256)"
@@ -3968,13 +3423,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9495,
                   "src": "5825:22:35",
-=======
-                  "scope": 9494,
-                  "src": "5655:22:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -3986,13 +3436,8 @@
                     "id": 9483,
                     "name": "AddressSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9412,
                     "src": "5825:10:35",
-=======
-                    "referencedDeclaration": 9411,
-                    "src": "5655:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                       "typeString": "struct EnumerableSet.AddressSet"
@@ -4015,13 +3460,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9495,
                   "src": "5872:7:35",
-=======
-                  "scope": 9494,
-                  "src": "5702:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4044,13 +3484,8 @@
               ],
               "src": "5701:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "5809:117:35",
-=======
-            "scope": 9615,
-            "src": "5639:115:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -4079,13 +3514,8 @@
                                   "name": "set",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-<<<<<<< HEAD
                                   "referencedDeclaration": 9498,
                                   "src": "6391:3:35",
-=======
-                                  "referencedDeclaration": 9497,
-                                  "src": "6206:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                                     "typeString": "struct EnumerableSet.AddressSet storage pointer"
@@ -4098,13 +3528,8 @@
                                 "lValueRequested": false,
                                 "memberName": "_inner",
                                 "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                 "referencedDeclaration": 9411,
                                 "src": "6391:10:35",
-=======
-                                "referencedDeclaration": 9410,
-                                "src": "6206:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Set_$9232_storage",
                                   "typeString": "struct EnumerableSet.Set storage ref"
@@ -4116,13 +3541,8 @@
                                 "name": "index",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 9500,
                                 "src": "6403:5:35",
-=======
-                                "referencedDeclaration": 9499,
-                                "src": "6218:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -4144,13 +3564,8 @@
                               "name": "_at",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9409,
                               "src": "6387:3:35",
-=======
-                              "referencedDeclaration": 9408,
-                              "src": "6202:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$_t_uint256_$returns$_t_bytes32_$",
                                 "typeString": "function (struct EnumerableSet.Set storage pointer,uint256) view returns (bytes32)"
@@ -4292,13 +3707,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9518,
                   "src": "6282:22:35",
-=======
-                  "scope": 9517,
-                  "src": "6098:22:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -4310,13 +3720,8 @@
                     "id": 9497,
                     "name": "AddressSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9412,
                     "src": "6282:10:35",
-=======
-                    "referencedDeclaration": 9411,
-                    "src": "6098:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_AddressSet_$9412_storage_ptr",
                       "typeString": "struct EnumerableSet.AddressSet"
@@ -4332,13 +3737,8 @@
                   "name": "index",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9518,
                   "src": "6306:13:35",
-=======
-                  "scope": 9517,
-                  "src": "6122:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4372,13 +3772,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9518,
                   "src": "6344:7:35",
-=======
-                  "scope": 9517,
-                  "src": "6160:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4402,13 +3797,8 @@
               ],
               "src": "6159:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "6270:149:35",
-=======
-            "scope": 9615,
-            "src": "6086:147:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -4424,13 +3814,8 @@
                 "name": "_inner",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 9521,
                 "src": "6473:10:35",
-=======
-                "scope": 9520,
-                "src": "6281:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -4442,13 +3827,8 @@
                   "id": 9519,
                   "name": "Set",
                   "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                   "referencedDeclaration": 9232,
                   "src": "6473:3:35",
-=======
-                  "referencedDeclaration": 9231,
-                  "src": "6281:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_Set_$9232_storage_ptr",
                     "typeString": "struct EnumerableSet.Set"
@@ -4460,13 +3840,8 @@
             ],
             "name": "UintSet",
             "nodeType": "StructDefinition",
-<<<<<<< HEAD
             "scope": 9616,
             "src": "6447:44:35",
-=======
-            "scope": 9615,
-            "src": "6256:42:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "visibility": "public"
           },
           {
@@ -4487,13 +3862,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9524,
                           "src": "6765:3:35",
-=======
-                          "referencedDeclaration": 9523,
-                          "src": "6563:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                             "typeString": "struct EnumerableSet.UintSet storage pointer"
@@ -4506,13 +3876,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9520,
                         "src": "6765:10:35",
-=======
-                        "referencedDeclaration": 9519,
-                        "src": "6563:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -4527,13 +3892,8 @@
                             "name": "value",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9526,
                             "src": "6785:5:35",
-=======
-                            "referencedDeclaration": 9525,
-                            "src": "6583:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4600,13 +3960,8 @@
                       "name": "_add",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9273,
                       "src": "6760:4:35",
-=======
-                      "referencedDeclaration": 9272,
-                      "src": "6558:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) returns (bool)"
@@ -4658,13 +4013,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9541,
                   "src": "6682:19:35",
-=======
-                  "scope": 9540,
-                  "src": "6481:19:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -4676,13 +4026,8 @@
                     "id": 9523,
                     "name": "UintSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9521,
                     "src": "6682:7:35",
-=======
-                    "referencedDeclaration": 9520,
-                    "src": "6481:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                       "typeString": "struct EnumerableSet.UintSet"
@@ -4698,13 +4043,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9541,
                   "src": "6703:13:35",
-=======
-                  "scope": 9540,
-                  "src": "6502:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4738,13 +4078,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9541,
                   "src": "6736:4:35",
-=======
-                  "scope": 9540,
-                  "src": "6535:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4767,13 +4102,8 @@
               ],
               "src": "6534:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "6669:131:35",
-=======
-            "scope": 9615,
-            "src": "6468:129:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -4796,13 +4126,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9544,
                           "src": "7078:3:35",
-=======
-                          "referencedDeclaration": 9543,
-                          "src": "6866:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                             "typeString": "struct EnumerableSet.UintSet storage pointer"
@@ -4815,13 +4140,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9520,
                         "src": "7078:10:35",
-=======
-                        "referencedDeclaration": 9519,
-                        "src": "6866:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -4836,13 +4156,8 @@
                             "name": "value",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9546,
                             "src": "7098:5:35",
-=======
-                            "referencedDeclaration": 9545,
-                            "src": "6886:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4909,13 +4224,8 @@
                       "name": "_remove",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9353,
                       "src": "7070:7:35",
-=======
-                      "referencedDeclaration": 9352,
-                      "src": "6858:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) returns (bool)"
@@ -4967,13 +4277,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9561,
                   "src": "6992:19:35",
-=======
-                  "scope": 9560,
-                  "src": "6781:19:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -4985,13 +4290,8 @@
                     "id": 9543,
                     "name": "UintSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9521,
                     "src": "6992:7:35",
-=======
-                    "referencedDeclaration": 9520,
-                    "src": "6781:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                       "typeString": "struct EnumerableSet.UintSet"
@@ -5007,13 +4307,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9561,
                   "src": "7013:13:35",
-=======
-                  "scope": 9560,
-                  "src": "6802:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5047,13 +4342,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9561,
                   "src": "7046:4:35",
-=======
-                  "scope": 9560,
-                  "src": "6835:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5076,13 +4366,8 @@
               ],
               "src": "6834:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "6976:137:35",
-=======
-            "scope": 9615,
-            "src": "6765:135:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -5105,13 +4390,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9564,
                           "src": "7310:3:35",
-=======
-                          "referencedDeclaration": 9563,
-                          "src": "7091:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                             "typeString": "struct EnumerableSet.UintSet storage pointer"
@@ -5124,13 +4404,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9520,
                         "src": "7310:10:35",
-=======
-                        "referencedDeclaration": 9519,
-                        "src": "7091:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -5145,13 +4420,8 @@
                             "name": "value",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9566,
                             "src": "7330:5:35",
-=======
-                            "referencedDeclaration": 9565,
-                            "src": "7111:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5218,13 +4488,8 @@
                       "name": "_contains",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9371,
                       "src": "7300:9:35",
-=======
-                      "referencedDeclaration": 9370,
-                      "src": "7081:9:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$_t_bytes32_$returns$_t_bool_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer,bytes32) view returns (bool)"
@@ -5276,13 +4541,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9581,
                   "src": "7217:19:35",
-=======
-                  "scope": 9580,
-                  "src": "6999:19:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -5294,13 +4554,8 @@
                     "id": 9563,
                     "name": "UintSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9521,
                     "src": "7217:7:35",
-=======
-                    "referencedDeclaration": 9520,
-                    "src": "6999:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                       "typeString": "struct EnumerableSet.UintSet"
@@ -5316,13 +4571,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9581,
                   "src": "7238:13:35",
-=======
-                  "scope": 9580,
-                  "src": "7020:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5356,13 +4606,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9581,
                   "src": "7276:4:35",
-=======
-                  "scope": 9580,
-                  "src": "7058:4:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5385,13 +4630,8 @@
               ],
               "src": "7057:6:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "7199:146:35",
-=======
-            "scope": 9615,
-            "src": "6981:144:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -5414,13 +4654,8 @@
                           "name": "set",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9584,
                           "src": "7526:3:35",
-=======
-                          "referencedDeclaration": 9583,
-                          "src": "7300:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                             "typeString": "struct EnumerableSet.UintSet storage pointer"
@@ -5433,13 +4668,8 @@
                         "lValueRequested": false,
                         "memberName": "_inner",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 9520,
                         "src": "7526:10:35",
-=======
-                        "referencedDeclaration": 9519,
-                        "src": "7300:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Set_$9232_storage",
                           "typeString": "struct EnumerableSet.Set storage ref"
@@ -5457,13 +4687,8 @@
                       "name": "_length",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9384,
                       "src": "7518:7:35",
-=======
-                      "referencedDeclaration": 9383,
-                      "src": "7292:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$returns$_t_uint256_$",
                         "typeString": "function (struct EnumerableSet.Set storage pointer) view returns (uint256)"
@@ -5515,13 +4740,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9595,
                   "src": "7447:19:35",
-=======
-                  "scope": 9594,
-                  "src": "7222:19:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -5533,13 +4753,8 @@
                     "id": 9583,
                     "name": "UintSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9521,
                     "src": "7447:7:35",
-=======
-                    "referencedDeclaration": 9520,
-                    "src": "7222:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                       "typeString": "struct EnumerableSet.UintSet"
@@ -5562,13 +4777,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9595,
                   "src": "7491:7:35",
-=======
-                  "scope": 9594,
-                  "src": "7266:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5591,13 +4801,8 @@
               ],
               "src": "7265:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "7431:114:35",
-=======
-            "scope": 9615,
-            "src": "7206:112:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -5623,13 +4828,8 @@
                               "name": "set",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9598,
                               "src": "7999:3:35",
-=======
-                              "referencedDeclaration": 9597,
-                              "src": "7759:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                                 "typeString": "struct EnumerableSet.UintSet storage pointer"
@@ -5642,13 +4842,8 @@
                             "lValueRequested": false,
                             "memberName": "_inner",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 9520,
                             "src": "7999:10:35",
-=======
-                            "referencedDeclaration": 9519,
-                            "src": "7759:10:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Set_$9232_storage",
                               "typeString": "struct EnumerableSet.Set storage ref"
@@ -5660,13 +4855,8 @@
                             "name": "index",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9600,
                             "src": "8011:5:35",
-=======
-                            "referencedDeclaration": 9599,
-                            "src": "7771:5:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5688,13 +4878,8 @@
                           "name": "_at",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9409,
                           "src": "7995:3:35",
-=======
-                          "referencedDeclaration": 9408,
-                          "src": "7755:3:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_struct$_Set_$9232_storage_ptr_$_t_uint256_$returns$_t_bytes32_$",
                             "typeString": "function (struct EnumerableSet.Set storage pointer,uint256) view returns (bytes32)"
@@ -5791,13 +4976,8 @@
                   "name": "set",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9615,
                   "src": "7901:19:35",
-=======
-                  "scope": 9614,
-                  "src": "7662:19:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
@@ -5809,13 +4989,8 @@
                     "id": 9597,
                     "name": "UintSet",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 9521,
                     "src": "7901:7:35",
-=======
-                    "referencedDeclaration": 9520,
-                    "src": "7662:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_UintSet_$9521_storage_ptr",
                       "typeString": "struct EnumerableSet.UintSet"
@@ -5831,13 +5006,8 @@
                   "name": "index",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9615,
                   "src": "7922:13:35",
-=======
-                  "scope": 9614,
-                  "src": "7683:13:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5871,13 +5041,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9615,
                   "src": "7960:7:35",
-=======
-                  "scope": 9614,
-                  "src": "7721:7:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5900,25 +5065,15 @@
               ],
               "src": "7720:9:35"
             },
-<<<<<<< HEAD
             "scope": 9616,
             "src": "7889:137:35",
-=======
-            "scope": 9615,
-            "src": "7650:135:35",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-<<<<<<< HEAD
         "scope": 9617,
         "src": "753:7276:35"
-=======
-        "scope": 9616,
-        "src": "725:7062:35"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "33:7755:35"
@@ -11401,11 +10556,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:16.036Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.847Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "details": "Library for managing https://en.wikipedia.org/wiki/Set_(abstract_data_type)[sets] of primitive types. * Sets have the following properties: * - Elements are added, removed, and checked for existence in constant time (O(1)). - Elements are enumerated in O(n). No guarantees are made on the ordering. * ``` contract Example {    // Add the library methods    using EnumerableSet for EnumerableSet.AddressSet; *     // Declare a set state variable    EnumerableSet.AddressSet private mySet; } ``` * As of v3.0.0, only sets of type `address` (`AddressSet`) and `uint256` (`UintSet`) are supported.",
     "methods": {}

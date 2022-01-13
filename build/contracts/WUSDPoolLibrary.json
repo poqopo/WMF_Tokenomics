@@ -181,15 +181,9 @@
         "file": "../module/math/SafeMathupgradeable.sol",
         "id": 2314,
         "nodeType": "ImportDirective",
-<<<<<<< HEAD
         "scope": 2630,
         "sourceUnit": 9813,
         "src": "73:48:6",
-=======
-        "scope": 2629,
-        "sourceUnit": 9812,
-        "src": "70:48:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -214,13 +208,8 @@
               "id": 2315,
               "name": "SafeMathUpgradeSafe",
               "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
               "referencedDeclaration": 9812,
               "src": "164:19:6",
-=======
-              "referencedDeclaration": 9811,
-              "src": "157:19:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_SafeMathUpgradeSafe_$9812",
                 "typeString": "library SafeMathUpgradeSafe"
@@ -246,13 +235,8 @@
             "name": "PRICE_PRECISION",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-<<<<<<< HEAD
             "scope": 2629,
             "src": "245:46:6",
-=======
-            "scope": 2628,
-            "src": "235:46:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -300,13 +284,8 @@
                 "name": "WMF_price_usd",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2331,
                 "src": "417:21:6",
-=======
-                "scope": 2330,
-                "src": "402:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -333,13 +312,8 @@
                 "name": "col_price_usd",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2331,
                 "src": "450:21:6",
-=======
-                "scope": 2330,
-                "src": "434:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -366,13 +340,8 @@
                 "name": "WMF_amount",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2331,
                 "src": "482:18:6",
-=======
-                "scope": 2330,
-                "src": "465:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -399,13 +368,8 @@
                 "name": "collateral_amount",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2331,
                 "src": "511:25:6",
-=======
-                "scope": 2330,
-                "src": "493:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -432,13 +396,8 @@
                 "name": "col_ratio",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2331,
                 "src": "547:17:6",
-=======
-                "scope": 2330,
-                "src": "528:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -461,13 +420,8 @@
             ],
             "name": "MintFF_Params",
             "nodeType": "StructDefinition",
-<<<<<<< HEAD
             "scope": 2629,
             "src": "385:187:6",
-=======
-            "scope": 2628,
-            "src": "371:181:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "visibility": "public"
           },
           {
@@ -481,13 +435,8 @@
                 "name": "excess_collateral_dollar_value_d18",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2340,
                 "src": "616:42:6",
-=======
-                "scope": 2339,
-                "src": "593:42:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -514,13 +463,8 @@
                 "name": "WMF_price_usd",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2340,
                 "src": "669:21:6",
-=======
-                "scope": 2339,
-                "src": "645:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -547,13 +491,8 @@
                 "name": "col_price_usd",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2340,
                 "src": "701:21:6",
-=======
-                "scope": 2339,
-                "src": "676:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -580,13 +519,8 @@
                 "name": "WMF_amount",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-<<<<<<< HEAD
                 "scope": 2340,
                 "src": "733:18:6",
-=======
-                "scope": 2339,
-                "src": "707:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -609,13 +543,8 @@
             ],
             "name": "BuybackWMF_Params",
             "nodeType": "StructDefinition",
-<<<<<<< HEAD
             "scope": 2629,
             "src": "580:179:6",
-=======
-            "scope": 2628,
-            "src": "558:174:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "visibility": "public"
           },
           {
@@ -666,13 +595,8 @@
                                 "name": "col_price",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 2342,
                                 "src": "971:9:6",
-=======
-                                "referencedDeclaration": 2341,
-                                "src": "939:9:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -692,13 +616,8 @@
                                 "name": "collateral_amount_d18",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 2344,
                                 "src": "945:21:6",
-=======
-                                "referencedDeclaration": 2343,
-                                "src": "913:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -711,13 +630,8 @@
                               "lValueRequested": false,
                               "memberName": "mul",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9725,
                               "src": "945:25:6",
-=======
-                              "referencedDeclaration": 9724,
-                              "src": "913:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                 "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -759,13 +673,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "944:42:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "912:42:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -813,13 +722,8 @@
                   "name": "col_price",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2359,
                   "src": "846:17:6",
-=======
-                  "scope": 2358,
-                  "src": "815:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -846,13 +750,8 @@
                   "name": "collateral_amount_d18",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2359,
                   "src": "865:29:6",
-=======
-                  "scope": 2358,
-                  "src": "834:29:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -886,13 +785,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2359,
                   "src": "917:7:6",
-=======
-                  "scope": 2358,
-                  "src": "886:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -915,13 +809,8 @@
               ],
               "src": "885:9:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "821:178:6",
-=======
-            "scope": 2628,
-            "src": "790:176:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -971,13 +860,8 @@
                             "name": "WMF_price_usd",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2361,
                             "src": "1154:13:6",
-=======
-                            "referencedDeclaration": 2360,
-                            "src": "1118:13:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -997,13 +881,8 @@
                             "name": "WMF_amount_d18",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2363,
                             "src": "1135:14:6",
-=======
-                            "referencedDeclaration": 2362,
-                            "src": "1099:14:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1016,13 +895,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "1135:18:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "1099:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1050,13 +924,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "1135:37:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "1099:37:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1104,13 +973,8 @@
                   "name": "WMF_price_usd",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2377,
                   "src": "1040:21:6",
-=======
-                  "scope": 2376,
-                  "src": "1005:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1137,13 +1001,8 @@
                   "name": "WMF_amount_d18",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2377,
                   "src": "1063:22:6",
-=======
-                  "scope": 2376,
-                  "src": "1028:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1177,13 +1036,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2377,
                   "src": "1108:7:6",
-=======
-                  "scope": 2376,
-                  "src": "1073:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1206,13 +1060,8 @@
               ],
               "src": "1072:9:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "1007:178:6",
-=======
-            "scope": 2628,
-            "src": "972:176:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -1235,13 +1084,8 @@
                       "name": "WMF_dollar_value_d18",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2450,
                       "src": "1637:28:6",
-=======
-                      "scope": 2449,
-                      "src": "1594:28:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1279,13 +1123,8 @@
                       "name": "c_dollar_value_d18",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2450,
                       "src": "1676:26:6",
-=======
-                      "scope": 2449,
-                      "src": "1632:26:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1330,13 +1169,8 @@
                           "name": "WMF_dollar_value_d18",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 2387,
                           "src": "1839:20:6",
-=======
-                          "referencedDeclaration": 2386,
-                          "src": "1790:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1384,13 +1218,8 @@
                                     "name": "params",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2379,
                                     "src": "1884:6:6",
-=======
-                                    "referencedDeclaration": 2378,
-                                    "src": "1835:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                                       "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -1403,13 +1232,8 @@
                                   "lValueRequested": false,
                                   "memberName": "WMF_price_usd",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 2322,
                                   "src": "1884:20:6",
-=======
-                                  "referencedDeclaration": 2321,
-                                  "src": "1835:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -1431,13 +1255,8 @@
                                     "name": "params",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2379,
                                     "src": "1862:6:6",
-=======
-                                    "referencedDeclaration": 2378,
-                                    "src": "1813:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                                       "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -1450,13 +1269,8 @@
                                   "lValueRequested": false,
                                   "memberName": "WMF_amount",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 2326,
                                   "src": "1862:17:6",
-=======
-                                  "referencedDeclaration": 2325,
-                                  "src": "1813:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -1469,13 +1283,8 @@
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                 "referencedDeclaration": 9725,
                                 "src": "1862:21:6",
-=======
-                                "referencedDeclaration": 9724,
-                                "src": "1813:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                   "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1503,13 +1312,8 @@
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 9742,
                             "src": "1862:47:6",
-=======
-                            "referencedDeclaration": 9741,
-                            "src": "1813:47:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                               "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1554,13 +1358,8 @@
                           "name": "c_dollar_value_d18",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 2390,
                           "src": "1929:18:6",
-=======
-                          "referencedDeclaration": 2389,
-                          "src": "1879:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1608,13 +1407,8 @@
                                     "name": "params",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2379,
                                     "src": "1979:6:6",
-=======
-                                    "referencedDeclaration": 2378,
-                                    "src": "1929:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                                       "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -1627,13 +1421,8 @@
                                   "lValueRequested": false,
                                   "memberName": "col_price_usd",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 2324,
                                   "src": "1979:20:6",
-=======
-                                  "referencedDeclaration": 2323,
-                                  "src": "1929:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -1655,13 +1444,8 @@
                                     "name": "params",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2379,
                                     "src": "1950:6:6",
-=======
-                                    "referencedDeclaration": 2378,
-                                    "src": "1900:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                                       "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -1674,13 +1458,8 @@
                                   "lValueRequested": false,
                                   "memberName": "collateral_amount",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 2328,
                                   "src": "1950:24:6",
-=======
-                                  "referencedDeclaration": 2327,
-                                  "src": "1900:24:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -1693,13 +1472,8 @@
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                 "referencedDeclaration": 9725,
                                 "src": "1950:28:6",
-=======
-                                "referencedDeclaration": 9724,
-                                "src": "1900:28:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                   "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1727,13 +1501,8 @@
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 9742,
                             "src": "1950:54:6",
-=======
-                            "referencedDeclaration": 9741,
-                            "src": "1900:54:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                               "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1778,13 +1547,8 @@
                       "name": "calculated_WMF_dollar_value_d18",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2450,
                       "src": "2033:36:6",
-=======
-                      "scope": 2449,
-                      "src": "1980:36:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1815,13 +1579,8 @@
                         "name": "c_dollar_value_d18",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2390,
                         "src": "2172:18:6",
-=======
-                        "referencedDeclaration": 2389,
-                        "src": "2117:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1849,13 +1608,8 @@
                                   "name": "params",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-<<<<<<< HEAD
                                   "referencedDeclaration": 2379,
                                   "src": "2127:6:6",
-=======
-                                  "referencedDeclaration": 2378,
-                                  "src": "2073:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                                     "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -1868,13 +1622,8 @@
                                 "lValueRequested": false,
                                 "memberName": "col_ratio",
                                 "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                 "referencedDeclaration": 2330,
                                 "src": "2127:16:6",
-=======
-                                "referencedDeclaration": 2329,
-                                "src": "2073:16:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -1923,13 +1672,8 @@
                                     "name": "c_dollar_value_d18",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2390,
                                     "src": "2095:18:6",
-=======
-                                    "referencedDeclaration": 2389,
-                                    "src": "2041:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
@@ -1942,13 +1686,8 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 9725,
                                   "src": "2095:22:6",
-=======
-                                  "referencedDeclaration": 9724,
-                                  "src": "2041:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                     "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -1976,13 +1715,8 @@
                               "lValueRequested": false,
                               "memberName": "div",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9742,
                               "src": "2095:31:6",
-=======
-                              "referencedDeclaration": 9741,
-                              "src": "2041:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                 "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2024,13 +1758,8 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9662,
                       "src": "2094:77:6",
-=======
-                      "referencedDeclaration": 9661,
-                      "src": "2040:76:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2066,13 +1795,8 @@
                       "name": "calculated_WMF_needed",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2450,
                       "src": "2204:26:6",
-=======
-                      "scope": 2449,
-                      "src": "2147:26:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -2105,13 +1829,8 @@
                           "name": "params",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 2379,
                           "src": "2278:6:6",
-=======
-                          "referencedDeclaration": 2378,
-                          "src": "2221:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_MintFF_Params_$2331_memory_ptr",
                             "typeString": "struct WUSDPoolLibrary.MintFF_Params memory"
@@ -2124,13 +1843,8 @@
                         "lValueRequested": false,
                         "memberName": "WMF_price_usd",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 2322,
                         "src": "2278:20:6",
-=======
-                        "referencedDeclaration": 2321,
-                        "src": "2221:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2179,13 +1893,8 @@
                             "name": "calculated_WMF_dollar_value_d18",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2418,
                             "src": "2233:31:6",
-=======
-                            "referencedDeclaration": 2417,
-                            "src": "2176:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2198,13 +1907,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "2233:35:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "2176:35:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2232,13 +1936,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "2233:44:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "2176:44:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2275,13 +1974,8 @@
                             "name": "calculated_WMF_dollar_value_d18",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2418,
                             "src": "2357:31:6",
-=======
-                            "referencedDeclaration": 2417,
-                            "src": "2297:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2301,13 +1995,8 @@
                             "name": "c_dollar_value_d18",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2390,
                             "src": "2334:18:6",
-=======
-                            "referencedDeclaration": 2389,
-                            "src": "2274:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2320,13 +2009,8 @@
                           "lValueRequested": false,
                           "memberName": "add",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9645,
                           "src": "2334:22:6",
-=======
-                          "referencedDeclaration": 9644,
-                          "src": "2274:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2353,13 +2037,8 @@
                         "name": "calculated_WMF_needed",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2433,
                         "src": "2404:21:6",
-=======
-                        "referencedDeclaration": 2432,
-                        "src": "2343:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2405,13 +2084,8 @@
                   "name": "params",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2451,
                   "src": "1272:27:6",
-=======
-                  "scope": 2450,
-                  "src": "1232:27:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2423,13 +2097,8 @@
                     "id": 2378,
                     "name": "MintFF_Params",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 2331,
                     "src": "1272:13:6",
-=======
-                    "referencedDeclaration": 2330,
-                    "src": "1232:13:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_MintFF_Params_$2331_storage_ptr",
                       "typeString": "struct WUSDPoolLibrary.MintFF_Params"
@@ -2452,13 +2121,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2451,
                   "src": "1324:7:6",
-=======
-                  "scope": 2450,
-                  "src": "1284:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2485,13 +2149,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2451,
                   "src": "1333:7:6",
-=======
-                  "scope": 2450,
-                  "src": "1293:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2514,13 +2173,8 @@
               ],
               "src": "1283:18:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "1240:1204:6",
-=======
-            "scope": 2628,
-            "src": "1200:1181:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
@@ -2541,13 +2195,8 @@
                         "name": "col_price_usd",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2453,
                         "src": "2596:13:6",
-=======
-                        "referencedDeclaration": 2452,
-                        "src": "2530:13:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2596,13 +2245,8 @@
                             "name": "WUSD_amount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2455,
                             "src": "2571:11:6",
-=======
-                            "referencedDeclaration": 2454,
-                            "src": "2505:11:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2615,13 +2259,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "2571:15:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "2505:15:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2649,13 +2288,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "2571:24:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "2505:24:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -2703,13 +2337,8 @@
                   "name": "col_price_usd",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2469,
                   "src": "2479:21:6",
-=======
-                  "scope": 2468,
-                  "src": "2414:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2736,13 +2365,8 @@
                   "name": "WUSD_amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2469,
                   "src": "2502:19:6",
-=======
-                  "scope": 2468,
-                  "src": "2437:19:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2776,13 +2400,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2469,
                   "src": "2544:7:6",
-=======
-                  "scope": 2468,
-                  "src": "2479:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2805,13 +2424,8 @@
               ],
               "src": "2478:9:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "2452:166:6",
-=======
-            "scope": 2628,
-            "src": "2387:164:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -2845,13 +2459,8 @@
                             "name": "params",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2471,
                             "src": "2955:6:6",
-=======
-                            "referencedDeclaration": 2470,
-                            "src": "2883:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_memory_ptr",
                               "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params memory"
@@ -2864,13 +2473,8 @@
                           "lValueRequested": false,
                           "memberName": "excess_collateral_dollar_value_d18",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 2333,
                           "src": "2955:41:6",
-=======
-                          "referencedDeclaration": 2332,
-                          "src": "2883:41:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2977,13 +2581,8 @@
                       "name": "WMF_dollar_value_d18",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2518,
                       "src": "3108:28:6",
-=======
-                      "scope": 2517,
-                      "src": "3033:28:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3045,13 +2644,8 @@
                               "name": "params",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 2471,
                               "src": "3161:6:6",
-=======
-                              "referencedDeclaration": 2470,
-                              "src": "3086:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_memory_ptr",
                                 "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params memory"
@@ -3064,13 +2658,8 @@
                             "lValueRequested": false,
                             "memberName": "WMF_price_usd",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 2335,
                             "src": "3161:20:6",
-=======
-                            "referencedDeclaration": 2334,
-                            "src": "3086:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3092,13 +2681,8 @@
                               "name": "params",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 2471,
                               "src": "3139:6:6",
-=======
-                              "referencedDeclaration": 2470,
-                              "src": "3064:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_memory_ptr",
                                 "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params memory"
@@ -3111,13 +2695,8 @@
                             "lValueRequested": false,
                             "memberName": "WMF_amount",
                             "nodeType": "MemberAccess",
-<<<<<<< HEAD
                             "referencedDeclaration": 2339,
                             "src": "3139:17:6",
-=======
-                            "referencedDeclaration": 2338,
-                            "src": "3064:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3130,13 +2709,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "3139:21:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "3064:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3164,13 +2738,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "3139:47:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "3064:47:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3215,13 +2784,8 @@
                           "name": "WMF_dollar_value_d18",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 2485,
                           "src": "3210:20:6",
-=======
-                          "referencedDeclaration": 2484,
-                          "src": "3134:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3237,13 +2801,8 @@
                             "name": "params",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2471,
                             "src": "3234:6:6",
-=======
-                            "referencedDeclaration": 2470,
-                            "src": "3158:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_memory_ptr",
                               "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params memory"
@@ -3256,13 +2815,8 @@
                           "lValueRequested": false,
                           "memberName": "excess_collateral_dollar_value_d18",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 2333,
                           "src": "3234:41:6",
-=======
-                          "referencedDeclaration": 2332,
-                          "src": "3158:41:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3349,13 +2903,8 @@
                       "name": "collateral_equivalent_d18",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2518,
                       "src": "3436:33:6",
-=======
-                      "scope": 2517,
-                      "src": "3357:33:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3388,13 +2937,8 @@
                           "name": "params",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 2471,
                           "src": "3506:6:6",
-=======
-                          "referencedDeclaration": 2470,
-                          "src": "3427:6:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_memory_ptr",
                             "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params memory"
@@ -3407,13 +2951,8 @@
                         "lValueRequested": false,
                         "memberName": "col_price_usd",
                         "nodeType": "MemberAccess",
-<<<<<<< HEAD
                         "referencedDeclaration": 2337,
                         "src": "3506:20:6",
-=======
-                        "referencedDeclaration": 2336,
-                        "src": "3427:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3462,13 +3001,8 @@
                             "name": "WMF_dollar_value_d18",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2485,
                             "src": "3472:20:6",
-=======
-                            "referencedDeclaration": 2484,
-                            "src": "3393:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3481,13 +3015,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "3472:24:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "3393:24:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3515,13 +3044,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "3472:33:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "3393:33:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3555,13 +3079,8 @@
                         "name": "collateral_equivalent_d18",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2505,
                         "src": "3694:25:6",
-=======
-                        "referencedDeclaration": 2504,
-                        "src": "3611:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3607,13 +3126,8 @@
                   "name": "params",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2519,
                   "src": "2697:31:6",
-=======
-                  "scope": 2518,
-                  "src": "2627:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3625,13 +3139,8 @@
                     "id": 2470,
                     "name": "BuybackWMF_Params",
                     "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
                     "referencedDeclaration": 2340,
                     "src": "2697:17:6",
-=======
-                    "referencedDeclaration": 2339,
-                    "src": "2627:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_BuybackWMF_Params_$2340_storage_ptr",
                       "typeString": "struct WUSDPoolLibrary.BuybackWMF_Params"
@@ -3654,13 +3163,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2519,
                   "src": "2753:7:6",
-=======
-                  "scope": 2518,
-                  "src": "2683:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3683,13 +3187,8 @@
               ],
               "src": "2682:9:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "2673:1067:6",
-=======
-            "scope": 2628,
-            "src": "2603:1051:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
@@ -3712,13 +3211,8 @@
                       "name": "target_collat_value",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2545,
                       "src": "4033:27:6",
-=======
-                      "scope": 2544,
-                      "src": "3942:27:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3778,13 +3272,8 @@
                             "name": "global_collateral_ratio",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2523,
                             "src": "4080:23:6",
-=======
-                            "referencedDeclaration": 2522,
-                            "src": "3989:23:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3804,13 +3293,8 @@
                             "name": "total_supply",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2521,
                             "src": "4063:12:6",
-=======
-                            "referencedDeclaration": 2520,
-                            "src": "3972:12:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3823,13 +3307,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "4063:16:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "3972:16:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3857,13 +3336,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "4063:45:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "3972:45:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3897,13 +3371,8 @@
                         "name": "global_collat_value",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2525,
                         "src": "4402:19:6",
-=======
-                        "referencedDeclaration": 2524,
-                        "src": "4309:19:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3923,13 +3392,8 @@
                         "name": "target_collat_value",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2531,
                         "src": "4378:19:6",
-=======
-                        "referencedDeclaration": 2530,
-                        "src": "4285:19:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3942,13 +3406,8 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9662,
                       "src": "4378:23:6",
-=======
-                      "referencedDeclaration": 9661,
-                      "src": "4285:23:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -3996,13 +3455,8 @@
                   "name": "total_supply",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2546,
                   "src": "3908:20:6",
-=======
-                  "scope": 2545,
-                  "src": "3818:20:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4029,13 +3483,8 @@
                   "name": "global_collateral_ratio",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2546,
                   "src": "3930:31:6",
-=======
-                  "scope": 2545,
-                  "src": "3840:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4062,13 +3511,8 @@
                   "name": "global_collat_value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2546,
                   "src": "3963:27:6",
-=======
-                  "scope": 2545,
-                  "src": "3873:27:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4102,13 +3546,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2546,
                   "src": "4013:7:6",
-=======
-                  "scope": 2545,
-                  "src": "3923:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4131,13 +3570,8 @@
               ],
               "src": "3922:9:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "3877:671:6",
-=======
-            "scope": 2628,
-            "src": "3787:666:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -4160,13 +3594,8 @@
                       "name": "collat_value_attempted",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2627,
                       "src": "4832:30:6",
-=======
-                      "scope": 2626,
-                      "src": "4728:30:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -4226,13 +3655,8 @@
                             "name": "col_price",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2550,
                             "src": "4887:9:6",
-=======
-                            "referencedDeclaration": 2549,
-                            "src": "4783:9:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4252,13 +3676,8 @@
                             "name": "collateral_amount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2548,
                             "src": "4865:17:6",
-=======
-                            "referencedDeclaration": 2547,
-                            "src": "4761:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4271,13 +3690,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "4865:21:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "4761:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4305,13 +3719,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "4865:36:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "4761:36:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4347,13 +3756,8 @@
                       "name": "effective_collateral_ratio",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2627,
                       "src": "4917:34:6",
-=======
-                      "scope": 2626,
-                      "src": "4812:34:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -4384,13 +3788,8 @@
                         "name": "WUSD_total_supply",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2554,
                         "src": "4987:17:6",
-=======
-                        "referencedDeclaration": 2553,
-                        "src": "4882:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -4439,13 +3838,8 @@
                             "name": "global_collat_value",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2552,
                             "src": "4954:19:6",
-=======
-                            "referencedDeclaration": 2551,
-                            "src": "4849:19:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4458,13 +3852,8 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9725,
                           "src": "4954:23:6",
-=======
-                          "referencedDeclaration": 9724,
-                          "src": "4849:23:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4492,13 +3881,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "4954:32:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "4849:32:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4534,13 +3918,8 @@
                       "name": "recollat_possible",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2627,
                       "src": "5036:25:6",
-=======
-                      "scope": 2626,
-                      "src": "4930:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -4606,13 +3985,8 @@
                                     "name": "effective_collateral_ratio",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2574,
                                     "src": "5138:26:6",
-=======
-                                    "referencedDeclaration": 2573,
-                                    "src": "5032:26:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
@@ -4632,13 +4006,8 @@
                                     "name": "WUSD_total_supply",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2554,
                                     "src": "5116:17:6",
-=======
-                                    "referencedDeclaration": 2553,
-                                    "src": "5010:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
@@ -4651,13 +4020,8 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 9725,
                                   "src": "5116:21:6",
-=======
-                                  "referencedDeclaration": 9724,
-                                  "src": "5010:21:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                     "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4695,13 +4059,8 @@
                                     "name": "WUSD_total_supply",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2554,
                                     "src": "5093:17:6",
-=======
-                                    "referencedDeclaration": 2553,
-                                    "src": "4987:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
@@ -4721,13 +4080,8 @@
                                     "name": "global_collateral_ratio",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 2556,
                                     "src": "5065:23:6",
-=======
-                                    "referencedDeclaration": 2555,
-                                    "src": "4959:23:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_uint256",
                                       "typeString": "uint256"
@@ -4740,13 +4094,8 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-<<<<<<< HEAD
                                   "referencedDeclaration": 9725,
                                   "src": "5065:27:6",
-=======
-                                  "referencedDeclaration": 9724,
-                                  "src": "4959:27:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                     "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4774,13 +4123,8 @@
                               "lValueRequested": false,
                               "memberName": "sub",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9662,
                               "src": "5065:50:6",
-=======
-                              "referencedDeclaration": 9661,
-                              "src": "4959:50:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                 "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4822,13 +4166,8 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-<<<<<<< HEAD
                       "referencedDeclaration": 9742,
                       "src": "5064:107:6",
-=======
-                      "referencedDeclaration": 9741,
-                      "src": "4958:107:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -4864,13 +4203,8 @@
                       "name": "amount_to_recollat",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 2627,
                       "src": "5189:26:6",
-=======
-                      "scope": 2626,
-                      "src": "5081:26:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -4914,13 +4248,8 @@
                       "name": "collat_value_attempted",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 2564,
                       "src": "5229:22:6",
-=======
-                      "referencedDeclaration": 2563,
-                      "src": "5120:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -4934,13 +4263,8 @@
                       "name": "recollat_possible",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 2584,
                       "src": "5255:17:6",
-=======
-                      "referencedDeclaration": 2583,
-                      "src": "5146:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -4971,13 +4295,8 @@
                             "name": "amount_to_recollat",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2601,
                             "src": "5364:18:6",
-=======
-                            "referencedDeclaration": 2600,
-                            "src": "5252:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -4991,13 +4310,8 @@
                             "name": "recollat_possible",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2584,
                             "src": "5385:17:6",
-=======
-                            "referencedDeclaration": 2583,
-                            "src": "5273:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5037,13 +4351,8 @@
                             "name": "amount_to_recollat",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2601,
                             "src": "5288:18:6",
-=======
-                            "referencedDeclaration": 2600,
-                            "src": "5178:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5057,13 +4366,8 @@
                             "name": "collat_value_attempted",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2564,
                             "src": "5309:22:6",
-=======
-                            "referencedDeclaration": 2563,
-                            "src": "5199:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5095,13 +4399,8 @@
                             "name": "col_price",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 2550,
                             "src": "5466:9:6",
-=======
-                            "referencedDeclaration": 2549,
-                            "src": "5351:9:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -5150,13 +4449,8 @@
                                 "name": "amount_to_recollat",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-<<<<<<< HEAD
                                 "referencedDeclaration": 2601,
                                 "src": "5434:18:6",
-=======
-                                "referencedDeclaration": 2600,
-                                "src": "5319:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
@@ -5169,13 +4463,8 @@
                               "lValueRequested": false,
                               "memberName": "mul",
                               "nodeType": "MemberAccess",
-<<<<<<< HEAD
                               "referencedDeclaration": 9725,
                               "src": "5434:22:6",
-=======
-                              "referencedDeclaration": 9724,
-                              "src": "5319:22:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                 "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -5203,13 +4492,8 @@
                           "lValueRequested": false,
                           "memberName": "div",
                           "nodeType": "MemberAccess",
-<<<<<<< HEAD
                           "referencedDeclaration": 9742,
                           "src": "5434:31:6",
-=======
-                          "referencedDeclaration": 9741,
-                          "src": "5319:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
@@ -5236,13 +4520,8 @@
                         "name": "amount_to_recollat",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 2601,
                         "src": "5478:18:6",
-=======
-                        "referencedDeclaration": 2600,
-                        "src": "5363:18:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -5289,13 +4568,8 @@
                   "name": "collateral_amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4604:25:6",
-=======
-                  "scope": 2627,
-                  "src": "4506:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5322,13 +4596,8 @@
                   "name": "col_price",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4641:17:6",
-=======
-                  "scope": 2627,
-                  "src": "4542:17:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5355,13 +4624,8 @@
                   "name": "global_collat_value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4669:27:6",
-=======
-                  "scope": 2627,
-                  "src": "4569:27:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5388,13 +4652,8 @@
                   "name": "WUSD_total_supply",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4707:25:6",
-=======
-                  "scope": 2627,
-                  "src": "4606:25:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5421,13 +4680,8 @@
                   "name": "global_collateral_ratio",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4743:31:6",
-=======
-                  "scope": 2627,
-                  "src": "4641:31:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5461,13 +4715,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4803:7:6",
-=======
-                  "scope": 2627,
-                  "src": "4700:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5494,13 +4743,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 2628,
                   "src": "4812:7:6",
-=======
-                  "scope": 2627,
-                  "src": "4709:7:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -5523,25 +4767,15 @@
               ],
               "src": "4699:18:6"
             },
-<<<<<<< HEAD
             "scope": 2629,
             "src": "4556:949:6",
-=======
-            "scope": 2628,
-            "src": "4459:930:6",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
           }
         ],
-<<<<<<< HEAD
         "scope": 2630,
         "src": "127:5383:6"
-=======
-        "scope": 2629,
-        "src": "121:5271:6"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "45:5347:6"
@@ -10452,11 +9686,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.788Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.782Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "methods": {}
   },

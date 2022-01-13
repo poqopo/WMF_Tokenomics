@@ -70,13 +70,8 @@
                       "name": "size",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 8944,
                       "src": "1017:12:34",
-=======
-                      "scope": 8943,
-                      "src": "988:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -175,13 +170,8 @@
                       "name": "size",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 8937,
                       "src": "1155:4:34",
-=======
-                      "referencedDeclaration": 8936,
-                      "src": "1123:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -244,13 +234,8 @@
                   "name": "account",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8945,
                   "src": "769:15:34",
-=======
-                  "scope": 8944,
-                  "src": "745:15:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -285,13 +270,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8945,
                   "src": "809:4:34",
-=======
-                  "scope": 8944,
-                  "src": "785:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -314,13 +294,8 @@
               ],
               "src": "784:6:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "749:422:34",
-=======
-            "scope": 9220,
-            "src": "725:413:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -431,13 +406,8 @@
                           "name": "amount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8950,
                           "src": "2221:6:34",
-=======
-                          "referencedDeclaration": 8949,
-                          "src": "2169:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -525,13 +495,8 @@
                       "name": "success",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 8978,
                       "src": "2353:12:34",
-=======
-                      "scope": 8977,
-                      "src": "2298:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -591,13 +556,8 @@
                           "name": "recipient",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8948,
                           "src": "2371:9:34",
-=======
-                          "referencedDeclaration": 8947,
-                          "src": "2316:9:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_address_payable",
                             "typeString": "address payable"
@@ -633,13 +593,8 @@
                           "name": "amount",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8950,
                           "src": "2394:6:34",
-=======
-                          "referencedDeclaration": 8949,
-                          "src": "2339:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -680,13 +635,8 @@
                         "name": "success",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 8965,
                         "src": "2425:7:34",
-=======
-                        "referencedDeclaration": 8964,
-                        "src": "2369:7:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -781,13 +731,8 @@
                   "name": "recipient",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8979,
                   "src": "2125:25:34",
-=======
-                  "scope": 8978,
-                  "src": "2074:25:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -815,13 +760,8 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8979,
                   "src": "2152:14:34",
-=======
-                  "scope": 8978,
-                  "src": "2101:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -850,13 +790,8 @@
               "parameters": [],
               "src": "2126:0:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "2106:397:34",
-=======
-            "scope": 9220,
-            "src": "2055:391:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -877,13 +812,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 8982,
                         "src": "3382:6:34",
-=======
-                        "referencedDeclaration": 8981,
-                        "src": "3304:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -895,13 +825,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 8984,
                         "src": "3390:4:34",
-=======
-                        "referencedDeclaration": 8983,
-                        "src": "3312:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -948,13 +873,8 @@
                         8996,
                         9016
                       ],
-<<<<<<< HEAD
                       "referencedDeclaration": 9016,
                       "src": "3369:12:34",
-=======
-                      "referencedDeclaration": 9015,
-                      "src": "3291:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (address,bytes memory,string memory) returns (bytes memory)"
@@ -1006,13 +926,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8996,
                   "src": "3286:14:34",
-=======
-                  "scope": 8995,
-                  "src": "3209:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1040,13 +955,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8996,
                   "src": "3302:17:34",
-=======
-                  "scope": 8995,
-                  "src": "3225:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1080,13 +990,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8996,
                   "src": "3339:12:34",
-=======
-                  "scope": 8995,
-                  "src": "3262:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1109,13 +1014,8 @@
               ],
               "src": "3261:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "3264:173:34",
-=======
-            "scope": 9220,
-            "src": "3187:171:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -1136,13 +1036,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 8999,
                         "src": "3824:6:34",
-=======
-                        "referencedDeclaration": 8998,
-                        "src": "3736:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1154,13 +1049,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9001,
                         "src": "3832:4:34",
-=======
-                        "referencedDeclaration": 9000,
-                        "src": "3744:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -1190,13 +1080,8 @@
                         "name": "errorMessage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9003,
                         "src": "3841:12:34",
-=======
-                        "referencedDeclaration": 9002,
-                        "src": "3753:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -1229,13 +1114,8 @@
                         9036,
                         9086
                       ],
-<<<<<<< HEAD
                       "referencedDeclaration": 9086,
                       "src": "3802:21:34",
-=======
-                      "referencedDeclaration": 9085,
-                      "src": "3714:21:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_uint256_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (address,bytes memory,uint256,string memory) returns (bytes memory)"
@@ -1287,13 +1167,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9016,
                   "src": "3689:14:34",
-=======
-                  "scope": 9015,
-                  "src": "3602:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1321,13 +1196,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9016,
                   "src": "3705:17:34",
-=======
-                  "scope": 9015,
-                  "src": "3618:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1354,13 +1224,8 @@
                   "name": "errorMessage",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9016,
                   "src": "3724:26:34",
-=======
-                  "scope": 9015,
-                  "src": "3637:26:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1394,13 +1259,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9016,
                   "src": "3770:12:34",
-=======
-                  "scope": 9015,
-                  "src": "3683:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1423,13 +1283,8 @@
               ],
               "src": "3682:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "3667:195:34",
-=======
-            "scope": 9220,
-            "src": "3580:193:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -1450,13 +1305,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9019,
                         "src": "4390:6:34",
-=======
-                        "referencedDeclaration": 9018,
-                        "src": "4287:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1468,13 +1318,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9021,
                         "src": "4398:4:34",
-=======
-                        "referencedDeclaration": 9020,
-                        "src": "4295:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -1486,13 +1331,8 @@
                         "name": "value",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9023,
                         "src": "4404:5:34",
-=======
-                        "referencedDeclaration": 9022,
-                        "src": "4301:5:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1543,13 +1383,8 @@
                         9036,
                         9086
                       ],
-<<<<<<< HEAD
                       "referencedDeclaration": 9086,
                       "src": "4368:21:34",
-=======
-                      "referencedDeclaration": 9085,
-                      "src": "4265:21:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_uint256_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (address,bytes memory,uint256,string memory) returns (bytes memory)"
@@ -1601,13 +1436,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9036,
                   "src": "4268:14:34",
-=======
-                  "scope": 9035,
-                  "src": "4166:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1635,13 +1465,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9036,
                   "src": "4284:17:34",
-=======
-                  "scope": 9035,
-                  "src": "4182:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1668,13 +1493,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9036,
                   "src": "4303:13:34",
-=======
-                  "scope": 9035,
-                  "src": "4201:13:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1708,13 +1528,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9036,
                   "src": "4336:12:34",
-=======
-                  "scope": 9035,
-                  "src": "4234:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1737,13 +1552,8 @@
               ],
               "src": "4233:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "4237:226:34",
-=======
-            "scope": 9220,
-            "src": "4135:224:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -1854,13 +1664,8 @@
                           "name": "value",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9043,
                           "src": "4904:5:34",
-=======
-                          "referencedDeclaration": 9042,
-                          "src": "4791:5:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1948,13 +1753,8 @@
                             "name": "target",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9039,
                             "src": "4982:6:34",
-=======
-                            "referencedDeclaration": 9038,
-                            "src": "4868:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1972,13 +1772,8 @@
                           "name": "isContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8945,
                           "src": "4971:10:34",
-=======
-                          "referencedDeclaration": 8944,
-                          "src": "4857:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
@@ -2075,13 +1870,8 @@
                       "name": "success",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9085,
                       "src": "5097:12:34",
-=======
-                      "scope": 9084,
-                      "src": "4980:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -2108,13 +1898,8 @@
                       "name": "returndata",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9085,
                       "src": "5111:23:34",
-=======
-                      "scope": 9084,
-                      "src": "4994:23:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -2145,13 +1930,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9041,
                         "src": "5166:4:34",
-=======
-                        "referencedDeclaration": 9040,
-                        "src": "5049:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -2173,13 +1953,8 @@
                           "name": "target",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9039,
                           "src": "5138:6:34",
-=======
-                          "referencedDeclaration": 9038,
-                          "src": "5021:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2215,13 +1990,8 @@
                           "name": "value",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9043,
                           "src": "5158:5:34",
-=======
-                          "referencedDeclaration": 9042,
-                          "src": "5041:5:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -2262,13 +2032,8 @@
                         "name": "success",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9069,
                         "src": "5207:7:34",
-=======
-                        "referencedDeclaration": 9068,
-                        "src": "5089:7:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -2280,13 +2045,8 @@
                         "name": "returndata",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9071,
                         "src": "5216:10:34",
-=======
-                        "referencedDeclaration": 9070,
-                        "src": "5098:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -2298,13 +2058,8 @@
                         "name": "errorMessage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9045,
                         "src": "5228:12:34",
-=======
-                        "referencedDeclaration": 9044,
-                        "src": "5110:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -2330,13 +2085,8 @@
                       "name": "_verifyCallResult",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9220,
                       "src": "5189:17:34",
-=======
-                      "referencedDeclaration": 9219,
-                      "src": "5071:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_bool_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (bool,bytes memory,string memory) pure returns (bytes memory)"
@@ -2388,13 +2138,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9086,
                   "src": "4750:14:34",
-=======
-                  "scope": 9085,
-                  "src": "4638:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2422,13 +2167,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9086,
                   "src": "4766:17:34",
-=======
-                  "scope": 9085,
-                  "src": "4654:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2455,13 +2195,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9086,
                   "src": "4785:13:34",
-=======
-                  "scope": 9085,
-                  "src": "4673:13:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2488,13 +2223,8 @@
                   "name": "errorMessage",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9086,
                   "src": "4800:26:34",
-=======
-                  "scope": 9085,
-                  "src": "4688:26:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2528,13 +2258,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9086,
                   "src": "4846:12:34",
-=======
-                  "scope": 9085,
-                  "src": "4734:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2557,13 +2282,8 @@
               ],
               "src": "4733:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "4719:530:34",
-=======
-            "scope": 9220,
-            "src": "4607:523:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -2584,13 +2304,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9089,
                         "src": "5571:6:34",
-=======
-                        "referencedDeclaration": 9088,
-                        "src": "5443:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2602,13 +2317,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9091,
                         "src": "5579:4:34",
-=======
-                        "referencedDeclaration": 9090,
-                        "src": "5451:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -2655,13 +2365,8 @@
                         9103,
                         9138
                       ],
-<<<<<<< HEAD
                       "referencedDeclaration": 9138,
                       "src": "5552:18:34",
-=======
-                      "referencedDeclaration": 9137,
-                      "src": "5424:18:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (address,bytes memory,string memory) view returns (bytes memory)"
@@ -2713,13 +2418,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9103,
                   "src": "5462:14:34",
-=======
-                  "scope": 9102,
-                  "src": "5335:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2747,13 +2447,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9103,
                   "src": "5478:17:34",
-=======
-                  "scope": 9102,
-                  "src": "5351:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2787,13 +2482,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9103,
                   "src": "5520:12:34",
-=======
-                  "scope": 9102,
-                  "src": "5393:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2816,13 +2506,8 @@
               ],
               "src": "5392:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "5434:199:34",
-=======
-            "scope": 9220,
-            "src": "5307:197:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -2846,13 +2531,8 @@
                             "name": "target",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9106,
                             "src": "5983:6:34",
-=======
-                            "referencedDeclaration": 9105,
-                            "src": "5845:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -2870,13 +2550,8 @@
                           "name": "isContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8945,
                           "src": "5972:10:34",
-=======
-                          "referencedDeclaration": 8944,
-                          "src": "5834:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
@@ -2973,13 +2648,8 @@
                       "name": "success",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9137,
                       "src": "6105:12:34",
-=======
-                      "scope": 9136,
-                      "src": "5964:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3006,13 +2676,8 @@
                       "name": "returndata",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9137,
                       "src": "6119:23:34",
-=======
-                      "scope": 9136,
-                      "src": "5978:23:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -3043,13 +2708,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9108,
                         "src": "6164:4:34",
-=======
-                        "referencedDeclaration": 9107,
-                        "src": "6023:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -3069,13 +2729,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9106,
                         "src": "6146:6:34",
-=======
-                        "referencedDeclaration": 9105,
-                        "src": "6005:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3123,13 +2778,8 @@
                         "name": "success",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9123,
                         "src": "6205:7:34",
-=======
-                        "referencedDeclaration": 9122,
-                        "src": "6063:7:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3141,13 +2791,8 @@
                         "name": "returndata",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9125,
                         "src": "6214:10:34",
-=======
-                        "referencedDeclaration": 9124,
-                        "src": "6072:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -3159,13 +2804,8 @@
                         "name": "errorMessage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9110,
                         "src": "6226:12:34",
-=======
-                        "referencedDeclaration": 9109,
-                        "src": "6084:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -3191,13 +2831,8 @@
                       "name": "_verifyCallResult",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9220,
                       "src": "6187:17:34",
-=======
-                      "referencedDeclaration": 9219,
-                      "src": "6045:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_bool_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (bool,bytes memory,string memory) pure returns (bytes memory)"
@@ -3249,13 +2884,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9138,
                   "src": "5853:14:34",
-=======
-                  "scope": 9137,
-                  "src": "5716:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3283,13 +2913,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9138,
                   "src": "5869:17:34",
-=======
-                  "scope": 9137,
-                  "src": "5732:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3316,13 +2941,8 @@
                   "name": "errorMessage",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9138,
                   "src": "5888:26:34",
-=======
-                  "scope": 9137,
-                  "src": "5751:26:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3356,13 +2976,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9138,
                   "src": "5939:12:34",
-=======
-                  "scope": 9137,
-                  "src": "5802:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3385,13 +3000,8 @@
               ],
               "src": "5801:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "5825:422:34",
-=======
-            "scope": 9220,
-            "src": "5688:416:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "internal"
@@ -3412,13 +3022,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9141,
                         "src": "6570:6:34",
-=======
-                        "referencedDeclaration": 9140,
-                        "src": "6418:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3430,13 +3035,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9143,
                         "src": "6578:4:34",
-=======
-                        "referencedDeclaration": 9142,
-                        "src": "6426:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -3483,13 +3083,8 @@
                         9155,
                         9190
                       ],
-<<<<<<< HEAD
                       "referencedDeclaration": 9190,
                       "src": "6549:20:34",
-=======
-                      "referencedDeclaration": 9189,
-                      "src": "6397:20:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (address,bytes memory,string memory) returns (bytes memory)"
@@ -3541,13 +3136,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9155,
                   "src": "6464:14:34",
-=======
-                  "scope": 9154,
-                  "src": "6313:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3575,13 +3165,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9155,
                   "src": "6480:17:34",
-=======
-                  "scope": 9154,
-                  "src": "6329:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3615,13 +3200,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9155,
                   "src": "6517:12:34",
-=======
-                  "scope": 9154,
-                  "src": "6366:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3644,13 +3224,8 @@
               ],
               "src": "6365:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "6434:200:34",
-=======
-            "scope": 9220,
-            "src": "6283:198:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -3674,13 +3249,8 @@
                             "name": "target",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 9158,
                             "src": "6983:6:34",
-=======
-                            "referencedDeclaration": 9157,
-                            "src": "6821:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -3698,13 +3268,8 @@
                           "name": "isContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 8945,
                           "src": "6972:10:34",
-=======
-                          "referencedDeclaration": 8944,
-                          "src": "6810:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_bool_$",
                             "typeString": "function (address) view returns (bool)"
@@ -3801,13 +3366,8 @@
                       "name": "success",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9189,
                       "src": "7107:12:34",
-=======
-                      "scope": 9188,
-                      "src": "6942:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3834,13 +3394,8 @@
                       "name": "returndata",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-<<<<<<< HEAD
                       "scope": 9189,
                       "src": "7121:23:34",
-=======
-                      "scope": 9188,
-                      "src": "6956:23:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
@@ -3871,13 +3426,8 @@
                         "name": "data",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9160,
                         "src": "7168:4:34",
-=======
-                        "referencedDeclaration": 9159,
-                        "src": "7003:4:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -3897,13 +3447,8 @@
                         "name": "target",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9158,
                         "src": "7148:6:34",
-=======
-                        "referencedDeclaration": 9157,
-                        "src": "6983:6:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3951,13 +3496,8 @@
                         "name": "success",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9175,
                         "src": "7209:7:34",
-=======
-                        "referencedDeclaration": 9174,
-                        "src": "7043:7:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3969,13 +3509,8 @@
                         "name": "returndata",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9177,
                         "src": "7218:10:34",
-=======
-                        "referencedDeclaration": 9176,
-                        "src": "7052:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -3987,13 +3522,8 @@
                         "name": "errorMessage",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 9162,
                         "src": "7230:12:34",
-=======
-                        "referencedDeclaration": 9161,
-                        "src": "7064:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
                           "typeString": "string memory"
@@ -4019,13 +3549,8 @@
                       "name": "_verifyCallResult",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 9220,
                       "src": "7191:17:34",
-=======
-                      "referencedDeclaration": 9219,
-                      "src": "7025:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_bool_$_t_bytes_memory_ptr_$_t_string_memory_ptr_$returns$_t_bytes_memory_ptr_$",
                         "typeString": "function (bool,bytes memory,string memory) pure returns (bytes memory)"
@@ -4077,13 +3602,8 @@
                   "name": "target",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9190,
                   "src": "6858:14:34",
-=======
-                  "scope": 9189,
-                  "src": "6697:14:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4111,13 +3631,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9190,
                   "src": "6874:17:34",
-=======
-                  "scope": 9189,
-                  "src": "6713:17:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4144,13 +3659,8 @@
                   "name": "errorMessage",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9190,
                   "src": "6893:26:34",
-=======
-                  "scope": 9189,
-                  "src": "6732:26:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4184,13 +3694,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9190,
                   "src": "6939:12:34",
-=======
-                  "scope": 9189,
-                  "src": "6778:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4213,13 +3718,8 @@
               ],
               "src": "6777:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "6828:423:34",
-=======
-            "scope": 9220,
-            "src": "6667:417:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -4237,13 +3737,8 @@
                     "name": "success",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                     "referencedDeclaration": 9192,
                     "src": "7403:7:34",
-=======
-                    "referencedDeclaration": 9191,
-                    "src": "7233:7:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -4274,13 +3769,8 @@
                               "name": "returndata",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 9194,
                               "src": "7548:10:34",
-=======
-                              "referencedDeclaration": 9193,
-                              "src": "7374:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_bytes_memory_ptr",
                                 "typeString": "bytes memory"
@@ -4341,13 +3831,8 @@
                                     "name": "errorMessage",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-<<<<<<< HEAD
                                     "referencedDeclaration": 9196,
                                     "src": "7954:12:34",
-=======
-                                    "referencedDeclaration": 9195,
-                                    "src": "7771:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_string_memory_ptr",
                                       "typeString": "string memory"
@@ -4523,13 +4008,8 @@
                           "name": "returndata",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                           "referencedDeclaration": 9194,
                           "src": "7434:10:34",
-=======
-                          "referencedDeclaration": 9193,
-                          "src": "7263:10:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes_memory_ptr",
                             "typeString": "bytes memory"
@@ -4564,13 +4044,8 @@
                   "name": "success",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9220,
                   "src": "7286:12:34",
-=======
-                  "scope": 9219,
-                  "src": "7117:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4597,13 +4072,8 @@
                   "name": "returndata",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9220,
                   "src": "7300:23:34",
-=======
-                  "scope": 9219,
-                  "src": "7131:23:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4630,13 +4100,8 @@
                   "name": "errorMessage",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9220,
                   "src": "7325:26:34",
-=======
-                  "scope": 9219,
-                  "src": "7156:26:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4670,13 +4135,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 9220,
                   "src": "7374:12:34",
-=======
-                  "scope": 9219,
-                  "src": "7205:12:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -4699,25 +4159,15 @@
               ],
               "src": "7204:14:34"
             },
-<<<<<<< HEAD
             "scope": 9221,
             "src": "7259:742:34",
-=======
-            "scope": 9220,
-            "src": "7090:725:34",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "private"
           }
         ],
-<<<<<<< HEAD
         "scope": 9222,
         "src": "139:7865:34"
-=======
-        "scope": 9221,
-        "src": "133:7684:34"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:7785:34"
@@ -9050,11 +8500,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:16.026Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.844Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "details": "Collection of functions related to the address type",
     "methods": {}

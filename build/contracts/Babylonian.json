@@ -68,13 +68,8 @@
                       "name": "y",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-<<<<<<< HEAD
                       "referencedDeclaration": 8195,
                       "src": "294:1:29",
-=======
-                      "referencedDeclaration": 8194,
-                      "src": "287:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -124,13 +119,8 @@
                         "name": "y",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-<<<<<<< HEAD
                         "referencedDeclaration": 8195,
                         "src": "482:1:29",
-=======
-                        "referencedDeclaration": 8194,
-                        "src": "468:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -185,13 +175,8 @@
                               "name": "z",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 8198,
                               "src": "505:1:29",
-=======
-                              "referencedDeclaration": 8197,
-                              "src": "490:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -252,13 +237,8 @@
                             "name": "z",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 8198,
                             "src": "316:1:29",
-=======
-                            "referencedDeclaration": 8197,
-                            "src": "308:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -272,13 +252,8 @@
                             "name": "y",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 8195,
                             "src": "320:1:29",
-=======
-                            "referencedDeclaration": 8194,
-                            "src": "312:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -306,13 +281,8 @@
                             "name": "x",
                             "nodeType": "VariableDeclaration",
                             "overrides": null,
-<<<<<<< HEAD
                             "scope": 8235,
                             "src": "336:6:29",
-=======
-                            "scope": 8234,
-                            "src": "327:6:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -362,13 +332,8 @@
                               "name": "y",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-<<<<<<< HEAD
                               "referencedDeclaration": 8195,
                               "src": "345:1:29",
-=======
-                              "referencedDeclaration": 8194,
-                              "src": "336:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -449,13 +414,8 @@
                                   "name": "z",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-<<<<<<< HEAD
                                   "referencedDeclaration": 8198,
                                   "src": "402:1:29",
-=======
-                                  "referencedDeclaration": 8197,
-                                  "src": "391:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -469,13 +429,8 @@
                                   "name": "x",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-<<<<<<< HEAD
                                   "referencedDeclaration": 8208,
                                   "src": "406:1:29",
-=======
-                                  "referencedDeclaration": 8207,
-                                  "src": "395:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -505,13 +460,8 @@
                                   "name": "x",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-<<<<<<< HEAD
                                   "referencedDeclaration": 8208,
                                   "src": "426:1:29",
-=======
-                                  "referencedDeclaration": 8207,
-                                  "src": "414:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
@@ -561,13 +511,8 @@
                                             "name": "y",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                                             "referencedDeclaration": 8195,
                                             "src": "431:1:29",
-=======
-                                            "referencedDeclaration": 8194,
-                                            "src": "419:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                             "typeDescriptions": {
                                               "typeIdentifier": "t_uint256",
                                               "typeString": "uint256"
@@ -581,13 +526,8 @@
                                             "name": "x",
                                             "nodeType": "Identifier",
                                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                                             "referencedDeclaration": 8208,
                                             "src": "435:1:29",
-=======
-                                            "referencedDeclaration": 8207,
-                                            "src": "423:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                             "typeDescriptions": {
                                               "typeIdentifier": "t_uint256",
                                               "typeString": "uint256"
@@ -607,13 +547,8 @@
                                           "name": "x",
                                           "nodeType": "Identifier",
                                           "overloadedDeclarations": [],
-<<<<<<< HEAD
                                           "referencedDeclaration": 8208,
                                           "src": "439:1:29",
-=======
-                                          "referencedDeclaration": 8207,
-                                          "src": "427:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                                           "typeDescriptions": {
                                             "typeIdentifier": "t_uint256",
                                             "typeString": "uint256"
@@ -694,13 +629,8 @@
                             "name": "x",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 8208,
                             "src": "376:1:29",
-=======
-                            "referencedDeclaration": 8207,
-                            "src": "366:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -714,13 +644,8 @@
                             "name": "z",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-<<<<<<< HEAD
                             "referencedDeclaration": 8198,
                             "src": "380:1:29",
-=======
-                            "referencedDeclaration": 8197,
-                            "src": "370:1:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -760,13 +685,8 @@
                   "name": "y",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8247,
                   "src": "240:6:29",
-=======
-                  "scope": 8246,
-                  "src": "234:6:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -800,13 +720,8 @@
                   "name": "z",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8247,
                   "src": "271:6:29",
-=======
-                  "scope": 8246,
-                  "src": "265:6:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -829,25 +744,15 @@
               ],
               "src": "264:8:29"
             },
-<<<<<<< HEAD
             "scope": 8248,
             "src": "226:326:29",
-=======
-            "scope": 8247,
-            "src": "220:314:29",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-<<<<<<< HEAD
         "scope": 8249,
         "src": "200:355:29"
-=======
-        "scope": 8248,
-        "src": "195:341:29"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:504:29"
@@ -1660,11 +1565,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.980Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.835Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "methods": {}
   },

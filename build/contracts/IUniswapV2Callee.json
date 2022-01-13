@@ -95,13 +95,8 @@
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 4812,
                   "src": "117:14:16",
-=======
-                  "scope": 4811,
-                  "src": "113:14:16",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -129,13 +124,8 @@
                   "name": "amount0",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 4812,
                   "src": "133:12:16",
-=======
-                  "scope": 4811,
-                  "src": "129:12:16",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -162,13 +152,8 @@
                   "name": "amount1",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 4812,
                   "src": "147:12:16",
-=======
-                  "scope": 4811,
-                  "src": "143:12:16",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -195,13 +180,8 @@
                   "name": "data",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 4812,
                   "src": "161:19:16",
-=======
-                  "scope": 4811,
-                  "src": "157:19:16",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -230,25 +210,15 @@
               "parameters": [],
               "src": "186:0:16"
             },
-<<<<<<< HEAD
             "scope": 4813,
             "src": "94:97:16",
-=======
-            "scope": 4812,
-            "src": "90:97:16",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-<<<<<<< HEAD
         "scope": 4814,
         "src": "60:134:16"
-=======
-        "scope": 4813,
-        "src": "57:132:16"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:157:16"
@@ -466,11 +436,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.872Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.807Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "methods": {}
   },

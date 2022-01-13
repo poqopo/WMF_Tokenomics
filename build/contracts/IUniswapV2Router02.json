@@ -987,15 +987,9 @@
         "file": "./IUniswapV2Router01.sol",
         "id": 5547,
         "nodeType": "ImportDirective",
-<<<<<<< HEAD
         "scope": 5633,
         "sourceUnit": 5545,
         "src": "60:34:21",
-=======
-        "scope": 5632,
-        "sourceUnit": 5544,
-        "src": "57:34:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1009,13 +1003,8 @@
               "id": 5548,
               "name": "IUniswapV2Router01",
               "nodeType": "UserDefinedTypeName",
-<<<<<<< HEAD
               "referencedDeclaration": 5544,
               "src": "130:18:21",
-=======
-              "referencedDeclaration": 5543,
-              "src": "125:18:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_IUniswapV2Router01_$5544",
                 "typeString": "contract IUniswapV2Router01"
@@ -1062,13 +1051,8 @@
                   "name": "token",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "223:13:21",
-=======
-                  "scope": 5565,
-                  "src": "216:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1096,13 +1080,8 @@
                   "name": "liquidity",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "247:14:21",
-=======
-                  "scope": 5565,
-                  "src": "239:14:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1129,13 +1108,8 @@
                   "name": "amountTokenMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "272:19:21",
-=======
-                  "scope": 5565,
-                  "src": "263:19:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1162,13 +1136,8 @@
                   "name": "amountETHMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "302:17:21",
-=======
-                  "scope": 5565,
-                  "src": "292:17:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1195,13 +1164,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "330:10:21",
-=======
-                  "scope": 5565,
-                  "src": "319:10:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1229,13 +1193,8 @@
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "351:13:21",
-=======
-                  "scope": 5565,
-                  "src": "339:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1269,13 +1228,8 @@
                   "name": "amountETH",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5566,
                   "src": "390:14:21",
-=======
-                  "scope": 5565,
-                  "src": "377:14:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1298,13 +1252,8 @@
               ],
               "src": "376:16:21"
             },
-<<<<<<< HEAD
             "scope": 5632,
             "src": "156:250:21",
-=======
-            "scope": 5631,
-            "src": "150:243:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1331,13 +1280,8 @@
                   "name": "token",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "489:13:21",
-=======
-                  "scope": 5590,
-                  "src": "474:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1365,13 +1309,8 @@
                   "name": "liquidity",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "513:14:21",
-=======
-                  "scope": 5590,
-                  "src": "497:14:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1398,13 +1337,8 @@
                   "name": "amountTokenMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "538:19:21",
-=======
-                  "scope": 5590,
-                  "src": "521:19:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1431,13 +1365,8 @@
                   "name": "amountETHMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "568:17:21",
-=======
-                  "scope": 5590,
-                  "src": "550:17:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1464,13 +1393,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "596:10:21",
-=======
-                  "scope": 5590,
-                  "src": "577:10:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1498,13 +1422,8 @@
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "617:13:21",
-=======
-                  "scope": 5590,
-                  "src": "597:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1531,13 +1450,8 @@
                   "name": "approveMax",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "641:15:21",
-=======
-                  "scope": 5590,
-                  "src": "620:15:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1564,13 +1478,8 @@
                   "name": "v",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "658:7:21",
-=======
-                  "scope": 5590,
-                  "src": "637:7:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1597,13 +1506,8 @@
                   "name": "r",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "667:9:21",
-=======
-                  "scope": 5590,
-                  "src": "646:9:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1630,13 +1534,8 @@
                   "name": "s",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "678:9:21",
-=======
-                  "scope": 5590,
-                  "src": "657:9:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1670,13 +1569,8 @@
                   "name": "amountETH",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5591,
                   "src": "713:14:21",
-=======
-                  "scope": 5590,
-                  "src": "691:14:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1699,13 +1593,8 @@
               ],
               "src": "690:16:21"
             },
-<<<<<<< HEAD
             "scope": 5632,
             "src": "412:317:21",
-=======
-            "scope": 5631,
-            "src": "398:309:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1732,13 +1621,8 @@
                   "name": "amountIn",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5605,
                   "src": "810:13:21",
-=======
-                  "scope": 5604,
-                  "src": "785:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1765,13 +1649,8 @@
                   "name": "amountOutMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5605,
                   "src": "834:17:21",
-=======
-                  "scope": 5604,
-                  "src": "808:17:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1798,13 +1677,8 @@
                   "name": "path",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5605,
                   "src": "862:23:21",
-=======
-                  "scope": 5604,
-                  "src": "835:23:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1842,13 +1716,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5605,
                   "src": "896:10:21",
-=======
-                  "scope": 5604,
-                  "src": "868:10:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1876,13 +1745,8 @@
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5605,
                   "src": "917:13:21",
-=======
-                  "scope": 5604,
-                  "src": "888:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1911,13 +1775,8 @@
               "parameters": [],
               "src": "916:0:21"
             },
-<<<<<<< HEAD
             "scope": 5632,
             "src": "737:210:21",
-=======
-            "scope": 5631,
-            "src": "713:204:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1944,13 +1803,8 @@
                   "name": "amountOutMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5617,
                   "src": "1023:17:21",
-=======
-                  "scope": 5616,
-                  "src": "991:17:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1977,13 +1831,8 @@
                   "name": "path",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5617,
                   "src": "1051:23:21",
-=======
-                  "scope": 5616,
-                  "src": "1018:23:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2021,13 +1870,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5617,
                   "src": "1085:10:21",
-=======
-                  "scope": 5616,
-                  "src": "1051:10:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2055,13 +1899,8 @@
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5617,
                   "src": "1106:13:21",
-=======
-                  "scope": 5616,
-                  "src": "1071:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2090,13 +1929,8 @@
               "parameters": [],
               "src": "1107:0:21"
             },
-<<<<<<< HEAD
             "scope": 5632,
             "src": "953:191:21",
-=======
-            "scope": 5631,
-            "src": "922:186:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
@@ -2123,13 +1957,8 @@
                   "name": "amountIn",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5631,
                   "src": "1220:13:21",
-=======
-                  "scope": 5630,
-                  "src": "1182:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2156,13 +1985,8 @@
                   "name": "amountOutMin",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5631,
                   "src": "1244:17:21",
-=======
-                  "scope": 5630,
-                  "src": "1205:17:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2189,13 +2013,8 @@
                   "name": "path",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5631,
                   "src": "1272:23:21",
-=======
-                  "scope": 5630,
-                  "src": "1232:23:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -2233,13 +2052,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5631,
                   "src": "1306:10:21",
-=======
-                  "scope": 5630,
-                  "src": "1265:10:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2267,13 +2081,8 @@
                   "name": "deadline",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 5631,
                   "src": "1327:13:21",
-=======
-                  "scope": 5630,
-                  "src": "1285:13:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2302,25 +2111,15 @@
               "parameters": [],
               "src": "1313:0:21"
             },
-<<<<<<< HEAD
             "scope": 5632,
             "src": "1150:207:21",
-=======
-            "scope": 5631,
-            "src": "1113:201:21",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-<<<<<<< HEAD
         "scope": 5633,
         "src": "98:1262:21"
-=======
-        "scope": 5632,
-        "src": "93:1223:21"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:1284:21"
@@ -3558,11 +3357,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.875Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.808Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "methods": {}
   },

@@ -161,13 +161,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 6906,
                   "src": "656:15:24",
-=======
-                  "scope": 6905,
-                  "src": "642:15:24",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -191,13 +186,8 @@
               ],
               "src": "641:17:24"
             },
-<<<<<<< HEAD
             "scope": 6918,
             "src": "603:115:24",
-=======
-            "scope": 6917,
-            "src": "589:113:24",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": true,
             "visibility": "internal"
@@ -288,13 +278,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 6917,
                   "src": "777:12:24",
-=======
-                  "scope": 6916,
-                  "src": "759:12:24",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -317,25 +302,15 @@
               ],
               "src": "758:14:24"
             },
-<<<<<<< HEAD
             "scope": 6918,
             "src": "726:233:24",
-=======
-            "scope": 6917,
-            "src": "708:230:24",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": true,
             "visibility": "internal"
           }
         ],
-<<<<<<< HEAD
         "scope": 6919,
         "src": "570:392:24"
-=======
-        "scope": 6918,
-        "src": "557:383:24"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:908:24"
@@ -703,11 +678,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.926Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.821Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "methods": {}
   },

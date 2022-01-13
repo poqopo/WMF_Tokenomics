@@ -219,15 +219,9 @@
         "file": "../Common/Context.sol",
         "id": 8114,
         "nodeType": "ImportDirective",
-<<<<<<< HEAD
         "scope": 8192,
         "sourceUnit": 6919,
         "src": "60:31:28",
-=======
-        "scope": 8191,
-        "sourceUnit": 6918,
-        "src": "57:31:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -236,15 +230,9 @@
         "file": "../Math/SafeMath.sol",
         "id": 8115,
         "nodeType": "ImportDirective",
-<<<<<<< HEAD
         "scope": 8192,
         "sourceUnit": 8686,
         "src": "93:30:28",
-=======
-        "scope": 8191,
-        "sourceUnit": 8685,
-        "src": "89:30:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -300,13 +288,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8122,
                   "src": "426:7:28",
-=======
-                  "scope": 8121,
-                  "src": "412:7:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -329,13 +312,8 @@
               ],
               "src": "411:9:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "380:55:28",
-=======
-            "scope": 8190,
-            "src": "366:55:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -367,13 +345,8 @@
                   "name": "account",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8130,
                   "src": "542:15:28",
-=======
-                  "scope": 8129,
-                  "src": "523:15:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -408,13 +381,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8130,
                   "src": "582:7:28",
-=======
-                  "scope": 8129,
-                  "src": "563:7:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -437,13 +405,8 @@
               ],
               "src": "562:9:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "523:68:28",
-=======
-            "scope": 8190,
-            "src": "504:68:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -475,13 +438,8 @@
                   "name": "recipient",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8140,
                   "src": "838:17:28",
-=======
-                  "scope": 8139,
-                  "src": "810:17:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -509,13 +467,8 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8140,
                   "src": "857:14:28",
-=======
-                  "scope": 8139,
-                  "src": "829:14:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -549,13 +502,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8140,
                   "src": "891:4:28",
-=======
-                  "scope": 8139,
-                  "src": "863:4:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -578,13 +526,8 @@
               ],
               "src": "862:6:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "820:77:28",
-=======
-            "scope": 8190,
-            "src": "792:77:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -616,13 +559,8 @@
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8150,
                   "src": "1200:13:28",
-=======
-                  "scope": 8149,
-                  "src": "1163:13:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -650,13 +588,8 @@
                   "name": "spender",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8150,
                   "src": "1215:15:28",
-=======
-                  "scope": 8149,
-                  "src": "1178:15:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -691,13 +624,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8150,
                   "src": "1255:7:28",
-=======
-                  "scope": 8149,
-                  "src": "1218:7:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -720,13 +648,8 @@
               ],
               "src": "1217:9:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "1181:83:28",
-=======
-            "scope": 8190,
-            "src": "1144:83:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -758,13 +681,8 @@
                   "name": "spender",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8160,
                   "src": "1950:15:28",
-=======
-                  "scope": 8159,
-                  "src": "1897:15:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -792,13 +710,8 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8160,
                   "src": "1967:14:28",
-=======
-                  "scope": 8159,
-                  "src": "1914:14:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -832,13 +745,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8160,
                   "src": "2001:4:28",
-=======
-                  "scope": 8159,
-                  "src": "1948:4:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -861,13 +769,8 @@
               ],
               "src": "1947:6:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "1933:74:28",
-=======
-            "scope": 8190,
-            "src": "1880:74:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -899,13 +802,8 @@
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8172,
                   "src": "2347:14:28",
-=======
-                  "scope": 8171,
-                  "src": "2283:14:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -933,13 +831,8 @@
                   "name": "recipient",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8172,
                   "src": "2363:17:28",
-=======
-                  "scope": 8171,
-                  "src": "2299:17:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -967,13 +860,8 @@
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8172,
                   "src": "2382:14:28",
-=======
-                  "scope": 8171,
-                  "src": "2318:14:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1007,13 +895,8 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8172,
                   "src": "2416:4:28",
-=======
-                  "scope": 8171,
-                  "src": "2352:4:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1036,13 +919,8 @@
               ],
               "src": "2351:6:28"
             },
-<<<<<<< HEAD
             "scope": 8191,
             "src": "2325:97:28",
-=======
-            "scope": 8190,
-            "src": "2261:97:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1070,13 +948,8 @@
                   "name": "from",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8181,
                   "src": "2614:20:28",
-=======
-                  "scope": 8180,
-                  "src": "2542:20:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1105,13 +978,8 @@
                   "name": "to",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8181,
                   "src": "2636:18:28",
-=======
-                  "scope": 8180,
-                  "src": "2564:18:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1140,13 +1008,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8181,
                   "src": "2656:13:28",
-=======
-                  "scope": 8180,
-                  "src": "2584:13:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1194,13 +1057,8 @@
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8190,
                   "src": "2851:21:28",
-=======
-                  "scope": 8189,
-                  "src": "2773:21:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1229,13 +1087,8 @@
                   "name": "spender",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8190,
                   "src": "2874:23:28",
-=======
-                  "scope": 8189,
-                  "src": "2796:23:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1264,13 +1117,8 @@
                   "name": "value",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-<<<<<<< HEAD
                   "scope": 8190,
                   "src": "2899:13:28",
-=======
-                  "scope": 8189,
-                  "src": "2821:13:28",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1296,13 +1144,8 @@
             "src": "2758:78:28"
           }
         ],
-<<<<<<< HEAD
         "scope": 8192,
         "src": "282:2635:28"
-=======
-        "scope": 8191,
-        "src": "272:2566:28"
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
       }
     ],
     "src": "32:2808:28"
@@ -2361,11 +2204,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-<<<<<<< HEAD
   "updatedAt": "2022-01-12T11:14:15.976Z",
-=======
-  "updatedAt": "2022-01-12T06:43:16.834Z",
->>>>>>> 70017c01cbf45424da614a98234a87305a95bc99
   "devdoc": {
     "details": "Interface of the ERC20 standard as defined in the EIP. Does not include the optional functions; to access them see {ERC20Detailed}.",
     "methods": {
