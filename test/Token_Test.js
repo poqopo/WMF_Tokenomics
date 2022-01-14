@@ -1,6 +1,5 @@
 const We_Made_Future = artifacts.require('We_Made_Future')
-const We_Made_Future_USD = artifacts.require('We_Made_Future_USD')
-const temp_addres = "0x6EaD9ef7c00f513687c93a6AA3e46c498a671540"
+const We_Made_Future_USD = artifacts.require('WUSDstablecoin')
 
 
 require('chai')
@@ -16,8 +15,8 @@ contract('TokenDeploy', ([owner, investor1, investor2]) => {
 
   before(async () => {
     // Load Contracts
-    we_made_future = await We_Made_Future.new("WUSD", temp_addres)
-    we_made_future_USD = await We_Made_Future_USD.new("WMF", temp_addres, temp_addres)
+    we_made_future = await We_Made_Future.new("WUSD", owner)
+    we_made_future_USD = await We_Made_Future_USD.new("WMF", owner, owner)
 
     // Transfer all Dapp tokens to farm (1 million)
     await we_made_future.transfer(investor1, tokens('1000000'))
