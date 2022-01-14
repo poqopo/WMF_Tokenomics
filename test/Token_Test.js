@@ -15,8 +15,8 @@ contract('TokenDeploy', ([owner, investor1, investor2]) => {
 
   before(async () => {
     // Load Contracts
-    we_made_future = await We_Made_Future.new("WUSD", owner)
-    we_made_future_USD = await We_Made_Future_USD.new("WMF", owner, owner)
+    we_made_future = await We_Made_Future.new(We_Made_Future_USD, "We_Made_Future_USD", "WUSD", owner)
+    we_made_future_USD = await We_Made_Future_USD.new(We_Made_Future, "We_Made_Future", "WMF", "0x83F00b902cbf06E316C95F51cbEeD9D2572a349a", owner)
 
     // Transfer all Dapp tokens to farm (1 million)
     await we_made_future.transfer(investor1, tokens('1000000'))
@@ -39,16 +39,5 @@ contract('TokenDeploy', ([owner, investor1, investor2]) => {
     })
   })
 
-
-
-    it('investor1 has 1000000 we_made_future tokens', async () => {
-      let balance = await we_made_future.balanceOf(investor1)
-      assert.equal(balance.toString(), tokens('1000000'))
-    })
-
-    it('investor2 has 100 we_made_future tokens', async () => {
-      let balance = await we_made_future_USD.balanceOf(investor2)
-      assert.equal(balance.toString(), tokens('100'))
-    })
 
   })
