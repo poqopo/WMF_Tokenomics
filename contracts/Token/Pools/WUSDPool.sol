@@ -8,9 +8,7 @@ import "../Oracle/UniswapPairOracle.sol";
 import "./WUSDPoolLibrary.sol";
 import "../Owned.sol";
 import "../module/ERC20/ERC20.sol";
-
-
-
+import "../module/Math/SafeMath.sol";
 
 
 contract WUSDPool is Owned {
@@ -50,7 +48,7 @@ contract WUSDPool is Owned {
     uint256 private immutable missing_decimals;
     
     // Pool_ceiling is the total units of collateral that a pool contract can hold
-    uint256 public pool_ceiling = 0;
+    uint256 public pool_ceiling = 1000000e18;
 
     // Stores price of the collateral, if price is paused
     uint256 public pausedPrice = 0;
@@ -84,8 +82,7 @@ contract WUSDPool is Owned {
         address _WUSD_contract_address,
         address _WMF_contract_address,
         address _collateral_address,
-        address _creator_address,
-        uint256 _pool_ceiling
+        address _creator_address
     ) public Owned(_creator_address){
         require(
             (_WUSD_contract_address != address(0))
@@ -99,7 +96,6 @@ contract WUSDPool is Owned {
         WMF_contract_address = _WMF_contract_address;
         collateral_address = _collateral_address;
         collateral_token = ERC20(_collateral_address);
-        pool_ceiling = _pool_ceiling;
         missing_decimals = uint(18).sub(collateral_token.decimals());
     }
 

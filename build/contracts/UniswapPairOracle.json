@@ -398,7 +398,7 @@
         "id": 143,
         "nodeType": "ImportDirective",
         "scope": 457,
-        "sourceUnit": 2638,
+        "sourceUnit": 2637,
         "src": "60:53:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -409,7 +409,7 @@
         "id": 144,
         "nodeType": "ImportDirective",
         "scope": 457,
-        "sourceUnit": 2880,
+        "sourceUnit": 2879,
         "src": "115:50:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -420,7 +420,7 @@
         "id": 145,
         "nodeType": "ImportDirective",
         "scope": 457,
-        "sourceUnit": 8310,
+        "sourceUnit": 8309,
         "src": "167:39:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -431,7 +431,7 @@
         "id": 146,
         "nodeType": "ImportDirective",
         "scope": 457,
-        "sourceUnit": 4627,
+        "sourceUnit": 4626,
         "src": "210:47:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -442,7 +442,7 @@
         "id": 147,
         "nodeType": "ImportDirective",
         "scope": 457,
-        "sourceUnit": 4520,
+        "sourceUnit": 4519,
         "src": "259:41:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -501,10 +501,10 @@
               "id": 151,
               "name": "FixedPoint",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8309,
+              "referencedDeclaration": 8308,
               "src": "590:10:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_FixedPoint_$8309",
+                "typeIdentifier": "t_contract$_FixedPoint_$8308",
                 "typeString": "library FixedPoint"
               }
             },
@@ -663,7 +663,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
               "typeString": "contract IUniswapV2Pair"
             },
             "typeName": {
@@ -671,10 +671,10 @@
               "id": 162,
               "name": "IUniswapV2Pair",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2879,
+              "referencedDeclaration": 2878,
               "src": "890:14:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                 "typeString": "contract IUniswapV2Pair"
               }
             },
@@ -841,7 +841,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+              "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
               "typeString": "struct FixedPoint.uq112x112"
             },
             "typeName": {
@@ -849,10 +849,10 @@
               "id": 174,
               "name": "FixedPoint.uq112x112",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8074,
+              "referencedDeclaration": 8073,
               "src": "1135:20:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_uq112x112_$8074_storage_ptr",
+                "typeIdentifier": "t_struct$_uq112x112_$8073_storage_ptr",
                 "typeString": "struct FixedPoint.uq112x112"
               }
             },
@@ -872,7 +872,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+              "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
               "typeString": "struct FixedPoint.uq112x112"
             },
             "typeName": {
@@ -880,10 +880,10 @@
               "id": 176,
               "name": "FixedPoint.uq112x112",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 8074,
+              "referencedDeclaration": 8073,
               "src": "1183:20:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_uq112x112_$8074_storage_ptr",
+                "typeIdentifier": "t_struct$_uq112x112_$8073_storage_ptr",
                 "typeString": "struct FixedPoint.uq112x112"
               }
             },
@@ -913,7 +913,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                         "typeString": "contract IUniswapV2Pair"
                       },
                       "typeName": {
@@ -921,10 +921,10 @@
                         "id": 191,
                         "name": "IUniswapV2Pair",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2879,
+                        "referencedDeclaration": 2878,
                         "src": "1408:14:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                          "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                           "typeString": "contract IUniswapV2Pair"
                         }
                       },
@@ -1000,10 +1000,10 @@
                             "name": "UniswapV2Library",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4519,
+                            "referencedDeclaration": 4518,
                             "src": "1446:16:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_UniswapV2Library_$4519_$",
+                              "typeIdentifier": "t_type$_t_contract$_UniswapV2Library_$4518_$",
                               "typeString": "type(library UniswapV2Library)"
                             }
                           },
@@ -1014,7 +1014,7 @@
                           "lValueRequested": false,
                           "memberName": "pairFor",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4094,
+                          "referencedDeclaration": 4093,
                           "src": "1446:24:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$_t_address_$_t_address_$_t_address_$returns$_t_address_$",
@@ -1048,10 +1048,10 @@
                       "name": "IUniswapV2Pair",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2879,
+                      "referencedDeclaration": 2878,
                       "src": "1431:14:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_IUniswapV2Pair_$2879_$",
+                        "typeIdentifier": "t_type$_t_contract$_IUniswapV2Pair_$2878_$",
                         "typeString": "type(contract IUniswapV2Pair)"
                       }
                     },
@@ -1066,7 +1066,7 @@
                     "src": "1431:65:3",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                       "typeString": "contract IUniswapV2Pair"
                     }
                   },
@@ -1090,7 +1090,7 @@
                       "referencedDeclaration": 163,
                       "src": "1507:4:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                         "typeString": "contract IUniswapV2Pair"
                       }
                     },
@@ -1105,13 +1105,13 @@
                       "referencedDeclaration": 192,
                       "src": "1514:5:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                        "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                         "typeString": "contract IUniswapV2Pair"
                       }
                     },
                     "src": "1507:12:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                       "typeString": "contract IUniswapV2Pair"
                     }
                   },
@@ -1156,7 +1156,7 @@
                           "referencedDeclaration": 192,
                           "src": "1539:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                             "typeString": "contract IUniswapV2Pair"
                           }
                         },
@@ -1167,7 +1167,7 @@
                         "lValueRequested": false,
                         "memberName": "token0",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2807,
+                        "referencedDeclaration": 2806,
                         "src": "1539:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
@@ -1236,7 +1236,7 @@
                           "referencedDeclaration": 192,
                           "src": "1573:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                             "typeString": "contract IUniswapV2Pair"
                           }
                         },
@@ -1247,7 +1247,7 @@
                         "lValueRequested": false,
                         "memberName": "token1",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2812,
+                        "referencedDeclaration": 2811,
                         "src": "1573:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
@@ -1316,7 +1316,7 @@
                           "referencedDeclaration": 192,
                           "src": "1621:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                             "typeString": "contract IUniswapV2Pair"
                           }
                         },
@@ -1327,7 +1327,7 @@
                         "lValueRequested": false,
                         "memberName": "price0CumulativeLast",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2826,
+                        "referencedDeclaration": 2825,
                         "src": "1621:26:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1396,7 +1396,7 @@
                           "referencedDeclaration": 192,
                           "src": "1736:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                             "typeString": "contract IUniswapV2Pair"
                           }
                         },
@@ -1407,7 +1407,7 @@
                         "lValueRequested": false,
                         "memberName": "price1CumulativeLast",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2831,
+                        "referencedDeclaration": 2830,
                         "src": "1736:26:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1597,7 +1597,7 @@
                           "referencedDeclaration": 192,
                           "src": "1925:5:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                            "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                             "typeString": "contract IUniswapV2Pair"
                           }
                         },
@@ -1608,7 +1608,7 @@
                         "lValueRequested": false,
                         "memberName": "getReserves",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2821,
+                        "referencedDeclaration": 2820,
                         "src": "1925:17:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint112_$_t_uint112_$_t_uint32_$",
@@ -2447,10 +2447,10 @@
                         "name": "UniswapV2OracleLibrary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4626,
+                        "referencedDeclaration": 4625,
                         "src": "2626:22:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4626_$",
+                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4625_$",
                           "typeString": "type(library UniswapV2OracleLibrary)"
                         }
                       },
@@ -2461,7 +2461,7 @@
                       "lValueRequested": false,
                       "memberName": "currentBlockTimestamp",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4541,
+                      "referencedDeclaration": 4540,
                       "src": "2626:44:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint32_$",
@@ -2809,7 +2809,7 @@
                             "referencedDeclaration": 163,
                             "src": "2997:4:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                               "typeString": "contract IUniswapV2Pair"
                             }
                           }
@@ -2817,7 +2817,7 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                              "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                               "typeString": "contract IUniswapV2Pair"
                             }
                           ],
@@ -2872,10 +2872,10 @@
                         "name": "UniswapV2OracleLibrary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4626,
+                        "referencedDeclaration": 4625,
                         "src": "2942:22:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4626_$",
+                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4625_$",
                           "typeString": "type(library UniswapV2OracleLibrary)"
                         }
                       },
@@ -2886,7 +2886,7 @@
                       "lValueRequested": false,
                       "memberName": "currentCumulativePrices",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4625,
+                      "referencedDeclaration": 4624,
                       "src": "2942:46:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$_t_address_$returns$_t_uint256_$_t_uint256_$_t_uint32_$",
@@ -3123,7 +3123,7 @@
                       "referencedDeclaration": 175,
                       "src": "3450:13:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                        "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                         "typeString": "struct FixedPoint.uq112x112 storage ref"
                       }
                     },
@@ -3288,10 +3288,10 @@
                           "name": "FixedPoint",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8309,
+                          "referencedDeclaration": 8308,
                           "src": "3466:10:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8309_$",
+                            "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8308_$",
                             "typeString": "type(library FixedPoint)"
                           }
                         },
@@ -3302,10 +3302,10 @@
                         "lValueRequested": false,
                         "memberName": "uq112x112",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 8074,
+                        "referencedDeclaration": 8073,
                         "src": "3466:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_uq112x112_$8074_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_uq112x112_$8073_storage_ptr_$",
                           "typeString": "type(struct FixedPoint.uq112x112 storage pointer)"
                         }
                       },
@@ -3320,13 +3320,13 @@
                       "src": "3466:86:3",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_uq112x112_$8074_memory_ptr",
+                        "typeIdentifier": "t_struct$_uq112x112_$8073_memory_ptr",
                         "typeString": "struct FixedPoint.uq112x112 memory"
                       }
                     },
                     "src": "3450:102:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                      "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                       "typeString": "struct FixedPoint.uq112x112 storage ref"
                     }
                   },
@@ -3351,7 +3351,7 @@
                       "referencedDeclaration": 177,
                       "src": "3563:13:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                        "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                         "typeString": "struct FixedPoint.uq112x112 storage ref"
                       }
                     },
@@ -3516,10 +3516,10 @@
                           "name": "FixedPoint",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8309,
+                          "referencedDeclaration": 8308,
                           "src": "3579:10:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8309_$",
+                            "typeIdentifier": "t_type$_t_contract$_FixedPoint_$8308_$",
                             "typeString": "type(library FixedPoint)"
                           }
                         },
@@ -3530,10 +3530,10 @@
                         "lValueRequested": false,
                         "memberName": "uq112x112",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 8074,
+                        "referencedDeclaration": 8073,
                         "src": "3579:20:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_struct$_uq112x112_$8074_storage_ptr_$",
+                          "typeIdentifier": "t_type$_t_struct$_uq112x112_$8073_storage_ptr_$",
                           "typeString": "type(struct FixedPoint.uq112x112 storage pointer)"
                         }
                       },
@@ -3548,13 +3548,13 @@
                       "src": "3579:86:3",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_uq112x112_$8074_memory_ptr",
+                        "typeIdentifier": "t_struct$_uq112x112_$8073_memory_ptr",
                         "typeString": "struct FixedPoint.uq112x112 memory"
                       }
                     },
                     "src": "3563:102:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                      "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                       "typeString": "struct FixedPoint.uq112x112 storage ref"
                     }
                   },
@@ -3781,10 +3781,10 @@
                         "name": "UniswapV2OracleLibrary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4626,
+                        "referencedDeclaration": 4625,
                         "src": "4050:22:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4626_$",
+                          "typeIdentifier": "t_type$_t_contract$_UniswapV2OracleLibrary_$4625_$",
                           "typeString": "type(library UniswapV2OracleLibrary)"
                         }
                       },
@@ -3795,7 +3795,7 @@
                       "lValueRequested": false,
                       "memberName": "currentBlockTimestamp",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4541,
+                      "referencedDeclaration": 4540,
                       "src": "4050:44:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint32_$",
@@ -4337,7 +4337,7 @@
                                     "referencedDeclaration": 177,
                                     "src": "4599:13:3",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                                      "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                                       "typeString": "struct FixedPoint.uq112x112 storage ref"
                                     }
                                   },
@@ -4348,10 +4348,10 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 8197,
+                                  "referencedDeclaration": 8196,
                                   "src": "4599:17:3",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_function_internal_pure$_t_struct$_uq112x112_$8074_memory_ptr_$_t_uint256_$returns$_t_struct$_uq144x112_$8077_memory_ptr_$bound_to$_t_struct$_uq112x112_$8074_memory_ptr_$",
+                                    "typeIdentifier": "t_function_internal_pure$_t_struct$_uq112x112_$8073_memory_ptr_$_t_uint256_$returns$_t_struct$_uq144x112_$8076_memory_ptr_$bound_to$_t_struct$_uq112x112_$8073_memory_ptr_$",
                                     "typeString": "function (struct FixedPoint.uq112x112 memory,uint256) pure returns (struct FixedPoint.uq144x112 memory)"
                                   }
                                 },
@@ -4366,7 +4366,7 @@
                                 "src": "4599:27:3",
                                 "tryCall": false,
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_uq144x112_$8077_memory_ptr",
+                                  "typeIdentifier": "t_struct$_uq144x112_$8076_memory_ptr",
                                   "typeString": "struct FixedPoint.uq144x112 memory"
                                 }
                               },
@@ -4377,10 +4377,10 @@
                               "lValueRequested": false,
                               "memberName": "decode144",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 8258,
+                              "referencedDeclaration": 8257,
                               "src": "4599:37:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_pure$_t_struct$_uq144x112_$8077_memory_ptr_$returns$_t_uint144_$bound_to$_t_struct$_uq144x112_$8077_memory_ptr_$",
+                                "typeIdentifier": "t_function_internal_pure$_t_struct$_uq144x112_$8076_memory_ptr_$returns$_t_uint144_$bound_to$_t_struct$_uq144x112_$8076_memory_ptr_$",
                                 "typeString": "function (struct FixedPoint.uq144x112 memory) pure returns (uint144)"
                               }
                             },
@@ -4480,7 +4480,7 @@
                                     "referencedDeclaration": 175,
                                     "src": "4440:13:3",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_struct$_uq112x112_$8074_storage",
+                                      "typeIdentifier": "t_struct$_uq112x112_$8073_storage",
                                       "typeString": "struct FixedPoint.uq112x112 storage ref"
                                     }
                                   },
@@ -4491,10 +4491,10 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 8197,
+                                  "referencedDeclaration": 8196,
                                   "src": "4440:17:3",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_function_internal_pure$_t_struct$_uq112x112_$8074_memory_ptr_$_t_uint256_$returns$_t_struct$_uq144x112_$8077_memory_ptr_$bound_to$_t_struct$_uq112x112_$8074_memory_ptr_$",
+                                    "typeIdentifier": "t_function_internal_pure$_t_struct$_uq112x112_$8073_memory_ptr_$_t_uint256_$returns$_t_struct$_uq144x112_$8076_memory_ptr_$bound_to$_t_struct$_uq112x112_$8073_memory_ptr_$",
                                     "typeString": "function (struct FixedPoint.uq112x112 memory,uint256) pure returns (struct FixedPoint.uq144x112 memory)"
                                   }
                                 },
@@ -4509,7 +4509,7 @@
                                 "src": "4440:27:3",
                                 "tryCall": false,
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_struct$_uq144x112_$8077_memory_ptr",
+                                  "typeIdentifier": "t_struct$_uq144x112_$8076_memory_ptr",
                                   "typeString": "struct FixedPoint.uq144x112 memory"
                                 }
                               },
@@ -4520,10 +4520,10 @@
                               "lValueRequested": false,
                               "memberName": "decode144",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 8258,
+                              "referencedDeclaration": 8257,
                               "src": "4440:37:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_function_internal_pure$_t_struct$_uq144x112_$8077_memory_ptr_$returns$_t_uint144_$bound_to$_t_struct$_uq144x112_$8077_memory_ptr_$",
+                                "typeIdentifier": "t_function_internal_pure$_t_struct$_uq144x112_$8076_memory_ptr_$returns$_t_uint144_$bound_to$_t_struct$_uq144x112_$8076_memory_ptr_$",
                                 "typeString": "function (struct FixedPoint.uq144x112 memory) pure returns (uint144)"
                               }
                             },
@@ -4703,7 +4703,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 2638,
+          "SourceUnit": 2637,
           "absolutePath": "project:/contracts/Token/Uniswap/Interfaces/IUniswapV2Factory.sol",
           "file": "../Uniswap/Interfaces/IUniswapV2Factory.sol",
           "scope": 457,
@@ -4718,7 +4718,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 2880,
+          "SourceUnit": 2879,
           "absolutePath": "project:/contracts/Token/Uniswap/Interfaces/IUniswapV2Pair.sol",
           "file": "../Uniswap/Interfaces/IUniswapV2Pair.sol",
           "scope": 457,
@@ -4733,7 +4733,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 8310,
+          "SourceUnit": 8309,
           "absolutePath": "project:/contracts/Token/module/Math/FixedPoint.sol",
           "file": "../module/Math/FixedPoint.sol",
           "scope": 457,
@@ -4748,7 +4748,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 4627,
+          "SourceUnit": 4626,
           "absolutePath": "project:/contracts/Token/Uniswap/UniswapV2OracleLibrary.sol",
           "file": "../Uniswap/UniswapV2OracleLibrary.sol",
           "scope": 457,
@@ -4763,7 +4763,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 4520,
+          "SourceUnit": 4519,
           "absolutePath": "project:/contracts/Token/Uniswap/UniswapV2Library.sol",
           "file": "../Uniswap/UniswapV2Library.sol",
           "scope": 457,
@@ -4838,7 +4838,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "FixedPoint",
-                  "referencedDeclaration": 8309,
+                  "referencedDeclaration": 8308,
                   "type": "library FixedPoint"
                 },
                 "id": 151,
@@ -5004,7 +5004,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "IUniswapV2Pair",
-                  "referencedDeclaration": 2879,
+                  "referencedDeclaration": 2878,
                   "type": "contract IUniswapV2Pair"
                 },
                 "id": 162,
@@ -5182,7 +5182,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "FixedPoint.uq112x112",
-                  "referencedDeclaration": 8074,
+                  "referencedDeclaration": 8073,
                   "type": "struct FixedPoint.uq112x112"
                 },
                 "id": 174,
@@ -5213,7 +5213,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "FixedPoint.uq112x112",
-                  "referencedDeclaration": 8074,
+                  "referencedDeclaration": 8073,
                   "type": "struct FixedPoint.uq112x112"
                 },
                 "id": 176,
@@ -5435,7 +5435,7 @@
                             "attributes": {
                               "contractScope": null,
                               "name": "IUniswapV2Pair",
-                              "referencedDeclaration": 2879,
+                              "referencedDeclaration": 2878,
                               "type": "contract IUniswapV2Pair"
                             },
                             "id": 191,
@@ -5474,7 +5474,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2879,
+                              "referencedDeclaration": 2878,
                               "type": "type(contract IUniswapV2Pair)",
                               "value": "IUniswapV2Pair"
                             },
@@ -5519,7 +5519,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "pairFor",
-                                  "referencedDeclaration": 4094,
+                                  "referencedDeclaration": 4093,
                                   "type": "function (address,address,address) view returns (address)"
                                 },
                                 "children": [
@@ -5529,7 +5529,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4519,
+                                      "referencedDeclaration": 4518,
                                       "type": "type(library UniswapV2Library)",
                                       "value": "UniswapV2Library"
                                     },
@@ -5706,7 +5706,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "token0",
-                                  "referencedDeclaration": 2807,
+                                  "referencedDeclaration": 2806,
                                   "type": "function () view external returns (address)"
                                 },
                                 "children": [
@@ -5800,7 +5800,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "token1",
-                                  "referencedDeclaration": 2812,
+                                  "referencedDeclaration": 2811,
                                   "type": "function () view external returns (address)"
                                 },
                                 "children": [
@@ -5894,7 +5894,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "price0CumulativeLast",
-                                  "referencedDeclaration": 2826,
+                                  "referencedDeclaration": 2825,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -5988,7 +5988,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "price1CumulativeLast",
-                                  "referencedDeclaration": 2831,
+                                  "referencedDeclaration": 2830,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -6208,7 +6208,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "getReserves",
-                                  "referencedDeclaration": 2821,
+                                  "referencedDeclaration": 2820,
                                   "type": "function () view external returns (uint112,uint112,uint32)"
                                 },
                                 "children": [
@@ -7021,7 +7021,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "currentBlockTimestamp",
-                              "referencedDeclaration": 4541,
+                              "referencedDeclaration": 4540,
                               "type": "function () view returns (uint32)"
                             },
                             "children": [
@@ -7031,7 +7031,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4626,
+                                  "referencedDeclaration": 4625,
                                   "type": "type(library UniswapV2OracleLibrary)",
                                   "value": "UniswapV2OracleLibrary"
                                 },
@@ -7390,7 +7390,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "currentCumulativePrices",
-                              "referencedDeclaration": 4625,
+                              "referencedDeclaration": 4624,
                               "type": "function (address) view returns (uint256,uint256,uint32)"
                             },
                             "children": [
@@ -7400,7 +7400,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4626,
+                                  "referencedDeclaration": 4625,
                                   "type": "type(library UniswapV2OracleLibrary)",
                                   "value": "UniswapV2OracleLibrary"
                                 },
@@ -7433,7 +7433,7 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2879",
+                                      "typeIdentifier": "t_contract$_IUniswapV2Pair_$2878",
                                       "typeString": "contract IUniswapV2Pair"
                                     }
                                   ],
@@ -7748,7 +7748,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "uq112x112",
-                                  "referencedDeclaration": 8074,
+                                  "referencedDeclaration": 8073,
                                   "type": "type(struct FixedPoint.uq112x112 storage pointer)"
                                 },
                                 "children": [
@@ -7758,7 +7758,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 8309,
+                                      "referencedDeclaration": 8308,
                                       "type": "type(library FixedPoint)",
                                       "value": "FixedPoint"
                                     },
@@ -7990,7 +7990,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "uq112x112",
-                                  "referencedDeclaration": 8074,
+                                  "referencedDeclaration": 8073,
                                   "type": "type(struct FixedPoint.uq112x112 storage pointer)"
                                 },
                                 "children": [
@@ -8000,7 +8000,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 8309,
+                                      "referencedDeclaration": 8308,
                                       "type": "type(library FixedPoint)",
                                       "value": "FixedPoint"
                                     },
@@ -8522,7 +8522,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "currentBlockTimestamp",
-                              "referencedDeclaration": 4541,
+                              "referencedDeclaration": 4540,
                               "type": "function () view returns (uint32)"
                             },
                             "children": [
@@ -8532,7 +8532,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4626,
+                                  "referencedDeclaration": 4625,
                                   "type": "type(library UniswapV2OracleLibrary)",
                                   "value": "UniswapV2OracleLibrary"
                                 },
@@ -8968,7 +8968,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "decode144",
-                                          "referencedDeclaration": 8258,
+                                          "referencedDeclaration": 8257,
                                           "type": "function (struct FixedPoint.uq144x112 memory) pure returns (uint144)"
                                         },
                                         "children": [
@@ -9001,7 +9001,7 @@
                                                   "isPure": false,
                                                   "lValueRequested": false,
                                                   "member_name": "mul",
-                                                  "referencedDeclaration": 8197,
+                                                  "referencedDeclaration": 8196,
                                                   "type": "function (struct FixedPoint.uq112x112 memory,uint256) pure returns (struct FixedPoint.uq144x112 memory)"
                                                 },
                                                 "children": [
@@ -9243,7 +9243,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "decode144",
-                                          "referencedDeclaration": 8258,
+                                          "referencedDeclaration": 8257,
                                           "type": "function (struct FixedPoint.uq144x112 memory) pure returns (uint144)"
                                         },
                                         "children": [
@@ -9276,7 +9276,7 @@
                                                   "isPure": false,
                                                   "lValueRequested": false,
                                                   "member_name": "mul",
-                                                  "referencedDeclaration": 8197,
+                                                  "referencedDeclaration": 8196,
                                                   "type": "function (struct FixedPoint.uq112x112 memory,uint256) pure returns (struct FixedPoint.uq144x112 memory)"
                                                 },
                                                 "children": [
@@ -9374,7 +9374,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-14T15:50:35.872Z",
+  "updatedAt": "2022-01-15T09:27:22.795Z",
   "devdoc": {
     "methods": {}
   },
