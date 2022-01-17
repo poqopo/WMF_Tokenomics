@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethjs-util": "^0.1.6",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}

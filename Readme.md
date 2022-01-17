@@ -1,0 +1,14 @@
+WUSDStable Coin
+
+tx hash : 0xd55151b7464c06161b16a9eead2a0709b1c3314fdbd096adfb1a6ab80374b23e
+contract : 0x33F96272f18B067caC1A1aDf65b44feADF2f064c
+
+We_Made_Future
+
+tx hash : 0x544b0e700a2e51c981a4407ff7e01c465e9deddee38cfd97615f09d170bb16f0
+contract : 0xe7cB1d8902B372199ae07776Ac037207CBe1d6AA
+
+WUSDPool
+
+tx hash : 0x2773d22d0b0f92f9ca1b8ff5ad6a8578dd46c5e9a2f5ec812926ab226e9414ff 
+contract : 0x05d34b30ff80c31Ee053cd148c6F973Db5e082a1
