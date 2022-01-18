@@ -52,8 +52,7 @@ class App extends Component {
       let mintPaused = await WUSDPool.methods.mintPaused(this.state.account).call()
       this.setState({ mintPaused: mintPaused.toString() })
       let redeemPaused = await WUSDPool.methods.redeemPaused(this.state.account).call()
-      this.setState({ redeemPaused: redeemPaused.toString() })
-      let addpool = await WUSDStaablecoin.methods.addpool(WUSDPoolData.address)      
+      this.setState({ redeemPaused: redeemPaused.toString() })     
     } else {
       window.alert('WUSDPool contract not deployed to detected network.')
     }

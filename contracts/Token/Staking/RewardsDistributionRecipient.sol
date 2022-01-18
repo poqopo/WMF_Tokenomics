@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity >=0.6.11;
+pragma solidity =0.6.6;
 
 // Inheritance
-import "./Owned.sol";
+import "../Owned.sol";
 
 
 // https://docs.synthetix.io/contracts/RewardsDistributionRecipient

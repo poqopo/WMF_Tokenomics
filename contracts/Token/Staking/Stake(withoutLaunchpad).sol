@@ -1,324 +1,220 @@
-// SPDX-License-Identifier: GPL-2.0-or-later
-pragma solidity >=0.6.11;
-pragma experimental ABIEncoderV2;
+// SPDX-License-Identifier: MIT
+pragma solidity =0.6.6;
 
-import "../module/Math/Math.sol";
-import "../Math/SafeMath.sol";
-import "../ERC20/ERC20.sol";
-import '../Uniswap/TransferHelper.sol';
-import "../ERC20/SafeERC20.sol";
-import "../WUSD/WUSD.sol";
-import "../Utils/ReentrancyGuard.sol";
-import "../Utils/StringHelpers.sol";
+import "../module/Math/SafeMath.sol";
+import "../module/ERC20/SafeERC20.sol";
+import "../module/Common/Ownable.sol";
+import "../module/Utils/ReentrancyGuard.sol";
+import "../We_Made_Future.sol";
 
-// Inheritance
-import "./IStakingRewards.sol";
-import "./RewardsDistributionRecipient.sol";
-import "./Pausable.sol";
-
-contract StakingwithoutLaunchpad is IStakingRewards, RewardsDistributionRecipient, ReentrancyGuard, Pausable {
+contract WMFStake is Ownable, ReentrancyGuard {
     using SafeMath for uint256;
-    using SafeERC20 for ERC20;
+    using SafeERC20 for IERC20;
 
-    /* ========== STATE VARIABLES ========== */
-
-    WUSDStablecoin private WUSD;
-    ERC20 public rewardsToken;
-    ERC20 public stakingToken;
-    uint256 public periodFinish;
-
-    // Constant for various precisions
-    uint256 private constant PRICE_PRECISION = 1e6;
-
-    // Max reward per second
-    uint256 public rewardRate;
-
-    // uint256 public rewardsDuration = 86400 hours;
-    uint256 public rewardsDuration = 604800;
-
-    uint256 public lastUpdateTime;
-    uint256 public rewardPerTokenStored = 0;
-    uint256 public pool_weight; // This staking pool's percentage of the total WMF being distributed by all pools, 6 decimals of precision
-
-    address public owner_address;
-
-    mapping(address => uint256) public userRewardPerTokenPaid;
-    mapping(address => uint256) public rewards;
-
-    uint256 private _staking_token_supply = 0;
-    uint256 private _staking_token_boosted_supply = 0;
-    mapping(address => uint256) private _unlocked_balances;
-    mapping(address => uint256) private _boosted_balances;
-
-    mapping(address => bool) public greylist;
-
-    bool public unlockedStakes; // Release lock stakes in case of system migration
-
-    /* ========== CONSTRUCTOR ========== */
-
-    constructor (
-        address _owner,
-        address _rewardsDistribution,
-        address _rewardsToken,
-        address _stakingToken,
-        address _WUSD_address,
-        uint256 _pool_weight
-    ) public Owned(_owner){
-        owner_address = _owner;
-        rewardsToken = ERC20(_rewardsToken);
-        stakingToken = ERC20(_stakingToken);
-        WUSD = WUSDStablecoin(_WUSD_address);
-        rewardsDistribution = _rewardsDistribution;
-        lastUpdateTime = block.timestamp;
-        pool_weight = _pool_weight;
-        rewardRate = 380517503805175038; // (uint256(12000000e18)).div(365 * 86400); // Base emission rate of 12M WMF over the first year
-        rewardRate = rewardRate.mul(pool_weight).div(1e6);
-        unlockedStakes = false;
+    // Info of each user.
+    struct UserInfo {
+        uint256 amount;         // How many WMF tokens the user has provided.
+        uint256 rewardDebt;     // Reward debt. See explanation below.
     }
 
-    /* ========== VIEWS ========== */
-
-    function totalSupply() external override view returns (uint256) {
-        return _staking_token_supply;
+    // Info of each stake.
+    struct StakeInfo {
+        address StakeToken;           // Address of Stake token contract.
+        uint256 lastRewardSecond;  // Last second that WMFs distribution occurs.
+        uint256 accWMFPerShare;   // Accumulated WMFs per share, times 1e18. See below.
+        uint256 totalSupply;
     }
 
-    function totalBoostedSupply() external view returns (uint256) {
-        return _staking_token_boosted_supply;
+    // The WMF TOKEN!
+    We_Made_Future public immutable WMF;
+    // Dev address.
+    address public devaddr;
+    // WMF tokens created per second.
+    uint256 public WMFPerSecond;
+
+    // Info of each stake.
+    StakeInfo[] public stakeInfo;
+    // Info of each user that stakes LP tokens.
+    mapping(uint256 => mapping(address => UserInfo)) public userInfo;
+    // The block timestamp when WMF mining starts.
+    uint256 public startTime;
+
+    // Maximum WMFPerTime
+    uint256 public constant MAX_EMISSION_RATE = 500000000000000000;
+
+    constructor(
+        We_Made_Future _WMF,
+        address _devaddr,
+        uint256 _WMFPerTime,
+        uint256 _startTime
+    ) public {
+        WMF = _WMF;
+        devaddr = _devaddr;
+        WMFPerSecond = _WMFPerTime;
+        startTime = _startTime;
     }
 
-    function crBoostMultiplier() public view returns (uint256) {
-        uint256 multiplier = uint(MULTIPLIER_BASE).add((uint(MULTIPLIER_BASE).sub(WUSD.global_collateral_ratio())).mul(cr_boost_max_multiplier.sub(MULTIPLIER_BASE)).div(MULTIPLIER_BASE) );
-        return multiplier;
+    function stakeLength() external view returns (uint256) {
+        return stakeInfo.length;
     }
 
-    // Total unlocked and locked liquidity tokens
-    function balanceOf(address account) external override view returns (uint256) {
-        return _unlocked_balances[account];
-    }
-
-    // Total unlocked liquidity tokens
-    function unlockedBalanceOf(address account) external view returns (uint256) {
-        return _unlocked_balances[account];
-    }
-
-    // Total 'balance' used for calculating the percent of the pool the account owns
-    // Takes into account the locked stake time multiplier
-    function boostedBalanceOf(address account) external view returns (uint256) {
-        return _boosted_balances[account];
-    }
-
-    function lockedStakesOf(address account) external view returns (LockedStake[] memory) {
-        return lockedStakes[account];
-    }
-
-    function stakingDecimals() external view returns (uint256) {
-        return stakingToken.decimals();
-    }
-
-    function rewardsFor(address account) external view returns (uint256) {
-        // You may have use earned() instead, because of the order in which the contract executes 
-        return rewards[account];
-    }
-
-    function lastTimeRewardApplicable() internal view returns (uint256) {
-        return Math.min(block.timestamp, periodFinish);
-    }
-
-    function rewardPerToken() internal view returns (uint256) {
-        if (_staking_token_supply == 0) {
-            return rewardPerTokenStored;
+    // View function to see pending WMFs on frontend.
+    function pendingWMF(uint256 _sid, address _user) external view returns (uint256) {
+        StakeInfo storage stake = stakeInfo[_sid];
+        UserInfo storage user = userInfo[_sid][_user];
+        uint256 accWMFPerShare = stake.accWMFPerShare;
+        if (block.timestamp > stake.lastRewardSecond && stkae.totalSupply != 0) {
+            accWMFPerShare = accWMFPerShare.add(WMFPerSecond.mul(1e18).div(stake.totalSupply));
         }
-        else {
-            return rewardPerTokenStored.add(
-                lastTimeRewardApplicable().sub(lastUpdateTime).mul(rewardRate).mul(1e18).div(PRICE_PRECISION).div(_staking_token_boosted_supply)
-            );
+        return user.amount.mul(accWMFPerShare).div(1e18).sub(user.rewardDebt);
+    }
+
+    // Update reward variables of the given pool to be up-to-date.
+    function updateStake(uint256 _sid) public {
+        StakeInfo storage pool = stakeInfo[_sid];
+        if (block.timestamp <= pool.lastRewardSecond) {
+            return;
         }
-    }
-
-    function earned(address account) public override view returns (uint256) {
-        return _boosted_balances[account].mul(rewardPerToken().sub(userRewardPerTokenPaid[account])).div(1e18).add(rewards[account]);
-    }
-
-    // function earned(address account) public override view returns (uint256) {
-    //     return _balances[account].mul(rewardPerToken().sub(userRewardPerTokenPaid[account])).add(rewards[account]);
-    // }
-
-    function getRewardForDuration() external override view returns (uint256) {
-        return rewardRate.mul(rewardsDuration).mul(crBoostMultiplier()).div(PRICE_PRECISION);
-    }
-
-    /* ========== MUTATIVE FUNCTIONS ========== */
-
-    function stake(uint256 amount) external override nonReentrant notPaused updateReward(msg.sender) {
-        require(amount > 0, "Cannot stake 0");
-        require(greylist[msg.sender] == false, "address has been greylisted");
-
-        // Pull the tokens from the staker
-        TransferHelper.safeTransferFrom(address(stakingToken), msg.sender, address(this), amount);
-
-        // Staking token supply and boosted supply
-        _staking_token_supply = _staking_token_supply.add(amount);
-        _staking_token_boosted_supply = _staking_token_boosted_supply.add(amount);
-
-        // Staking token balance and boosted balance
-        _unlocked_balances[msg.sender] = _unlocked_balances[msg.sender].add(amount);
-        _boosted_balances[msg.sender] = _boosted_balances[msg.sender].add(amount);
-
-        emit Staked(msg.sender, amount);
-    }
-
-    function withdraw(uint256 amount) public override nonReentrant updateReward(msg.sender) {
-        require(amount > 0, "Cannot withdraw 0");
-
-        // Staking token balance and boosted balance
-        _unlocked_balances[msg.sender] = _unlocked_balances[msg.sender].sub(amount);
-        _boosted_balances[msg.sender] = _boosted_balances[msg.sender].sub(amount);
-
-        // Staking token supply and boosted supply
-        _staking_token_supply = _staking_token_supply.sub(amount);
-        _staking_token_boosted_supply = _staking_token_boosted_supply.sub(amount);
-
-        // Give the tokens to the withdrawer
-        stakingToken.safeTransfer(msg.sender, amount);
-        emit Withdrawn(msg.sender, amount);
-    }
-
-    function getReward() public override nonReentrant updateReward(msg.sender) {
-        uint256 reward = rewards[msg.sender];
-        if (reward > 0) {
-            rewards[msg.sender] = 0;
-            rewardsToken.transfer(msg.sender, reward);
-            emit RewardPaid(msg.sender, reward);
+        if (pool.lpSupply == 0 || pool.allocPoint == 0) {
+            pool.lastRewardSecond = block.timestamp;
+            return;
         }
-    }
-
-    // If the period expired, renew it
-    function retroCatchUp() internal {
-        // Failsafe check
-        require(block.timestamp > periodFinish, "Period has not expired yet!");
-
-        // Ensure the provided reward amount is not more than the balance in the contract.
-        // This keeps the reward rate in the right range, preventing overflows due to
-        // very high values of rewardRate in the earned and rewardsPerToken functions;
-        // Reward + leftover must be less than 2^256 / 10^18 to avoid overflow.
-        uint256 num_periods_elapsed = uint256(block.timestamp.sub(periodFinish)) / rewardsDuration; // Floor division to the nearest period
-        uint balance = rewardsToken.balanceOf(address(this));
-        require(rewardRate.mul(rewardsDuration).mul(crBoostMultiplier()).mul(num_periods_elapsed + 1).div(PRICE_PRECISION) <= balance, "Not enough WMF available");
-
-        // uint256 old_lastUpdateTime = lastUpdateTime;
-        // uint256 new_lastUpdateTime = block.timestamp;
-
-        // lastUpdateTime = periodFinish;
-        periodFinish = periodFinish.add((num_periods_elapsed.add(1)).mul(rewardsDuration));
-
-        rewardPerTokenStored = rewardPerToken();
-        lastUpdateTime = lastTimeRewardApplicable();
-
-        emit RewardsPeriodRenewed(address(stakingToken));
-    }
-
-    /* ========== RESTRICTED FUNCTIONS ========== */
-/*
-    // This notifies people that the reward is being changed
-    function notifyRewardAmount(uint256 reward) external override onlyRewardsDistribution updateReward(address(0)) {
-        // Needed to make compiler happy
-
+        uint256 multiplier = getMultiplier(pool.lastRewardSecond, block.timestamp);
+        uint256 WMFReward = multiplier.mul(WMFPerSecond).mul(pool.allocPoint).div(totalAllocPoint);
         
-        // if (block.timestamp >= periodFinish) {
-        //     rewardRate = reward.mul(crBoostMultiplier()).div(rewardsDuration).div(PRICE_PRECISION);
-        // } else {
-        //     uint256 remaining = periodFinish.sub(block.timestamp);
-        //     uint256 leftover = remaining.mul(rewardRate);
-        //     rewardRate = reward.mul(crBoostMultiplier()).add(leftover).div(rewardsDuration).div(PRICE_PRECISION);
-        // }
-
-        // // Ensure the provided reward amount is not more than the balance in the contract.
-        // // This keeps the reward rate in the right range, preventing overflows due to
-        // // very high values of rewardRate in the earned and rewardsPerToken functions;
-        // // Reward + leftover must be less than 2^256 / 10^18 to avoid overflow.
-        // uint balance = rewardsToken.balanceOf(address(this));
-        // require(rewardRate <= balance.div(rewardsDuration), "Provided reward too high");
-
-        // lastUpdateTime = block.timestamp;
-        // periodFinish = block.timestamp.add(rewardsDuration);
-        // emit RewardAdded(reward);
-    }
-*/
-
-    // Added to support recovering LP Rewards from other systems to be distributed to holders
-    function recoverERC20(address tokenAddress, uint256 tokenAmount) external onlyOwn {
-        // Admin cannot withdraw the staking token from the contract
-        require(tokenAddress != address(stakingToken));
-        ERC20(tokenAddress).transfer(owner_address, tokenAmount);
-        emit Recovered(tokenAddress, tokenAmount);
-    }
-
-    function setRewardsDuration(uint256 _rewardsDuration) external onlyOwn {
-        require(
-            periodFinish == 0 || block.timestamp > periodFinish,
-            "Reward period incomplete"
-        );
-        rewardsDuration = _rewardsDuration;
-        emit RewardsDurationUpdated(rewardsDuration);
-    }
-
-    function initializeDefault() external onlyOwn {
-        lastUpdateTime = block.timestamp;
-        periodFinish = block.timestamp.add(rewardsDuration);
-        emit DefaultInitialization();
-    }
-
-    function greylistAddress(address _address) external onlyOwn {
-        greylist[_address] = !(greylist[_address]);
-    }
-
-    function unlockStakes() external onlyOwn {
-        unlockedStakes = !unlockedStakes;
-    }
-
-    function setRewardRate(uint256 _new_rate) external onlyOwn {
-        rewardRate = _new_rate;
-    }
-
-    function setOwnerAndTimelock(address _new_owner) external onlyOwn {
-        owner_address = _new_owner;
-    }
-
-    /* ========== MODIFIERS ========== */
-
-    modifier updateReward(address account) {
-        // Need to retro-adjust some things if the period hasn't been renewed, then start a new one
-        if (block.timestamp > periodFinish) {
-            retroCatchUp();
+        try WMF.pool_mint(devaddr, WMFReward.div(10)) {
+        } catch (bytes memory reason) {
+            WMFReward = 0;
+            emit WMFMintError(reason);
         }
-        else {
-            rewardPerTokenStored = rewardPerToken();
-            lastUpdateTime = lastTimeRewardApplicable();
+        
+        try WMF.pool_mint(address(this), WMFReward) {
+        } catch (bytes memory reason) {
+            WMFReward = 0;
+            emit WMFMintError(reason);
         }
-        if (account != address(0)) {
-            rewards[account] = earned(account);
-            userRewardPerTokenPaid[account] = rewardPerTokenStored;
+        
+        pool.accWMFPerShare = pool.accWMFPerShare.add(WMFReward.mul(1e18).div(pool.lpSupply));
+        pool.lastRewardSecond = block.timestamp;
+    }
+    
+    // Deposit LP tokens to MasterChef for WMF allocation.
+    function deposit(uint256 _sid, uint256 _amount) external nonReentrant {
+        PoolInfo storage pool = poolInfo[_sid];
+        UserInfo storage user = userInfo[_sid][msg.sender];
+        updatePool(_sid);
+        if (user.amount > 0) {
+            uint256 pending = user.amount.mul(pool.accWMFPerShare).div(1e18).sub(user.rewardDebt);
+            if (pending > 0) {
+                safeWMFTransfer(msg.sender, pending);
+            }
         }
-        _;
+        if (_amount > 0) {
+            uint256 balanceBefore = pool.lpToken.balanceOf(address(this));
+            pool.lpToken.safeTransferFrom(address(msg.sender), address(this), _amount);
+            _amount = pool.lpToken.balanceOf(address(this)).sub(balanceBefore);
+            if (pool.depositFeeBP > 0) {
+                uint256 depositFee = _amount.mul(pool.depositFeeBP).div(10000);
+                pool.lpToken.safeTransfer(feeAddress, depositFee);
+                user.amount = user.amount.add(_amount).sub(depositFee);
+                pool.lpSupply = pool.lpSupply.add(_amount).sub(depositFee);
+            } else {
+                user.amount = user.amount.add(_amount);
+                pool.lpSupply = pool.lpSupply.add(_amount);
+            }
+        }
+
+        user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
+        emit Deposit(msg.sender, _sid, _amount);
     }
 
-    modifier onlyOwn() {
-        require(msg.sender == owner_address || msg.sender == timelock_address, "Not owner or timelock");
-        _;
+    // Withdraw LP tokens from WMFChef.
+    function withdraw(uint256 _sid, uint256 _amount) external nonReentrant {
+        PoolInfo storage pool = poolInfo[_sid];
+        UserInfo storage user = userInfo[_sid][msg.sender];
+        require(user.amount >= _amount, "withdraw: not good");
+        updatePool(_sid);
+        uint256 pending = user.amount.mul(pool.accWMFPerShare).div(1e18).sub(user.rewardDebt);
+        if (pending > 0) {
+            safeWMFTransfer(msg.sender, pending);
+        }
+        if (_amount > 0) {
+            user.amount = user.amount.sub(_amount);
+            pool.lpToken.safeTransfer(address(msg.sender), _amount);
+            pool.lpSupply = pool.lpSupply.sub(_amount);
+        }
+
+        user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
+        emit Withdraw(msg.sender, _sid, _amount);
     }
 
-    /* ========== EVENTS ========== */
+    // Withdraw without caring about rewards. EMERGENCY ONLY.
+    function emergencyWithdraw(uint256 _sid) external nonReentrant {
+        PoolInfo storage pool = poolInfo[_sid];
+        UserInfo storage user = userInfo[_sid][msg.sender];
+        uint256 amount = user.amount;
+        user.amount = 0;
+        user.rewardDebt = 0;
+        pool.lpToken.safeTransfer(address(msg.sender), amount);
 
-    event RewardAdded(uint256 reward);
-    event Staked(address indexed user, uint256 amount);
-    event StakeLocked(address indexed user, uint256 amount, uint256 secs);
-    event Withdrawn(address indexed user, uint256 amount);
-    event WithdrawnLocked(address indexed user, uint256 amount, bytes32 kek_id);
-    event RewardPaid(address indexed user, uint256 reward);
-    event RewardsDurationUpdated(uint256 newDuration);
-    event Recovered(address token, uint256 amount);
-    event RewardsPeriodRenewed(address token);
-    event DefaultInitialization();
-    event LockedStakeMinTime(uint256 secs);
-    event MaxCRBoostMultiplier(uint256 multiplier);
+        if (pool.lpSupply >=  amount) {
+            pool.lpSupply = pool.lpSupply.sub(amount);
+        } else {
+            pool.lpSupply = 0;
+        }
+
+        emit EmergencyWithdraw(msg.sender, _sid, amount);
+    }
+
+    // Safe WMF transfer function, just in case if rounding error causes pool to not have enough WMFs.
+    function safeWMFTransfer(address _to, uint256 _amount) internal {
+        uint256 WMFBal = WMF.balanceOf(address(this));
+        bool transferSuccess = false;
+        if (_amount > WMFBal) {
+            transferSuccess = WMF.transfer(_to, WMFBal);
+        } else {
+            transferSuccess = WMF.transfer(_to, _amount);
+        }
+        require(transferSuccess, "safeWMFTransfer: transfer failed");
+    }
+
+    // Update dev address.
+    function setDevAddress(address _devaddr) external {
+        require(msg.sender == devaddr, "dev: wut?");
+        require(_devaddr != address(0), "!nonzero");
+
+        devaddr = _devaddr;
+        emit SetDevAddress(msg.sender, _devaddr);
+    }
+
+ // Pancake has to add hidden dummy pools inorder to alter the emission, here we make it simple and transparent to all.
+    function updateEmissionRate(uint256 _WMFPerSecond) external onlyOwner {
+        require(_WMFPerSecond <= MAX_EMISSION_RATE, "Too high");
+        WMFPerSecond = _WMFPerSecond;
+        emit UpdateEmissionRate(msg.sender, _WMFPerSecond);
+    }
+
+    // Only update before start of farm
+    function updateStartTime(uint256 _newStartTime) external onlyOwner {
+        require(block.timestamp < startTime, "cannot change start time if farm has already started");
+        require(block.timestamp < _newStartTime, "cannot set start time in the past");
+        uint256 length = farmInfo.length;
+        for (uint256 sid = 0; sid < length; ++sid) {
+            FarmInfo storage farm = farmInfo[sid];
+            farm.lastRewardSecond = _newStartTime;
+        }
+        startTime = _newStartTime;
+
+        emit UpdateStartTime(startTime);
+    }
+
+
+    event Deposit(address indexed user, uint256 indexed sid, uint256 amount);
+    event Withdraw(address indexed user, uint256 indexed sid, uint256 amount);
+    event EmergencyWithdraw(address indexed user, uint256 indexed sid, uint256 amount);
+    event SetDevAddress(address indexed user, address indexed newAddress);
+    event UpdateEmissionRate(address indexed user, uint256 WMFPerSecond);
+    event UpdateStartTime(uint256 newStartTime);
+    event WMFMintError(bytes reason);
+
 }

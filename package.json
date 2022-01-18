@@ -5,7 +5,9 @@
     "chai-as-promised": "^7.1.1",
     "ethereumjs-wallet": "^1.0.2",
     "ethjs-util": "^0.1.6",
-    "truffle-contract-size": "^2.0.1",
-    "truffle-plugin-verify": "^0.5.15"
+    "truffle-contract-size": "^2.0.1"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.20"
   }
 }

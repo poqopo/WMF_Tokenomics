@@ -1,15 +1,13 @@
-// SPDX-License-Identifier: None
-pragma solidity = 0.6.6;
+// SPDX-License-Identifier: MIT
+pragma solidity =0.6.6;
 
-import "../Utils/ReentrancyGuard.sol";
 import "../module/Math/SafeMath.sol";
-import "../module/Common/Ownable.sol";
 import "../module/ERC20/SafeERC20.sol";
-import "../We_Made_Future_USD.sol";
-import "./Pausable.sol";
-import "../module/ERC20/IERC20.sol";
+import "../module/Common/Ownable.sol";
+import "../module/Utils/ReentrancyGuard.sol";
+import "../We_Made_Future.sol";
 
-contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
+contract WMFChef is Ownable, ReentrancyGuard {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
@@ -32,7 +30,7 @@ contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
 
     // Info of each pool.
     struct PoolInfo {
-        address lpToken;           // Address of LP token contract.
+        IERC20 lpToken;           // Address of LP token contract.
         uint256 allocPoint;       // How many allocation points assigned to this pool.
         uint256 lastRewardSecond;  // Last second that WMFs distribution occurs.
         uint256 accWMFPerShare;   // Accumulated WMFs per share, times 1e18. See below.
@@ -163,20 +161,24 @@ contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
         uint256 multiplier = getMultiplier(pool.lastRewardSecond, block.timestamp);
         uint256 WMFReward = multiplier.mul(WMFPerSecond).mul(pool.allocPoint).div(totalAllocPoint);
         
-        try WMF.mint(devaddr, WMFReward.div(10)) {
+        try WMF.pool_mint(devaddr, WMFReward.div(10)) {
         } catch (bytes memory reason) {
             WMFReward = 0;
             emit WMFMintError(reason);
         }
         
-        try WMF.mint(address(this), WMFReward) {
+        try WMF.pool_mint(address(this), WMFReward) {
         } catch (bytes memory reason) {
             WMFReward = 0;
             emit WMFMintError(reason);
         }
-        if (5e12 < pool.lpSupply) 
 
-
+        if (5e12 < pool.lpSupply && pool.lpSupply < 10e12) {
+            pool.depositFeeBP = 200;
+        }
+        else if (pool.lpSupply > 10e12) {
+            pool.depositFeeBP = 0;
+        }
         
         pool.accWMFPerShare = pool.accWMFPerShare.add(WMFReward.mul(1e18).div(pool.lpSupply));
         pool.lastRewardSecond = block.timestamp;
@@ -207,6 +209,7 @@ contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
                 pool.lpSupply = pool.lpSupply.add(_amount);
             }
         }
+
         user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
         emit Deposit(msg.sender, _pid, _amount);
     }
@@ -226,6 +229,7 @@ contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
             pool.lpToken.safeTransfer(address(msg.sender), _amount);
             pool.lpSupply = pool.lpSupply.sub(_amount);
         }
+
         user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
         emit Withdraw(msg.sender, _pid, _amount);
     }
@@ -297,6 +301,7 @@ contract WMF_Farm is Ownable, ReentrancyGuard, Pausable {
 
         emit UpdateStartTime(startTime);
     }
+
 
     event Deposit(address indexed user, uint256 indexed pid, uint256 amount);
     event Withdraw(address indexed user, uint256 indexed pid, uint256 amount);
