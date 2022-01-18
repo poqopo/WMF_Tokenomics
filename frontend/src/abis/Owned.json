@@ -98,7 +98,7 @@
   "sourceMap": "123:949:4:-:0;;;210:186;5:9:-1;2:2;;;27:1;24;17:12;2:2;210:186:4;;;;;;;;;;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;210:186:4;;;;;;;;;;;;;;;;283:1;265:20;;:6;:20;;;;257:58;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;334:6;326:5;;:14;;;;;;;;;;;;;;;;;;356:32;377:1;381:6;356:32;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;210:186;123:949;;;;;;",
   "deployedSourceMap": "123:949:4:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;123:949:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;404:141:4;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;404:141:4;;;;;;;;;;;;;;;;;;;:::i;:::-;;172:29;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;553:271;;;:::i;:::-;;145:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;404:141;884:5;;;;;;;;;;;870:19;;:10;:19;;;862:79;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;493:6:::1;476:14;;:23;;;;;;;;;;;;;;;;;;515:22;530:6;515:22;;;;;;;;;;;;;;;;;;;;;;404:141:::0;:::o;172:29::-;;;;;;;;;;;;;:::o;553:271::-;622:14;;;;;;;;;;;608:28;;:10;:28;;;600:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;710:35;723:5;;;;;;;;;;;730:14;;;;;;;;;;;710:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;764:14;;;;;;;;;;;756:5;;:22;;;;;;;;;;;;;;;;;;814:1;789:14;;:27;;;;;;;;;;;;;;;;;;553:271::o;145:20::-;;;;;;;;;;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-2.0-or-later\r\npragma solidity =0.6.6;\r\n\r\n// https://docs.synthetix.io/contracts/Owned\r\n\r\n\r\ncontract Owned {\r\n    address public owner;\r\n    address public nominatedOwner;\r\n\r\n    constructor (address _owner) public {\r\n        require(_owner != address(0), \"Owner address cannot be 0\");\r\n        owner = _owner;\r\n        emit OwnerChanged(address(0), _owner);\r\n    }\r\n\r\n    function nominateNewOwner(address _owner) external onlyOwner {\r\n        nominatedOwner = _owner;\r\n        emit OwnerNominated(_owner);\r\n    }\r\n\r\n    function acceptOwnership() external {\r\n        require(msg.sender == nominatedOwner, \"You must be nominated before you can accept ownership\");\r\n        emit OwnerChanged(owner, nominatedOwner);\r\n        owner = nominatedOwner;\r\n        nominatedOwner = address(0);\r\n    }\r\n\r\n    modifier onlyOwner {\r\n        require(msg.sender == owner, \"Only the contract owner may perform this action\");\r\n        _;\r\n    }\r\n\r\n    event OwnerNominated(address newOwner);\r\n    event OwnerChanged(address oldOwner, address newOwner);\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\Owned.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Owned.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/Owned.sol",
     "exportedSymbols": {
@@ -2919,7 +2919,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T14:59:42.281Z",
+  "updatedAt": "2022-01-17T15:48:07.904Z",
   "devdoc": {
     "methods": {}
   },

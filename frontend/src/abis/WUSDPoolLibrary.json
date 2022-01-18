@@ -23,8 +23,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -48,8 +47,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -73,8 +71,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -103,8 +100,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -148,8 +144,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"col_price\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"collateral_amount_d18\",\"type\":\"uint256\"}],\"name\":\"calcMint1t1WUSD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"WMF_price_usd\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"WMF_amount_d18\",\"type\":\"uint256\"}],\"name\":\"calcMintAlgorithmicWUSD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"collateral_amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"col_price\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"global_collat_value\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"WUSD_total_supply\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"global_collateral_ratio\",\"type\":\"uint256\"}],\"name\":\"calcRecollateralizeWUSDInner\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"col_price_usd\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"WUSD_amount\",\"type\":\"uint256\"}],\"name\":\"calcRedeem1t1WUSD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"total_supply\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"global_collateral_ratio\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"global_collat_value\",\"type\":\"uint256\"}],\"name\":\"recollateralizeAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Token/Pools/WUSDPoolLibrary.sol\":\"WUSDPoolLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Token/Pools/WUSDPoolLibrary.sol\":{\"keccak256\":\"0x71d8131674762b54517958b195a986030fbb503e387fba6bb79a87800bf2bb36\",\"urls\":[\"bzz-raw://cbd4698d97c218a61ab940d0f95a21687fbe377c3598fe418a8ad73d014ca8e8\",\"dweb:/ipfs/QmXVMF7my2n3pVdkbUeNsAw8J7WDWcssfxfenSiWbeU2hp\"]},\"project:/contracts/Token/module/math/SafeMathupgradeable.sol\":{\"keccak256\":\"0x92dc2fd8d3572c0bd2d68772c9a7fef97f56da24a3743828afaa3eea195e3008\",\"urls\":[\"bzz-raw://9b55da655791807bb247ff2eb0543623ff646dcb44d1bc604c9bb6785f481700\",\"dweb:/ipfs/QmUPXN5nk3xg5nSN77edkbRZEK5cRRDaNr6sQrzd7YfLxr\"]}},\"version\":1}",
@@ -159,7 +154,7 @@
   "sourceMap": "127:5383:6:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "127:5383:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;3877:671:6;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;3877:671:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;821:178;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;821:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1007;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;1007:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;4556:949;;;;;;15:3:-1;10;7:12;4:2;;;32:1;29;22:12;4:2;4556:949:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;2452:166;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;2452:166:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;3877:671;4013:7;4033:27;4063:50;4109:3;4063:41;4080:23;4063:12;:16;;:41;;;;:::i;:::-;:45;;:50;;;;:::i;:::-;4033:80;;4378:44;4402:19;4378;:23;;:44;;;;:::i;:::-;4371:51;;;3877:671;;;;;:::o;821:178::-;917:7;944:47;987:3;945:36;971:9;945:21;:25;;:36;;;;:::i;:::-;944:42;;:47;;;;:::i;:::-;937:54;;821:178;;;;:::o;1007:::-;1108:7;1135:42;1173:3;1135:33;1154:13;1135:14;:18;;:33;;;;:::i;:::-;:37;;:42;;;;:::i;:::-;1128:49;;1007:178;;;;:::o;4556:949::-;4803:7;4812;4832:30;4865:41;4902:3;4865:32;4887:9;4865:17;:21;;:32;;;;:::i;:::-;:36;;:41;;;;:::i;:::-;4832:74;;4917:34;4954:51;4987:17;4954:28;4978:3;4954:19;:23;;:28;;;;:::i;:::-;:32;;:51;;;;:::i;:::-;4917:88;;5036:25;5064:112;5172:3;5065:101;5116:49;5138:26;5116:17;:21;;:49;;;;:::i;:::-;5065:46;5093:17;5065:23;:27;;:46;;;;:::i;:::-;:50;;:101;;;;:::i;:::-;5064:107;;:112;;;;:::i;:::-;5036:140;;5189:26;5255:17;5229:22;:43;5226:188;;5309:22;5288:43;;5226:188;;;5385:17;5364:38;;5226:188;5434:42;5466:9;5434:27;5457:3;5434:18;:22;;:27;;;;:::i;:::-;:31;;:42;;;;:::i;:::-;5478:18;5426:71;;;;;;;;4556:949;;;;;;;;:::o;2452:166::-;2544:7;2571:39;2596:13;2571:20;2587:3;2571:11;:15;;:20;;;;:::i;:::-;:24;;:39;;;;:::i;:::-;2564:46;;2452:166;;;;:::o;2255:482:36:-;2313:7;2563:1;2558;:6;2554:47;;;2588:1;2581:8;;;;2554:47;2613:9;2629:1;2625;:5;2613:17;;2658:1;2653;2649;:5;;;;;;:10;2641:67;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2728:1;2721:8;;;2255:482;;;;;:::o;3205:143::-;3263:7;3290:50;3294:1;3297;3290:50;;;;;;;;;;;;;;;;;:3;:50::i;:::-;3283:57;;3205:143;;;;:::o;1370:147::-;1428:7;1455:54;1459:1;1462;1455:54;;;;;;;;;;;;;;;;;:3;:54::i;:::-;1448:61;;1370:147;;;;:::o;3836:345::-;3922:7;4021:1;4017;:5;4024:12;4009:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;4009:28:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4048:9;4064:1;4060;:5;;;;;;4048:17;;4172:1;4165:8;;;3836:345;;;;;:::o;1812:192::-;1898:7;1931:1;1926;:6;;1934:12;1918:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1918:29:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1958:9;1974:1;1970;:5;1958:17;;1995:1;1988:8;;;1812:192;;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-2.0-or-later\r\npragma solidity =0.6.6;\r\n\r\nimport '../module/math/SafeMathupgradeable.sol';\r\n\r\n\r\nlibrary WUSDPoolLibrary {\r\n    using SafeMathUpgradeSafe for uint256;\r\n\r\n    // Constants for various precisions\r\n    uint256 private constant PRICE_PRECISION = 1e6;\r\n\r\n    // ================ Structs ================\r\n    // Needed to lower stack size\r\n    struct MintFF_Params {\r\n        uint256 WMF_price_usd; \r\n        uint256 col_price_usd;\r\n        uint256 WMF_amount;\r\n        uint256 collateral_amount;\r\n        uint256 col_ratio;\r\n    }\r\n\r\n    struct BuybackWMF_Params {\r\n        uint256 excess_collateral_dollar_value_d18;\r\n        uint256 WMF_price_usd;\r\n        uint256 col_price_usd;\r\n        uint256 WMF_amount;\r\n    }\r\n\r\n    // ================ Functions ================\r\n\r\n    function calcMint1t1WUSD(uint256 col_price, uint256 collateral_amount_d18) public pure returns (uint256) {\r\n        return (collateral_amount_d18.mul(col_price)).div(1e6);\r\n    }\r\n\r\n    function calcMintAlgorithmicWUSD(uint256 WMF_price_usd, uint256 WMF_amount_d18) public pure returns (uint256) {\r\n        return WMF_amount_d18.mul(WMF_price_usd).div(1e6);\r\n    }\r\n\r\n    // Must be internal because of the struct\r\n    function calcMintFractionalWUSD(MintFF_Params memory params) internal pure returns (uint256, uint256) {\r\n        // Since solidity truncates division, every division operation must be the last operation in the equation to ensure minimum error\r\n        // The contract must check the proper ratio was sent to mint WUSD. We do this by seeing the minimum mintable WUSD based on each amount \r\n        uint256 WMF_dollar_value_d18;\r\n        uint256 c_dollar_value_d18;\r\n        \r\n        // Scoping for stack concerns\r\n        {    \r\n            // USD amounts of the collateral and the WMF\r\n            WMF_dollar_value_d18 = params.WMF_amount.mul(params.WMF_price_usd).div(1e6);\r\n            c_dollar_value_d18 = params.collateral_amount.mul(params.col_price_usd).div(1e6);\r\n\r\n        }\r\n        uint calculated_WMF_dollar_value_d18 = \r\n                    (c_dollar_value_d18.mul(1e6).div(params.col_ratio))\r\n                    .sub(c_dollar_value_d18);\r\n\r\n        uint calculated_WMF_needed = calculated_WMF_dollar_value_d18.mul(1e6).div(params.WMF_price_usd);\r\n\r\n        return (\r\n            c_dollar_value_d18.add(calculated_WMF_dollar_value_d18),\r\n            calculated_WMF_needed\r\n        );\r\n    }\r\n\r\n    function calcRedeem1t1WUSD(uint256 col_price_usd, uint256 WUSD_amount) public pure returns (uint256) {\r\n        return WUSD_amount.mul(1e6).div(col_price_usd);\r\n    }\r\n\r\n    // Must be internal because of the struct\r\n    function calcBuyBackWMF(BuybackWMF_Params memory params) internal pure returns (uint256) {\r\n        // If the total collateral value is higher than the amount required at the current collateral ratio then buy back up to the possible WMF with the desired collateral\r\n        require(params.excess_collateral_dollar_value_d18 > 0, \"No excess collateral to buy back!\");\r\n\r\n        // Make sure not to take more than is available\r\n        uint256 WMF_dollar_value_d18 = params.WMF_amount.mul(params.WMF_price_usd).div(1e6);\r\n        require(WMF_dollar_value_d18 <= params.excess_collateral_dollar_value_d18, \"You are trying to buy back more than the excess!\");\r\n\r\n        // Get the equivalent amount of collateral based on the market value of WMF provided \r\n        uint256 collateral_equivalent_d18 = WMF_dollar_value_d18.mul(1e6).div(params.col_price_usd);\r\n        //collateral_equivalent_d18 = collateral_equivalent_d18.sub((collateral_equivalent_d18.mul(params.buyback_fee)).div(1e6));\r\n\r\n        return (\r\n            collateral_equivalent_d18\r\n        );\r\n\r\n    }\r\n\r\n\r\n    // Returns value of collateral that must increase to reach recollateralization target (if 0 means no recollateralization)\r\n    function recollateralizeAmount(uint256 total_supply, uint256 global_collateral_ratio, uint256 global_collat_value) public pure returns (uint256) {\r\n        uint256 target_collat_value = total_supply.mul(global_collateral_ratio).div(1e6); // We want 18 decimals of precision so divide by 1e6; total_supply is 1e18 and global_collateral_ratio is 1e6\r\n        // Subtract the current value of collateral from the target value needed, if higher than 0 then system needs to recollateralize\r\n        return target_collat_value.sub(global_collat_value); // If recollateralization is not needed, throws a subtraction underflow\r\n        // return(recollateralization_left);\r\n    }\r\n\r\n    function calcRecollateralizeWUSDInner(\r\n        uint256 collateral_amount, \r\n        uint256 col_price,\r\n        uint256 global_collat_value,\r\n        uint256 WUSD_total_supply,\r\n        uint256 global_collateral_ratio\r\n    ) public pure returns (uint256, uint256) {\r\n        uint256 collat_value_attempted = collateral_amount.mul(col_price).div(1e6);\r\n        uint256 effective_collateral_ratio = global_collat_value.mul(1e6).div(WUSD_total_supply); //returns it in 1e6\r\n        uint256 recollat_possible = (global_collateral_ratio.mul(WUSD_total_supply).sub(WUSD_total_supply.mul(effective_collateral_ratio))).div(1e6);\r\n\r\n        uint256 amount_to_recollat;\r\n        if(collat_value_attempted <= recollat_possible){\r\n            amount_to_recollat = collat_value_attempted;\r\n        } else {\r\n            amount_to_recollat = recollat_possible;\r\n        }\r\n\r\n        return (amount_to_recollat.mul(1e6).div(col_price), amount_to_recollat);\r\n    }\r\n\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\Pools\\WUSDPoolLibrary.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Pools\\WUSDPoolLibrary.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/Pools/WUSDPoolLibrary.sol",
     "exportedSymbols": {
@@ -9698,8 +9693,7 @@
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T15:03:48.214Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-01-17T15:48:07.944Z",
   "devdoc": {
     "methods": {}
   },

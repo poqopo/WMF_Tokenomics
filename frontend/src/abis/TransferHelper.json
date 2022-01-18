@@ -8,7 +8,7 @@
   "sourceMap": "172:1373:12:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "172:1373:12:-:0;;;;;;12:1:-1;9;2:12",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.6.6;\r\n\r\n// helper methods for interacting with ERC20 tokens and sending ETH that do not consistently return true/false\r\nlibrary TransferHelper {\r\n    function safeApprove(address token, address to, uint value) internal {\r\n        // bytes4(keccak256(bytes('approve(address,uint256)')));\r\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0x095ea7b3, to, value));\r\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: APPROVE_FAILED');\r\n    }\r\n\r\n    function safeTransfer(address token, address to, uint value) internal {\r\n        // bytes4(keccak256(bytes('transfer(address,uint256)')));\r\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0xa9059cbb, to, value));\r\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FAILED');\r\n    }\r\n\r\n    function safeTransferFrom(address token, address from, address to, uint value) internal {\r\n        // bytes4(keccak256(bytes('transferFrom(address,address,uint256)')));\r\n        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0x23b872dd, from, to, value));\r\n        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');\r\n    }\r\n\r\n    function safeTransferETH(address to, uint value) internal {\r\n        (bool success,) = to.call{value:value}(new bytes(0));\r\n        require(success, 'TransferHelper: ETH_TRANSFER_FAILED');\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\Uniswap\\TransferHelper.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Uniswap\\TransferHelper.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/Uniswap/TransferHelper.sol",
     "exportedSymbols": {
@@ -4996,7 +4996,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T14:59:42.420Z",
+  "updatedAt": "2022-01-17T15:48:07.983Z",
   "devdoc": {
     "methods": {}
   },

@@ -40,7 +40,7 @@
   "sourceMap": "101:689:2:-:0;;;195:118;5:9:-1;2:2;;;27:1;24;17:12;2:2;195:118:2;262:42;228:9;;:77;;;;;;;;;;;;;;;;;;101:689;;;;;;",
   "deployedSourceMap": "101:689:2:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;101:689:2;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;372:310:2;;;:::i;:::-;;;;;;;;;;;;;;;;;;;690:97;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;372:310;419:3;436:14;452:9;465:17;484:22;510:9;;;;;;;;;;;:25;;;:27;;;;;;;;;;;;;;;;;;;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;510:27:2;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;510:27:2;;;;;;;15:3:-1;10;7:12;4:2;;;32:1;29;22:12;4:2;510:27:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;435:102;;;;;;;;;565:1;556:5;:10;;:27;;;;;582:1;570:9;:13;;556:27;:57;;;;;606:7;587:26;;:15;:26;;;;556:57;548:93;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;669:5;662:12;;;;;;372:310;:::o;690:97::-;734:5;759:9;;;;;;;;;;;:18;;;:20;;;;;;;;;;;;;;;;;;;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;759:20:2;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;759:20:2;;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;759:20:2;;;;;;;;;;;;;;;;752:27;;690:97;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.6.6;\r\n\r\nimport \"./AggregatorV3Interface.sol\";\r\n\r\ncontract ChainlinkETHUSDPriceConsumer {\r\n\r\n    AggregatorV3Interface internal priceFeed;\r\n    constructor () public {\r\n        priceFeed = AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);\r\n    }\r\n\r\n    /**\r\n     * Returns the latest price\r\n     */\r\n    function getLatestPrice() public view returns (int) {\r\n        (uint80 roundID, int price, , uint256 updatedAt, uint80 answeredInRound) = priceFeed.latestRoundData();\r\n        require(price >= 0 && updatedAt!= 0 && answeredInRound >= roundID, \"Invalid chainlink price\");\r\n        \r\n        return price;\r\n    }\r\n\r\n    function getDecimals() public view returns (uint8) {\r\n        return priceFeed.decimals();\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\Oracle\\ChainlinkETHUSDPriceConsumer.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Oracle\\ChainlinkETHUSDPriceConsumer.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/Oracle/ChainlinkETHUSDPriceConsumer.sol",
     "exportedSymbols": {
@@ -1817,7 +1817,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T14:59:42.253Z",
+  "updatedAt": "2022-01-17T15:48:07.890Z",
   "devdoc": {
     "methods": {}
   },

@@ -37,7 +37,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.6.6;\r\n\r\ninterface IUniswapV2Callee {\r\n    function uniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\Uniswap\\interfaces\\IUniswapV2Callee.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Uniswap\\interfaces\\IUniswapV2Callee.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/Uniswap/interfaces/IUniswapV2Callee.sol",
     "exportedSymbols": {
@@ -436,7 +436,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T14:59:42.453Z",
+  "updatedAt": "2022-01-17T15:48:08.016Z",
   "devdoc": {
     "methods": {}
   },

@@ -8,7 +8,7 @@
   "sourceMap": "200:355:29:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
   "deployedSourceMap": "200:355:29:-:0;;;;;;12:1:-1;9;2:12",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.6.6;\r\n\r\n// computes square roots using the babylonian method\r\n// https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method\r\nlibrary Babylonian {\r\n    function sqrt(uint y) internal pure returns (uint z) {\r\n        if (y > 3) {\r\n            z = y;\r\n            uint x = y / 2 + 1;\r\n            while (x < z) {\r\n                z = x;\r\n                x = (y / x + x) / 2;\r\n            }\r\n        } else if (y != 0) {\r\n            z = 1;\r\n        }\r\n        // else z = 0\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\82102\\Desktop\\WMF_Tokenomics\\contracts\\Token\\module\\Math\\Babylonian.sol",
+  "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\module\\Math\\Babylonian.sol",
   "ast": {
     "absolutePath": "project:/contracts/Token/module/Math/Babylonian.sol",
     "exportedSymbols": {
@@ -1565,7 +1565,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-17T14:59:42.520Z",
+  "updatedAt": "2022-01-17T15:48:08.093Z",
   "devdoc": {
     "methods": {}
   },
