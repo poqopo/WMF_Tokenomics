@@ -19,7 +19,7 @@ contract WMFStake is Ownable, ReentrancyGuard {
 
     // Info of each stake.
     struct StakeInfo {
-        address StakeToken;           // Address of Stake token contract.
+        IERC20 StakeToken;           // Address of Stake token contract.
         uint256 lastRewardSecond;  // Last second that WMFs distribution occurs.
         uint256 accWMFPerShare;   // Accumulated WMFs per share, times 1e18. See below.
         uint256 totalSupply;
@@ -38,6 +38,8 @@ contract WMFStake is Ownable, ReentrancyGuard {
     mapping(uint256 => mapping(address => UserInfo)) public userInfo;
     // The block timestamp when WMF mining starts.
     uint256 public startTime;
+
+    uint256 public lock_time_min = 86400;
 
     // Maximum WMFPerTime
     uint256 public constant MAX_EMISSION_RATE = 500000000000000000;
@@ -58,29 +60,34 @@ contract WMFStake is Ownable, ReentrancyGuard {
         return stakeInfo.length;
     }
 
+    // Return reward multiplier over the given _from to _to block.
+    function getMultiplier(uint256 _from, uint256 _to) public pure returns (uint256) {
+        return _to.sub(_from);
+    }
+
     // View function to see pending WMFs on frontend.
     function pendingWMF(uint256 _sid, address _user) external view returns (uint256) {
         StakeInfo storage stake = stakeInfo[_sid];
         UserInfo storage user = userInfo[_sid][_user];
         uint256 accWMFPerShare = stake.accWMFPerShare;
-        if (block.timestamp > stake.lastRewardSecond && stkae.totalSupply != 0) {
+        if (block.timestamp > stake.lastRewardSecond && stake.totalSupply != 0) {
             accWMFPerShare = accWMFPerShare.add(WMFPerSecond.mul(1e18).div(stake.totalSupply));
         }
         return user.amount.mul(accWMFPerShare).div(1e18).sub(user.rewardDebt);
     }
 
-    // Update reward variables of the given pool to be up-to-date.
+    // Update reward variables of the given stake to be up-to-date.
     function updateStake(uint256 _sid) public {
-        StakeInfo storage pool = stakeInfo[_sid];
-        if (block.timestamp <= pool.lastRewardSecond) {
+        StakeInfo storage stake = stakeInfo[_sid];
+        if (block.timestamp <= stake.lastRewardSecond) {
             return;
         }
-        if (pool.lpSupply == 0 || pool.allocPoint == 0) {
-            pool.lastRewardSecond = block.timestamp;
+        if (stake.totalSupply == 0) {
+            stake.lastRewardSecond = block.timestamp;
             return;
         }
-        uint256 multiplier = getMultiplier(pool.lastRewardSecond, block.timestamp);
-        uint256 WMFReward = multiplier.mul(WMFPerSecond).mul(pool.allocPoint).div(totalAllocPoint);
+        uint256 multiplier = getMultiplier(stake.lastRewardSecond, block.timestamp);
+        uint256 WMFReward = multiplier.mul(WMFPerSecond);
         
         try WMF.pool_mint(devaddr, WMFReward.div(10)) {
         } catch (bytes memory reason) {
@@ -94,79 +101,74 @@ contract WMFStake is Ownable, ReentrancyGuard {
             emit WMFMintError(reason);
         }
         
-        pool.accWMFPerShare = pool.accWMFPerShare.add(WMFReward.mul(1e18).div(pool.lpSupply));
-        pool.lastRewardSecond = block.timestamp;
+        stake.accWMFPerShare = stake.accWMFPerShare.add(WMFReward.mul(1e18).div(stake.totalSupply));
+        stake.lastRewardSecond = block.timestamp;
     }
     
     // Deposit LP tokens to MasterChef for WMF allocation.
     function deposit(uint256 _sid, uint256 _amount) external nonReentrant {
-        PoolInfo storage pool = poolInfo[_sid];
+        StakeInfo storage stake = stakeInfo[_sid];
         UserInfo storage user = userInfo[_sid][msg.sender];
-        updatePool(_sid);
+        updateStake(_sid);
         if (user.amount > 0) {
-            uint256 pending = user.amount.mul(pool.accWMFPerShare).div(1e18).sub(user.rewardDebt);
+            uint256 pending = user.amount.mul(stake.accWMFPerShare).div(1e18).sub(user.rewardDebt);
             if (pending > 0) {
                 safeWMFTransfer(msg.sender, pending);
             }
         }
         if (_amount > 0) {
-            uint256 balanceBefore = pool.lpToken.balanceOf(address(this));
-            pool.lpToken.safeTransferFrom(address(msg.sender), address(this), _amount);
-            _amount = pool.lpToken.balanceOf(address(this)).sub(balanceBefore);
-            if (pool.depositFeeBP > 0) {
-                uint256 depositFee = _amount.mul(pool.depositFeeBP).div(10000);
-                pool.lpToken.safeTransfer(feeAddress, depositFee);
-                user.amount = user.amount.add(_amount).sub(depositFee);
-                pool.lpSupply = pool.lpSupply.add(_amount).sub(depositFee);
-            } else {
-                user.amount = user.amount.add(_amount);
-                pool.lpSupply = pool.lpSupply.add(_amount);
-            }
+            uint256 balanceBefore = stake.StakeToken.balanceOf(address(this));
+            stake.StakeToken.safeTransferFrom(address(msg.sender), address(this), _amount);
+            _amount = stake.StakeToken.balanceOf(address(this)).sub(balanceBefore);
+
+            user.amount = user.amount.add(_amount);
+            stake.totalSupply = stake.totalSupply.add(_amount);
         }
 
-        user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
+        user.rewardDebt = user.amount.mul(stake.accWMFPerShare).div(1e18);
         emit Deposit(msg.sender, _sid, _amount);
     }
 
     // Withdraw LP tokens from WMFChef.
-    function withdraw(uint256 _sid, uint256 _amount) external nonReentrant {
-        PoolInfo storage pool = poolInfo[_sid];
+    function withdraw(uint256 _sid, uint256 _amount, uint256 secs) external nonReentrant {
+        StakeInfo storage stake = stakeInfo[_sid];
         UserInfo storage user = userInfo[_sid][msg.sender];
         require(user.amount >= _amount, "withdraw: not good");
-        updatePool(_sid);
-        uint256 pending = user.amount.mul(pool.accWMFPerShare).div(1e18).sub(user.rewardDebt);
+        require(secs >= lock_time_min, "Minimum stake time not met");
+        updateStake(_sid);
+        uint256 pending = user.amount.mul(stake.accWMFPerShare).div(1e18).sub(user.rewardDebt);
         if (pending > 0) {
             safeWMFTransfer(msg.sender, pending);
         }
         if (_amount > 0) {
             user.amount = user.amount.sub(_amount);
-            pool.lpToken.safeTransfer(address(msg.sender), _amount);
-            pool.lpSupply = pool.lpSupply.sub(_amount);
+            stake.StakeToken.safeTransfer(address(msg.sender), _amount);
+            stake.totalSupply = stake.totalSupply.sub(_amount);
         }
 
-        user.rewardDebt = user.amount.mul(pool.accWMFPerShare).div(1e18);
+        user.rewardDebt = user.amount.mul(stake.accWMFPerShare).div(1e18);
         emit Withdraw(msg.sender, _sid, _amount);
     }
 
     // Withdraw without caring about rewards. EMERGENCY ONLY.
     function emergencyWithdraw(uint256 _sid) external nonReentrant {
-        PoolInfo storage pool = poolInfo[_sid];
+        StakeInfo storage stake = stakeInfo[_sid];
         UserInfo storage user = userInfo[_sid][msg.sender];
         uint256 amount = user.amount;
         user.amount = 0;
         user.rewardDebt = 0;
-        pool.lpToken.safeTransfer(address(msg.sender), amount);
+        stake.StakeToken.safeTransfer(address(msg.sender), amount);
 
-        if (pool.lpSupply >=  amount) {
-            pool.lpSupply = pool.lpSupply.sub(amount);
+        if (stake.totalSupply >=  amount) {
+            stake.totalSupply = stake.totalSupply.sub(amount);
         } else {
-            pool.lpSupply = 0;
+            stake.totalSupply = 0;
         }
 
         emit EmergencyWithdraw(msg.sender, _sid, amount);
     }
 
-    // Safe WMF transfer function, just in case if rounding error causes pool to not have enough WMFs.
+    // Safe WMF transfer function, just in case if rounding error causes stake to not have enough WMFs.
     function safeWMFTransfer(address _to, uint256 _amount) internal {
         uint256 WMFBal = WMF.balanceOf(address(this));
         bool transferSuccess = false;
@@ -187,7 +189,7 @@ contract WMFStake is Ownable, ReentrancyGuard {
         emit SetDevAddress(msg.sender, _devaddr);
     }
 
- // Pancake has to add hidden dummy pools inorder to alter the emission, here we make it simple and transparent to all.
+ // Pancake has to add hidden dummy stakes inorder to alter the emission, here we make it simple and transparent to all.
     function updateEmissionRate(uint256 _WMFPerSecond) external onlyOwner {
         require(_WMFPerSecond <= MAX_EMISSION_RATE, "Too high");
         WMFPerSecond = _WMFPerSecond;
@@ -198,10 +200,10 @@ contract WMFStake is Ownable, ReentrancyGuard {
     function updateStartTime(uint256 _newStartTime) external onlyOwner {
         require(block.timestamp < startTime, "cannot change start time if farm has already started");
         require(block.timestamp < _newStartTime, "cannot set start time in the past");
-        uint256 length = farmInfo.length;
+        uint256 length = stakeInfo.length;
         for (uint256 sid = 0; sid < length; ++sid) {
-            FarmInfo storage farm = farmInfo[sid];
-            farm.lastRewardSecond = _newStartTime;
+            StakeInfo storage stake = stakeInfo[sid];
+            stake.lastRewardSecond = _newStartTime;
         }
         startTime = _newStartTime;
 

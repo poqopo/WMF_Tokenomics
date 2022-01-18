@@ -152,7 +152,7 @@
   "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600436106100615760003560e01c80630ff24ec1146100665780634e69d915146100bc578063516e90361461010857806356697238146101545780635d115920146101c5575b600080fd5b6100a66004803603606081101561007c57600080fd5b81019080803590602001909291908035906020019092919080359060200190929190505050610211565b6040518082815260200191505060405180910390f35b6100f2600480360360408110156100d257600080fd5b81019080803590602001909291908035906020019092919050505061025b565b6040518082815260200191505060405180910390f35b61013e6004803603604081101561011e57600080fd5b81019080803590602001909291908035906020019092919050505061028d565b6040518082815260200191505060405180910390f35b6101a8600480360360a081101561016a57600080fd5b8101908080359060200190929190803590602001909291908035906020019092919080359060200190929190803590602001909291905050506102bf565b604051808381526020018281526020019250505060405180910390f35b6101fb600480360360408110156101db57600080fd5b8101908080359060200190929190803590602001909291905050506103ba565b6040518082815260200191505060405180910390f35b60008061023c620f424061022e86886103ec90919063ffffffff16565b61047290919063ffffffff16565b9050610251838261049f90919063ffffffff16565b9150509392505050565b6000610285620f424061027785856103ec90919063ffffffff16565b61047290919063ffffffff16565b905092915050565b60006102b7620f42406102a985856103ec90919063ffffffff16565b61047290919063ffffffff16565b905092915050565b60008060006102ec620f42406102de898b6103ec90919063ffffffff16565b61047290919063ffffffff16565b905060006103188661030a620f42408a6103ec90919063ffffffff16565b61047290919063ffffffff16565b90506000610368620f424061035a610339858b6103ec90919063ffffffff16565b61034c8b8b6103ec90919063ffffffff16565b61049f90919063ffffffff16565b61047290919063ffffffff16565b9050600081841161037b5783905061037f565b8190505b6103a78a610399620f4240846103ec90919063ffffffff16565b61047290919063ffffffff16565b8195509550505050509550959350505050565b60006103e4836103d6620f4240856103ec90919063ffffffff16565b61047290919063ffffffff16565b905092915050565b6000808314156103ff576000905061046c565b600082840290508284828161041057fe5b0414610467576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252602c815260200180610653602c913960400191505060405180910390fd5b809150505b92915050565b6000610497838360405180606001604052806025815260200161067f602591396104cc565b905092915050565b60006104c483836040518060600160405280602981526020016106a460299139610592565b905092915050565b60008083118290610578576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b8381101561053d578082015181840152602081019050610522565b50505050905090810190601f16801561056a5780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b50600083858161058457fe5b049050809150509392505050565b600083831115829061063f576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825283818151815260200191508051906020019080838360005b838110156106045780820151818401526020810190506105e9565b50505050905090810190601f1680156106315780820380516001836020036101000a031916815260200191505b509250505060405180910390fd5b506000838503905080915050939250505056fe536166654d61746855706772616465536166653a206d756c7469706c69636174696f6e206f766572666c6f77536166654d61746855706772616465536166653a206469766973696f6e206279207a65726f536166654d61746855706772616465536166653a207375627472616374696f6e206f766572666c6f77a26469706673582212203952c3babbd1df13b5d94aaf199eb73bc35a2d49e030b5751dc72b34e5c42c6764736f6c63430006060033",
   "immutableReferences": {},
   "sourceMap": "127:5383:6:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
-  "deployedSourceMap": "127:5383:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;3877:671:6;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;3877:671:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;821:178;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;821:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1007;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;1007:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;4556:949;;;;;;15:3:-1;10;7:12;4:2;;;32:1;29;22:12;4:2;4556:949:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;2452:166;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;2452:166:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;3877:671;4013:7;4033:27;4063:50;4109:3;4063:41;4080:23;4063:12;:16;;:41;;;;:::i;:::-;:45;;:50;;;;:::i;:::-;4033:80;;4378:44;4402:19;4378;:23;;:44;;;;:::i;:::-;4371:51;;;3877:671;;;;;:::o;821:178::-;917:7;944:47;987:3;945:36;971:9;945:21;:25;;:36;;;;:::i;:::-;944:42;;:47;;;;:::i;:::-;937:54;;821:178;;;;:::o;1007:::-;1108:7;1135:42;1173:3;1135:33;1154:13;1135:14;:18;;:33;;;;:::i;:::-;:37;;:42;;;;:::i;:::-;1128:49;;1007:178;;;;:::o;4556:949::-;4803:7;4812;4832:30;4865:41;4902:3;4865:32;4887:9;4865:17;:21;;:32;;;;:::i;:::-;:36;;:41;;;;:::i;:::-;4832:74;;4917:34;4954:51;4987:17;4954:28;4978:3;4954:19;:23;;:28;;;;:::i;:::-;:32;;:51;;;;:::i;:::-;4917:88;;5036:25;5064:112;5172:3;5065:101;5116:49;5138:26;5116:17;:21;;:49;;;;:::i;:::-;5065:46;5093:17;5065:23;:27;;:46;;;;:::i;:::-;:50;;:101;;;;:::i;:::-;5064:107;;:112;;;;:::i;:::-;5036:140;;5189:26;5255:17;5229:22;:43;5226:188;;5309:22;5288:43;;5226:188;;;5385:17;5364:38;;5226:188;5434:42;5466:9;5434:27;5457:3;5434:18;:22;;:27;;;;:::i;:::-;:31;;:42;;;;:::i;:::-;5478:18;5426:71;;;;;;;;4556:949;;;;;;;;:::o;2452:166::-;2544:7;2571:39;2596:13;2571:20;2587:3;2571:11;:15;;:20;;;;:::i;:::-;:24;;:39;;;;:::i;:::-;2564:46;;2452:166;;;;:::o;2255:482:44:-;2313:7;2563:1;2558;:6;2554:47;;;2588:1;2581:8;;;;2554:47;2613:9;2629:1;2625;:5;2613:17;;2658:1;2653;2649;:5;;;;;;:10;2641:67;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2728:1;2721:8;;;2255:482;;;;;:::o;3205:143::-;3263:7;3290:50;3294:1;3297;3290:50;;;;;;;;;;;;;;;;;:3;:50::i;:::-;3283:57;;3205:143;;;;:::o;1370:147::-;1428:7;1455:54;1459:1;1462;1455:54;;;;;;;;;;;;;;;;;:3;:54::i;:::-;1448:61;;1370:147;;;;:::o;3836:345::-;3922:7;4021:1;4017;:5;4024:12;4009:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;4009:28:44;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4048:9;4064:1;4060;:5;;;;;;4048:17;;4172:1;4165:8;;;3836:345;;;;;:::o;1812:192::-;1898:7;1931:1;1926;:6;;1934:12;1918:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1918:29:44;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1958:9;1974:1;1970;:5;1958:17;;1995:1;1988:8;;;1812:192;;;;;:::o",
+  "deployedSourceMap": "127:5383:6:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;12:1:-1;9;2:12;3877:671:6;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;3877:671:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;821:178;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;821:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1007;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;1007:178:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;4556:949;;;;;;15:3:-1;10;7:12;4:2;;;32:1;29;22:12;4:2;4556:949:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;2452:166;;;;;;15:2:-1;10:3;7:11;4:2;;;31:1;28;21:12;4:2;2452:166:6;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;3877:671;4013:7;4033:27;4063:50;4109:3;4063:41;4080:23;4063:12;:16;;:41;;;;:::i;:::-;:45;;:50;;;;:::i;:::-;4033:80;;4378:44;4402:19;4378;:23;;:44;;;;:::i;:::-;4371:51;;;3877:671;;;;;:::o;821:178::-;917:7;944:47;987:3;945:36;971:9;945:21;:25;;:36;;;;:::i;:::-;944:42;;:47;;;;:::i;:::-;937:54;;821:178;;;;:::o;1007:::-;1108:7;1135:42;1173:3;1135:33;1154:13;1135:14;:18;;:33;;;;:::i;:::-;:37;;:42;;;;:::i;:::-;1128:49;;1007:178;;;;:::o;4556:949::-;4803:7;4812;4832:30;4865:41;4902:3;4865:32;4887:9;4865:17;:21;;:32;;;;:::i;:::-;:36;;:41;;;;:::i;:::-;4832:74;;4917:34;4954:51;4987:17;4954:28;4978:3;4954:19;:23;;:28;;;;:::i;:::-;:32;;:51;;;;:::i;:::-;4917:88;;5036:25;5064:112;5172:3;5065:101;5116:49;5138:26;5116:17;:21;;:49;;;;:::i;:::-;5065:46;5093:17;5065:23;:27;;:46;;;;:::i;:::-;:50;;:101;;;;:::i;:::-;5064:107;;:112;;;;:::i;:::-;5036:140;;5189:26;5255:17;5229:22;:43;5226:188;;5309:22;5288:43;;5226:188;;;5385:17;5364:38;;5226:188;5434:42;5466:9;5434:27;5457:3;5434:18;:22;;:27;;;;:::i;:::-;:31;;:42;;;;:::i;:::-;5478:18;5426:71;;;;;;;;4556:949;;;;;;;;:::o;2452:166::-;2544:7;2571:39;2596:13;2571:20;2587:3;2571:11;:15;;:20;;;;:::i;:::-;:24;;:39;;;;:::i;:::-;2564:46;;2452:166;;;;:::o;2255:482:45:-;2313:7;2563:1;2558;:6;2554:47;;;2588:1;2581:8;;;;2554:47;2613:9;2629:1;2625;:5;2613:17;;2658:1;2653;2649;:5;;;;;;:10;2641:67;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2728:1;2721:8;;;2255:482;;;;;:::o;3205:143::-;3263:7;3290:50;3294:1;3297;3290:50;;;;;;;;;;;;;;;;;:3;:50::i;:::-;3283:57;;3205:143;;;;:::o;1370:147::-;1428:7;1455:54;1459:1;1462;1455:54;;;;;;;;;;;;;;;;;:3;:54::i;:::-;1448:61;;1370:147;;;;:::o;3836:345::-;3922:7;4021:1;4017;:5;4024:12;4009:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;4009:28:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4048:9;4064:1;4060;:5;;;;;;4048:17;;4172:1;4165:8;;;3836:345;;;;;:::o;1812:192::-;1898:7;1931:1;1926;:6;;1934:12;1918:29;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1918:29:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1958:9;1974:1;1970;:5;1958:17;;1995:1;1988:8;;;1812:192;;;;;:::o",
   "source": "// SPDX-License-Identifier: GPL-2.0-or-later\r\npragma solidity =0.6.6;\r\n\r\nimport '../module/math/SafeMathupgradeable.sol';\r\n\r\n\r\nlibrary WUSDPoolLibrary {\r\n    using SafeMathUpgradeSafe for uint256;\r\n\r\n    // Constants for various precisions\r\n    uint256 private constant PRICE_PRECISION = 1e6;\r\n\r\n    // ================ Structs ================\r\n    // Needed to lower stack size\r\n    struct MintFF_Params {\r\n        uint256 WMF_price_usd; \r\n        uint256 col_price_usd;\r\n        uint256 WMF_amount;\r\n        uint256 collateral_amount;\r\n        uint256 col_ratio;\r\n    }\r\n\r\n    struct BuybackWMF_Params {\r\n        uint256 excess_collateral_dollar_value_d18;\r\n        uint256 WMF_price_usd;\r\n        uint256 col_price_usd;\r\n        uint256 WMF_amount;\r\n    }\r\n\r\n    // ================ Functions ================\r\n\r\n    function calcMint1t1WUSD(uint256 col_price, uint256 collateral_amount_d18) public pure returns (uint256) {\r\n        return (collateral_amount_d18.mul(col_price)).div(1e6);\r\n    }\r\n\r\n    function calcMintAlgorithmicWUSD(uint256 WMF_price_usd, uint256 WMF_amount_d18) public pure returns (uint256) {\r\n        return WMF_amount_d18.mul(WMF_price_usd).div(1e6);\r\n    }\r\n\r\n    // Must be internal because of the struct\r\n    function calcMintFractionalWUSD(MintFF_Params memory params) internal pure returns (uint256, uint256) {\r\n        // Since solidity truncates division, every division operation must be the last operation in the equation to ensure minimum error\r\n        // The contract must check the proper ratio was sent to mint WUSD. We do this by seeing the minimum mintable WUSD based on each amount \r\n        uint256 WMF_dollar_value_d18;\r\n        uint256 c_dollar_value_d18;\r\n        \r\n        // Scoping for stack concerns\r\n        {    \r\n            // USD amounts of the collateral and the WMF\r\n            WMF_dollar_value_d18 = params.WMF_amount.mul(params.WMF_price_usd).div(1e6);\r\n            c_dollar_value_d18 = params.collateral_amount.mul(params.col_price_usd).div(1e6);\r\n\r\n        }\r\n        uint calculated_WMF_dollar_value_d18 = \r\n                    (c_dollar_value_d18.mul(1e6).div(params.col_ratio))\r\n                    .sub(c_dollar_value_d18);\r\n\r\n        uint calculated_WMF_needed = calculated_WMF_dollar_value_d18.mul(1e6).div(params.WMF_price_usd);\r\n\r\n        return (\r\n            c_dollar_value_d18.add(calculated_WMF_dollar_value_d18),\r\n            calculated_WMF_needed\r\n        );\r\n    }\r\n\r\n    function calcRedeem1t1WUSD(uint256 col_price_usd, uint256 WUSD_amount) public pure returns (uint256) {\r\n        return WUSD_amount.mul(1e6).div(col_price_usd);\r\n    }\r\n\r\n    // Must be internal because of the struct\r\n    function calcBuyBackWMF(BuybackWMF_Params memory params) internal pure returns (uint256) {\r\n        // If the total collateral value is higher than the amount required at the current collateral ratio then buy back up to the possible WMF with the desired collateral\r\n        require(params.excess_collateral_dollar_value_d18 > 0, \"No excess collateral to buy back!\");\r\n\r\n        // Make sure not to take more than is available\r\n        uint256 WMF_dollar_value_d18 = params.WMF_amount.mul(params.WMF_price_usd).div(1e6);\r\n        require(WMF_dollar_value_d18 <= params.excess_collateral_dollar_value_d18, \"You are trying to buy back more than the excess!\");\r\n\r\n        // Get the equivalent amount of collateral based on the market value of WMF provided \r\n        uint256 collateral_equivalent_d18 = WMF_dollar_value_d18.mul(1e6).div(params.col_price_usd);\r\n        //collateral_equivalent_d18 = collateral_equivalent_d18.sub((collateral_equivalent_d18.mul(params.buyback_fee)).div(1e6));\r\n\r\n        return (\r\n            collateral_equivalent_d18\r\n        );\r\n\r\n    }\r\n\r\n\r\n    // Returns value of collateral that must increase to reach recollateralization target (if 0 means no recollateralization)\r\n    function recollateralizeAmount(uint256 total_supply, uint256 global_collateral_ratio, uint256 global_collat_value) public pure returns (uint256) {\r\n        uint256 target_collat_value = total_supply.mul(global_collateral_ratio).div(1e6); // We want 18 decimals of precision so divide by 1e6; total_supply is 1e18 and global_collateral_ratio is 1e6\r\n        // Subtract the current value of collateral from the target value needed, if higher than 0 then system needs to recollateralize\r\n        return target_collat_value.sub(global_collat_value); // If recollateralization is not needed, throws a subtraction underflow\r\n        // return(recollateralization_left);\r\n    }\r\n\r\n    function calcRecollateralizeWUSDInner(\r\n        uint256 collateral_amount, \r\n        uint256 col_price,\r\n        uint256 global_collat_value,\r\n        uint256 WUSD_total_supply,\r\n        uint256 global_collateral_ratio\r\n    ) public pure returns (uint256, uint256) {\r\n        uint256 collat_value_attempted = collateral_amount.mul(col_price).div(1e6);\r\n        uint256 effective_collateral_ratio = global_collat_value.mul(1e6).div(WUSD_total_supply); //returns it in 1e6\r\n        uint256 recollat_possible = (global_collateral_ratio.mul(WUSD_total_supply).sub(WUSD_total_supply.mul(effective_collateral_ratio))).div(1e6);\r\n\r\n        uint256 amount_to_recollat;\r\n        if(collat_value_attempted <= recollat_possible){\r\n            amount_to_recollat = collat_value_attempted;\r\n        } else {\r\n            amount_to_recollat = recollat_possible;\r\n        }\r\n\r\n        return (amount_to_recollat.mul(1e6).div(col_price), amount_to_recollat);\r\n    }\r\n\r\n}",
   "sourcePath": "C:\\Users\\82102\\Desktop\\We-Made-Future\\contracts\\Token\\Pools\\WUSDPoolLibrary.sol",
   "ast": {
@@ -182,7 +182,7 @@
         "id": 2136,
         "nodeType": "ImportDirective",
         "scope": 2452,
-        "sourceUnit": 12717,
+        "sourceUnit": 13592,
         "src": "73:48:6",
         "symbolAliases": [],
         "unitAlias": ""
@@ -208,10 +208,10 @@
               "id": 2137,
               "name": "SafeMathUpgradeSafe",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 12716,
+              "referencedDeclaration": 13591,
               "src": "164:19:6",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMathUpgradeSafe_$12716",
+                "typeIdentifier": "t_contract$_SafeMathUpgradeSafe_$13591",
                 "typeString": "library SafeMathUpgradeSafe"
               }
             },
@@ -630,7 +630,7 @@
                               "lValueRequested": false,
                               "memberName": "mul",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 12629,
+                              "referencedDeclaration": 13504,
                               "src": "945:25:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -673,7 +673,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "944:42:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -895,7 +895,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "1135:18:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -924,7 +924,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "1135:37:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1283,7 +1283,7 @@
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 12629,
+                                "referencedDeclaration": 13504,
                                 "src": "1862:21:6",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1312,7 +1312,7 @@
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 12646,
+                            "referencedDeclaration": 13521,
                             "src": "1862:47:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1472,7 +1472,7 @@
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 12629,
+                                "referencedDeclaration": 13504,
                                 "src": "1950:28:6",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1501,7 +1501,7 @@
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 12646,
+                            "referencedDeclaration": 13521,
                             "src": "1950:54:6",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1686,7 +1686,7 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 12629,
+                                  "referencedDeclaration": 13504,
                                   "src": "2095:22:6",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1715,7 +1715,7 @@
                               "lValueRequested": false,
                               "memberName": "div",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "src": "2095:31:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1758,7 +1758,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12566,
+                      "referencedDeclaration": 13441,
                       "src": "2094:77:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1907,7 +1907,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "2233:35:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1936,7 +1936,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "2233:44:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2009,7 +2009,7 @@
                           "lValueRequested": false,
                           "memberName": "add",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12549,
+                          "referencedDeclaration": 13424,
                           "src": "2334:22:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2259,7 +2259,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "2571:15:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2288,7 +2288,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "2571:24:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2709,7 +2709,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "3139:21:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -2738,7 +2738,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "3139:47:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3015,7 +3015,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "3472:24:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3044,7 +3044,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "3472:33:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3307,7 +3307,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "4063:16:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3336,7 +3336,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "4063:45:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3406,7 +3406,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12566,
+                      "referencedDeclaration": 13441,
                       "src": "4378:23:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3690,7 +3690,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "4865:21:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3719,7 +3719,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "4865:36:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3852,7 +3852,7 @@
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12629,
+                          "referencedDeclaration": 13504,
                           "src": "4954:23:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -3881,7 +3881,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "4954:32:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4020,7 +4020,7 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 12629,
+                                  "referencedDeclaration": 13504,
                                   "src": "5116:21:6",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4094,7 +4094,7 @@
                                   "lValueRequested": false,
                                   "memberName": "mul",
                                   "nodeType": "MemberAccess",
-                                  "referencedDeclaration": 12629,
+                                  "referencedDeclaration": 13504,
                                   "src": "5065:27:6",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4123,7 +4123,7 @@
                               "lValueRequested": false,
                               "memberName": "sub",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 12566,
+                              "referencedDeclaration": 13441,
                               "src": "5065:50:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4166,7 +4166,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 12646,
+                      "referencedDeclaration": 13521,
                       "src": "5064:107:6",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4463,7 +4463,7 @@
                               "lValueRequested": false,
                               "memberName": "mul",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 12629,
+                              "referencedDeclaration": 13504,
                               "src": "5434:22:6",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4492,7 +4492,7 @@
                           "lValueRequested": false,
                           "memberName": "div",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 12646,
+                          "referencedDeclaration": 13521,
                           "src": "5434:31:6",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -4805,7 +4805,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 12717,
+          "SourceUnit": 13592,
           "absolutePath": "project:/contracts/Token/module/math/SafeMathupgradeable.sol",
           "file": "../module/math/SafeMathupgradeable.sol",
           "scope": 2452,
@@ -4843,7 +4843,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMathUpgradeSafe",
-                  "referencedDeclaration": 12716,
+                  "referencedDeclaration": 13591,
                   "type": "library SafeMathUpgradeSafe"
                 },
                 "id": 2137,
@@ -5338,7 +5338,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -5382,7 +5382,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "mul",
-                                          "referencedDeclaration": 12629,
+                                          "referencedDeclaration": 13504,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -5623,7 +5623,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -5656,7 +5656,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -5999,7 +5999,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "div",
-                                      "referencedDeclaration": 12646,
+                                      "referencedDeclaration": 13521,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -6032,7 +6032,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "mul",
-                                              "referencedDeclaration": 12629,
+                                              "referencedDeclaration": 13504,
                                               "type": "function (uint256,uint256) pure returns (uint256)"
                                             },
                                             "children": [
@@ -6201,7 +6201,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "div",
-                                      "referencedDeclaration": 12646,
+                                      "referencedDeclaration": 13521,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -6234,7 +6234,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "mul",
-                                              "referencedDeclaration": 12629,
+                                              "referencedDeclaration": 13504,
                                               "type": "function (uint256,uint256) pure returns (uint256)"
                                             },
                                             "children": [
@@ -6416,7 +6416,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "sub",
-                              "referencedDeclaration": 12566,
+                              "referencedDeclaration": 13441,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -6460,7 +6460,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "div",
-                                          "referencedDeclaration": 12646,
+                                          "referencedDeclaration": 13521,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -6493,7 +6493,7 @@
                                                   "isPure": false,
                                                   "lValueRequested": false,
                                                   "member_name": "mul",
-                                                  "referencedDeclaration": 12629,
+                                                  "referencedDeclaration": 13504,
                                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                                 },
                                                 "children": [
@@ -6677,7 +6677,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -6710,7 +6710,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -6846,7 +6846,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
-                                  "referencedDeclaration": 12549,
+                                  "referencedDeclaration": 13424,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -7074,7 +7074,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -7107,7 +7107,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -7483,7 +7483,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -7516,7 +7516,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -7822,7 +7822,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -7855,7 +7855,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -8206,7 +8206,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -8239,7 +8239,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -8347,7 +8347,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "sub",
-                              "referencedDeclaration": 12566,
+                              "referencedDeclaration": 13441,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -8698,7 +8698,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -8731,7 +8731,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -8869,7 +8869,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -8902,7 +8902,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "mul",
-                                      "referencedDeclaration": 12629,
+                                      "referencedDeclaration": 13504,
                                       "type": "function (uint256,uint256) pure returns (uint256)"
                                     },
                                     "children": [
@@ -9040,7 +9040,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 12646,
+                              "referencedDeclaration": 13521,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -9084,7 +9084,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "sub",
-                                          "referencedDeclaration": 12566,
+                                          "referencedDeclaration": 13441,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -9117,7 +9117,7 @@
                                                   "isPure": false,
                                                   "lValueRequested": false,
                                                   "member_name": "mul",
-                                                  "referencedDeclaration": 12629,
+                                                  "referencedDeclaration": 13504,
                                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                                 },
                                                 "children": [
@@ -9193,7 +9193,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "mul",
-                                              "referencedDeclaration": 12629,
+                                              "referencedDeclaration": 13504,
                                               "type": "function (uint256,uint256) pure returns (uint256)"
                                             },
                                             "children": [
@@ -9534,7 +9534,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "div",
-                                  "referencedDeclaration": 12646,
+                                  "referencedDeclaration": 13521,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -9567,7 +9567,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "mul",
-                                          "referencedDeclaration": 12629,
+                                          "referencedDeclaration": 13504,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -9693,7 +9693,7 @@
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-18T12:32:14.438Z",
+  "updatedAt": "2022-01-18T14:56:20.657Z",
   "devdoc": {
     "methods": {}
   },
