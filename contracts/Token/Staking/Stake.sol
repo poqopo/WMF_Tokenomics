@@ -15,6 +15,7 @@ contract WMFStake is Ownable, ReentrancyGuard {
     struct UserInfo {
         uint256 amount;         // How many WMF tokens the user has provided.
         uint256 rewardDebt;     // Reward debt. See explanation below.
+        uint256 depositSecond;
     }
 
     // Info of each stake.
@@ -31,7 +32,6 @@ contract WMFStake is Ownable, ReentrancyGuard {
     address public devaddr;
     // WMF tokens created per second.
     uint256 public WMFPerSecond;
-
     // Info of each stake.
     StakeInfo[] public stakeInfo;
     // Info of each user that stakes LP tokens.
@@ -61,7 +61,7 @@ contract WMFStake is Ownable, ReentrancyGuard {
     }
 
     // Return reward multiplier over the given _from to _to block.
-    function getMultiplier(uint256 _from, uint256 _to) public pure returns (uint256) {
+    function getStakingduration(uint256 _from, uint256 _to) public pure returns (uint256) {
         return _to.sub(_from);
     }
 
@@ -86,8 +86,7 @@ contract WMFStake is Ownable, ReentrancyGuard {
             stake.lastRewardSecond = block.timestamp;
             return;
         }
-        uint256 multiplier = getMultiplier(stake.lastRewardSecond, block.timestamp);
-        uint256 WMFReward = multiplier.mul(WMFPerSecond);
+        uint256 WMFReward = WMFPerSecond;
         
         try WMF.pool_mint(devaddr, WMFReward.div(10)) {
         } catch (bytes memory reason) {
@@ -124,17 +123,17 @@ contract WMFStake is Ownable, ReentrancyGuard {
             user.amount = user.amount.add(_amount);
             stake.totalSupply = stake.totalSupply.add(_amount);
         }
-
+        user.depositSecond = block.timestamp;
         user.rewardDebt = user.amount.mul(stake.accWMFPerShare).div(1e18);
         emit Deposit(msg.sender, _sid, _amount);
     }
 
     // Withdraw LP tokens from WMFChef.
-    function withdraw(uint256 _sid, uint256 _amount, uint256 secs) external nonReentrant {
+    function withdraw(uint256 _sid, uint256 _amount) external nonReentrant {
         StakeInfo storage stake = stakeInfo[_sid];
         UserInfo storage user = userInfo[_sid][msg.sender];
         require(user.amount >= _amount, "withdraw: not good");
-        require(secs >= lock_time_min, "Minimum stake time not met");
+        require(getStakingduration(user.depositSecond, block.timestamp) >= lock_time_min, "Minimum stake time not met");
         updateStake(_sid);
         uint256 pending = user.amount.mul(stake.accWMFPerShare).div(1e18).sub(user.rewardDebt);
         if (pending > 0) {

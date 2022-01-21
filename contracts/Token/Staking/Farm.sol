@@ -52,7 +52,7 @@ contract WMFChef is Ownable, ReentrancyGuard {
     // Info of each user that stakes LP tokens.
     mapping(uint256 => mapping(address => UserInfo)) public userInfo;
     // Total allocation points. Must be the sum of all allocation points in all pools.
-    uint256 public totalAllocPoint = 0;
+    uint256 public totalAllocPoint = 100;
     // The block timestamp when WMF mining starts.
     uint256 public startTime;
 
@@ -106,7 +106,7 @@ contract WMFChef is Ownable, ReentrancyGuard {
             })
         );
 
-        emit addPool(poolInfo.length - 1, address(_lpToken), _allocPoint, _depositFeeBP);
+        emit addingPool(poolInfo.length - 1, address(_lpToken), _allocPoint, _depositFeeBP);
     }
 
     // Update the given pool's WMF allocation point and deposit fee. Can only be called by the owner.
@@ -173,10 +173,10 @@ contract WMFChef is Ownable, ReentrancyGuard {
             emit WMFMintError(reason);
         }
 
-        if (5e12 < pool.lpSupply && pool.lpSupply < 10e12) {
+        if (9000000e18 < pool.lpSupply && pool.lpSupply < 18000000e18) {
             pool.depositFeeBP = 200;
         }
-        else if (pool.lpSupply > 10e12) {
+        else if (pool.lpSupply > 18000000e18) {
             pool.depositFeeBP = 0;
         }
         
@@ -309,7 +309,7 @@ contract WMFChef is Ownable, ReentrancyGuard {
     event SetFeeAddress(address indexed user, address indexed newAddress);
     event SetDevAddress(address indexed user, address indexed newAddress);
     event UpdateEmissionRate(address indexed user, uint256 WMFPerSecond);
-    event addPool(uint256 indexed pid, address lpToken, uint256 allocPoint, uint256 depositFeeBP);
+    event addingPool(uint256 indexed pid, address lpToken, uint256 allocPoint, uint256 depositFeeBP);
     event setPool(uint256 indexed pid, address lpToken, uint256 allocPoint, uint256 depositFeeBP);
     event UpdateStartTime(uint256 newStartTime);
     event WMFMintError(bytes reason);
