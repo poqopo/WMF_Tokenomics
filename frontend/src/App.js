@@ -3,6 +3,7 @@ import Web3 from 'web3'
 import WUSDStablecoin from './abis/WUSDStablecoin.json'
 import We_Made_Future from './abis/We_Made_Future.json'
 import WUSDPool from './abis/WUSDPool.json'
+import WMFChef from './abis/WMFChef.json'
 import Navbar from './Navbar'
 import Main from './Main'
 import './App.css'
@@ -47,17 +48,19 @@ class App extends Component {
     }
 
     // Load WUSDPool
-    const WUSDPoolData = WUSDPool.networks[networkId]
-    if(WUSDPoolData) {
-      const wUSDPool = new web3.eth.Contract(WUSDPool.abi, WUSDPoolData.address)
-      this.setState({ wUSDPool })
-      let mintPaused = await wUSDPool.methods.mintPaused(this.state.account).call()
-      this.setState({ mintPaused: mintPaused.toString() })
-      let redeemPaused = await wUSDPool.methods.redeemPaused(this.state.account).call()
-      this.setState({ redeemPaused: redeemPaused.toString() })     
-    } else {
-      window.alert('WUSDPool contract not deployed to detected network.')
-    }
+    // const WUSDPoolData = WUSDPool.networks[networkId]
+    // if(WUSDPoolData) {
+    //   const wUSDPool = new web3.eth.Contract(WUSDPool.abi, WUSDPoolData.address)
+    //   this.setState({ wUSDPool })
+    //   let mintPaused = await wUSDPool.methods.mintPaused(this.state.account).call()
+    //   this.setState({ mintPaused: mintPaused.toString() })
+    //   let redeemPaused = await wUSDPool.methods.redeemPaused(this.state.account).call()
+    //   this.setState({ redeemPaused: redeemPaused.toString() })     
+    // } else {
+    //   window.alert('WUSDPool contract not deployed to detected network.')
+    // }
+
+
 
     this.setState({ loading: false })
   }
@@ -163,8 +166,8 @@ class App extends Component {
       account: '0x0',
       WUSDStablecoin: {},
       We_Made_Future: {},
-      WUSDPool: {},
-      mintPaused: false,
+      // WUSDPool: {},
+      // mintPaused: false,
       loading: true
     }
   }
@@ -175,11 +178,12 @@ class App extends Component {
       content = <p id="loader" className="text-center">Loading...</p>
     } else {
       content = <Main
-        WUSDStablecoinBalance={this.state.WUSDStablecoinBalance}
-        We_Made_FutureBalance={this.state.We_Made_FutureBalance}
-        mintPaused={this.state.mintPaused}
-        redeemAlgorithmicWUSD={this.redeemAlgorithmicWUSD}
-        mintAlgorithmicWUSD={this.mintAlgorithmicWUSD}
+        WUSDStablecoinBalance={this.state.WUSDStablecoinBalance.toString()}
+        We_Made_FutureBalance={this.state.We_Made_FutureBalance.toString()}
+        // stakingBalance={this.state.stakingBalance.toString()}
+        // mintPaused={this.state.mintPaused}
+        // redeemAlgorithmicWUSD={this.redeemAlgorithmicWUSD}
+        // mintAlgorithmicWUSD={this.mintAlgorithmicWUSD}
       />
     }
 
