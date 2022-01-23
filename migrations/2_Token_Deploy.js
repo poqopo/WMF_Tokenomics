@@ -21,5 +21,5 @@ module.exports = async function(deployer, network, accounts) {
 //  await deployer.deploy(WUSDPoolLibrary)
 //  await deployer.link(WUSDPoolLibrary, WUSDPool)
 //  await deployer.deploy(WUSDPool, wusdstablecoin.address, we_made_future.address, DAI_Address, Owner_Address)
-  await deployer. deploy(Farm, we_made_future.address,  "0x6EaD9ef7c00f513687c93a6AA3e46c498a671540", "0xA4495196C5fBE523806e469806D370A008E30f75", 5000, 250)
+  await deployer. deploy(Farm, We_Made_Future.address,  "0x6EaD9ef7c00f513687c93a6AA3e46c498a671540", "0xA4495196C5fBE523806e469806D370A008E30f75", 5000, 250)
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import dai from '../dai.png'
+import dai from './dai.png'
 
 class Main extends Component {
 
