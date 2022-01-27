@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import dai from '../dai.png'
+import dai from './dai.png'
 
 class Main extends Component {
 
@@ -10,14 +10,16 @@ class Main extends Component {
         <table className="table table-borderless text-muted text-center">
           <thead>
             <tr>
-              <th scope="col">Staking Balance</th>
-              <th scope="col">Reward Balance</th>
+              <th scope="col">WUSD Balance</th>
+              <th scope="col">WMF Balance</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>{window.web3.utils.fromWei(this.props.stakingBalance, 'Ether')} mDAI</td>
-              <td>{window.web3.utils.fromWei(this.props.dappTokenBalance, 'Ether')} DAPP</td>
+              {/* <td>{window.web3.utils.fromWei(this.props.WUSDStablecoinBalance, 'WUSD')} WUSD</td>
+              <td>{window.web3.utils.fromWei(this.props.We_Made_FutureBalance, 'WMF')} DAPP</td> */}
+              <td>{window.web3.utils.fromWei(this.props.WUSDStablecoinBalance, 'Ether')} WUSD</td>
+              <td>{window.web3.utils.fromWei(this.props.We_Made_FutureBalance, 'Ether')} WMF</td>
             </tr>
           </tbody>
         </table>
@@ -36,7 +38,7 @@ class Main extends Component {
               <div>
                 <label className="float-left"><b>Stake Tokens</b></label>
                 <span className="float-right text-muted">
-                  Balance: {window.web3.utils.fromWei(this.props.daiTokenBalance, 'Ether')}
+                  Balance: {window.web3.utils.fromWei(this.props.WUSDStablecoinBalance, 'Ether')}
                 </span>
               </div>
               <div className="input-group mb-4">
@@ -63,6 +65,15 @@ class Main extends Component {
                 this.props.unstakeTokens()
               }}>
                 UN-STAKE...
+              </button>
+              <div style={{height:100}}></div>
+              <button
+                onClick={event => {
+                  event.preventDefault()
+                  this.props.transferTest()
+                }}
+              >
+                TEST
               </button>
           </div>
         </div>
