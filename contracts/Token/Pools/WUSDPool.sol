@@ -84,7 +84,12 @@ contract WUSDPool is Owned {
         address _collateral_address,
         address _creator_address
     ) public Owned(_creator_address){
-        
+        require(
+            (_WUSD_contract_address != address(0))
+            && (_WMF_contract_address != address(0))
+            && (_collateral_address != address(0))
+            && (_creator_address != address(0))
+        , "Zero address detected"); 
         WUSD = WUSDStablecoin(_WUSD_contract_address);
         WMF = We_Made_Future(_WMF_contract_address);
         WUSD_contract_address = _WUSD_contract_address;
